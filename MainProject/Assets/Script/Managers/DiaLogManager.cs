@@ -16,19 +16,6 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     public string[] dialogLines ; //对话框输出内容
     [SerializeField] private int currentLine ; //实时追踪是行，哪个元素在输出
 
-    //public string nameLines ; //说话者
-
-    private void Awake()
-    {
-        if(instance == null){
-            instance = this ; 
-        }else{
-            if(instance != this){
-                Destroy(gameObject);
-            }
-        }
-        DontDestroyOnLoad(gameObject);
-    }
 
     void Start()
     {
