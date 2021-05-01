@@ -87,6 +87,8 @@
     <Compile Include="Assets\Script\UI\Package\Tool\ToolBlock.cs" />
     <Compile Include="Assets\Script\UI\WordBullet\BulletUIAction.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\PackageSlot.cs" />
+    <Compile Include="Assets\Script\EvidenceSystem\InteractableEvidence\InteractableObj.cs" />
+    <Compile Include="Assets\Script\EvidenceSystem\InteractableEvidence\ObjEviOnScene.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AtrMaterial\Free Pixel Art Forest\Contact.txt" />
@@ -292,6 +294,9 @@
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.3\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Editor\2021.1.0f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -695,6 +700,10 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{2B6A074C-46F5-7B99-9185-0CFC66006748}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{C3ACAA61-38B5-4756-304F-F2AD8085DC3F}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

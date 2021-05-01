@@ -9,6 +9,7 @@ public class PackageSlot : Slot
 
     private ObjectEvidence evidence;
     
+
     /// <summary>
     ///设置物证在背包中的状态 
     /// </summary>

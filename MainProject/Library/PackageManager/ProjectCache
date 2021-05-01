@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637553755744406923
-    m_Hash: 236226873
+      ticks: 637554357817974967
+    m_Hash: 3741391229
   m_LockFileStatus:
     m_FilePath: F:/work/Unity/ProjectW/MainProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637553758293300915
-    m_Hash: 3739528099
+      ticks: 637554357842163967
+    m_Hash: 4178023909
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: F:/work/Unity/ProjectW/MainProject/Packages
 m_EditorVersion: 2021.1.0f1c1 (cd437fc7d72d)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@5.0.3
+- packageId: com.unity.2d.animation@5.0.4
   testable: 0
   isDirectDependency: 1
-  version: 5.0.3
+  version: 5.0.4
   source: 1
-  resolvedPath: F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.2d.animation@5.0.3
+  resolvedPath: F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.2d.animation@5.0.4
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -149,13 +149,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637408845570000000
+  datePublishedTicks: 637478931180000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c97def465b1932276762fc13f4cfee58da99d5e9
+    revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
     path: 
   unityLifecycle:
     version: 
@@ -322,7 +322,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.2d.animation
-    version: 5.0.3
+    version: 5.0.4
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.modules.animation
@@ -593,6 +593,123 @@ m_ResolvedPackages:
     type: 
     url: 
     revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.cinemachine@2.7.3
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.3
+  source: 1
+  resolvedPath: F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.cinemachine@2.7.3
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nNew starting from
+    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
+    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
+    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
+    this version from the Package Manager."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    compatible:
+    - 2.7.2
+    - 2.7.3
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    verified: 2.7.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637523735910000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 51de586ba6f144b9e90ff52a72d14fb208acf1a8
     path: 
   unityLifecycle:
     version: 
@@ -3456,10 +3573,12 @@ m_ResolvedPackages:
     - 4.0.3
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     compatible:
     - 4.0.3
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     verified: 4.0.3
   dependencies:
   - name: com.unity.2d.sprite
@@ -3541,10 +3660,12 @@ m_ResolvedPackages:
     - 4.0.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     compatible:
     - 4.0.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
+    - 5.0.0
     verified: 4.0.1
   dependencies: []
   resolvedDependencies: []

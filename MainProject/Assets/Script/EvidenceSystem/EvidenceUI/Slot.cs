@@ -10,6 +10,11 @@ public abstract class Slot : MonoBehaviour, IDragHandler,IDropHandler,IPointerEn
 {
     [HideInInspector]public bool usable=true;
     public CanvasGroup canvasGroup;
+
+    protected void Awake()
+    {
+        canvasGroup = gameObject.GetComponent<CanvasGroup>();
+    }
     public abstract void OnDrag(PointerEventData eventData);
     public abstract void OnDrop(PointerEventData eventData);
     public abstract void OnPointerEnter(PointerEventData eventData);

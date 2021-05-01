@@ -16,13 +16,15 @@ public class PlayerControl : SingletonMono<PlayerControl>
     [Header("基础数值")]
     public bool canMove = true; //玩家当前是否是可移动状态
     public float speed ;
-    public float moveX ;
+
     public float jumpForce ;
     public bool isGround,isJump ;
     public Collider2D feet;
-    bool jumpPressed ; //是否按下跳跃
 
-    
+    bool jumpPressed ; //是否按下跳跃
+    private float moveX;
+
+
     void Start()
     {
         rb   =  GetComponent<Rigidbody2D>();
@@ -33,19 +35,20 @@ public class PlayerControl : SingletonMono<PlayerControl>
     private void FixedUpdate()
     {
         isGround = feet.IsTouchingLayers(ground.value);
-    }
 
-    void Update()
-    {
         FreshData();
 
         //移动判定区
         if (canMove)
         {
             PlayerMovement();
-            if (Input.GetButtonDown("Jump")) jumpPressed = true;
+            if (Input.GetAxis("Jump")>0f) jumpPressed = true;
         }
-       if(jumpPressed) Jump();
+        if (jumpPressed) Jump();
+    }
+
+    void Update()
+    {
         
     }
     
@@ -54,16 +57,15 @@ public class PlayerControl : SingletonMono<PlayerControl>
     /// </summary>
     void PlayerMovement()
     {
-        rb.velocity = new Vector2( moveX * speed , rb.velocity.y);
+        rb.velocity = new Vector2( moveX * speed*Time.deltaTime , rb.velocity.y);
         if(moveX>0)  transform.localScale = new Vector3(1,1,1);
         if(moveX<0)   transform.localScale = new Vector3(-1,1,1);
-
     }
 
     void Jump() 
     {
         if (!jumpPressed) return;
-       if(isGround) rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+       if(isGround) rb.velocity = new Vector2(rb.velocity.x, jumpForce*Time.deltaTime);
         jumpPressed = false;
     }
 

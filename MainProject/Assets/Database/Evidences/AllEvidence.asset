@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: AllEvidence
   m_EditorClassIdentifier: 
   words: []
-  objects: []
+  objects:
+  - {fileID: 11400000, guid: b694cd5018a36c54ab500fb1c3de6167, type: 2}
+  - {fileID: 11400000, guid: c506d8108ec7a2c4eb0e415dfcfbcd23, type: 2}
+  - {fileID: 11400000, guid: 7a286e4b98c98c14aab8aed01eb196bc, type: 2}

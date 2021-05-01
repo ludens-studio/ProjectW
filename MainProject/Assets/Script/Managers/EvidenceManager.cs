@@ -14,6 +14,7 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
     public delegate void EvidenceHandler(string objectEvi);
     public event EvidenceHandler AddObjectEvent;
     public event EvidenceHandler RemoveObjectEvent;
+    public event EvidenceHandler AddWordEvent;
 
 
     protected override void  Awake()
@@ -37,4 +38,11 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
         package.RemoveEvidence(eviname);
         RemoveObjectEvent(eviname);
     }
+
+    public void AddWordEvidence(string evidence)
+    {
+        log.AddEvidence(evidence);
+        if (AddWordEvent != null) AddWordEvent(evidence);
+    }
+
 }
