@@ -244,6 +244,7 @@ MonoBehaviour:
   usable: 1
   parentSlot: {fileID: 7672268935600680142}
   canvasGroup: {fileID: 6091142819934258927}
+  id: 0
   back: {fileID: 2332125091666556688}
   front: {fileID: 5525304043244739831}
 --- !u!225 &6091142819934258927
@@ -256,5 +257,5 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

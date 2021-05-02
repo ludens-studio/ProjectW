@@ -44,7 +44,7 @@ public class AllEvidence : ScriptableObject
     }
 
     /// <summary>
-    /// 获得口供
+    /// 获得物证
     /// </summary>
     /// <param name="evidenceName"></param>
     /// <returns></returns>

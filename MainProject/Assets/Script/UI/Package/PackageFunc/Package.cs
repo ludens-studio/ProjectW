@@ -9,7 +9,7 @@ using UnityEngine;
 public class Package : BaseCollector
 {
     
-    public override void AddEvidence(string evidence)
+    public override bool AddEvidence(string evidence)
     {
         ObjectEvidence objE = mainDic.GetObjectEvidence(evidence);
         for (int i = 0; i < 12; i++)
@@ -19,9 +19,22 @@ public class Package : BaseCollector
                 evidenceList[i] = objE;
                 break;
             }
+            else if (evidenceList[i].GetEvidenceName().Equals(evidence))return false;
         }
+        return true;
     }
 
+    /// <summary>
+    /// 交换两个物证的位置
+    /// </summary>
+    /// <param name="a"></param>
+    /// <param name="b"></param>
+    public void SwitchEvidence(int a, int b) 
+    {
+        ObjectEvidence tem = (ObjectEvidence)evidenceList[a];
+        evidenceList[a] = evidenceList[b];
+        evidenceList[b] = tem;
+    }
 }
 
 

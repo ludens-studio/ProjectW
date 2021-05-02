@@ -6,17 +6,19 @@ using UnityEngine;
 
 public class SurveyLog : BaseCollector
 {
-    public override void AddEvidence(string evidence)
+    public override bool AddEvidence(string evidence)
     {
         WordEvidence target = EvidenceManager.GetInstance().allEvidences.GetWordEvidence(evidence);
         for (int i = 0; i < 12; i++)
         {
-            if (evidenceList[i] == null) 
+            if (evidenceList[i] == null)
             {
                 evidenceList[i] = target;
                 break;
             }
+            else if (evidenceList[i].GetEvidenceName().Equals(evidence)) return false;
         }
+        return true;
     }
 
 }

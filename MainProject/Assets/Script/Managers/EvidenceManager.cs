@@ -24,13 +24,17 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
     }
 
     /// <summary>
-    /// 外界调用，同时控制数据库与UI的改变
+    /// 外界调用，同时控制数据库与UI的改变,返回是否成功加入背包
     /// </summary>
     /// <param name="evidence"></param>
-    public void AddObjectEvidence(string evidence) 
+    public bool AddObjectEvidence(string evidence) 
     {
-        package.AddEvidence(evidence);
-        if(AddObjectEvent!=null)AddObjectEvent(evidence);
+        if (package.AddEvidence(evidence))
+        {
+            if (AddObjectEvent != null) AddObjectEvent(evidence);
+            return true;
+        }
+        return false;
     }
 
     public void RemoveObjectEvidence(string eviname) 

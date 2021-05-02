@@ -2940,6 +2940,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1972853404804640885, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5514669588316567139, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
       propertyPath: m_RaycastTarget
       value: 1
@@ -3031,6 +3035,10 @@ PrefabInstance:
     - target: {fileID: 5758113426086616653, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
       propertyPath: m_Name
       value: PackageSys
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009904139731568209, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
@@ -3228,7 +3236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1755142618
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -343,7 +343,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/AtrMaterial/Free Pixel Art Forest/Demo/MoveBackground.cs"
 "Assets/Script/Base/BaseManager.cs"
-"Assets/Script/Base/NewBehaviourScript.cs"
 "Assets/Script/Base/SingletonAutoMono.cs"
 "Assets/Script/Base/SingletonMono.cs"
 "Assets/Script/DialogSys/Talkable.cs"

@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public abstract class BaseCollector : ScriptableObject
 {
-    [SerializeReference] public BaseEvidence[] evidenceList;
+    [SerializeReference]public BaseEvidence[] evidenceList;
     [SerializeReference]protected AllEvidence mainDic;
 
    
@@ -29,9 +29,9 @@ public abstract class BaseCollector : ScriptableObject
     }
 
     /// <summary>
-    /// 向收集器中添加证据
+    /// 向收集器中添加证据，返回是否成功加入
     /// </summary>
-    public abstract void AddEvidence(string evidence);
+    public abstract bool AddEvidence(string evidence);
 
     /// <summary>
     /// 通过名字获得收集器中物品

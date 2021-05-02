@@ -13,6 +13,7 @@ public abstract class InteractableObj : MonoBehaviour
 
     protected void Awake()
     {
+
     }
 
     /// <summary>

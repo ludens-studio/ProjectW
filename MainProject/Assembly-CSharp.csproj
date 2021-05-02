@@ -81,7 +81,6 @@
     <Compile Include="Assets\Script\Base\SingletonMono.cs" />
     <Compile Include="Assets\Script\Base\BaseManager.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\Collection\BaseCollector.cs" />
-    <Compile Include="Assets\Script\Base\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\Managers\DiaLogManager.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\EvidenceUI\Slot.cs" />
     <Compile Include="Assets\Script\Item\Door.cs" />

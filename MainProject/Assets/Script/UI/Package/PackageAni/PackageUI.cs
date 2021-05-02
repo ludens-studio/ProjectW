@@ -76,7 +76,6 @@ public class PackageUI : MonoBehaviour
             if (slot.GetEvidenceName().Equals(eviname))
             {
                 slot.Clear();
-                slot.usable = true;
                 return;
             }
         }
@@ -90,6 +89,7 @@ public class PackageUI : MonoBehaviour
     {
         for (int i = 0; i < 12; i++) 
         {
+            slots[i].id = i;
             if (package.evidenceList[i] != null) slots[i].SetEvidence((ObjectEvidence)package.evidenceList[i]);   
         }
     }
