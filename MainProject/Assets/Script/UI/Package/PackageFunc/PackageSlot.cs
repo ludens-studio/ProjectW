@@ -18,6 +18,8 @@ public class PackageSlot : Slot
     {
         back.sprite = evidence.GetSprite();
         front.sprite = evidence.GetSprite();
+        usable = false;
+        canvasGroup.blocksRaycasts = true;
         canvasGroup.interactable = true;
     }
 
@@ -43,21 +45,30 @@ public class PackageSlot : Slot
 
     public override void OnDrag(PointerEventData eventData)
     {
-        if (usable == false) return;
+        if (usable) return;
+        front.transform.localScale = new Vector3(1f, 1f, 1f);
+        front.transform.SetParent(EvidenceManager.GetInstance().transform);
+        front.transform.position = Input.mousePosition;
     }
 
     public override void OnDrop(PointerEventData eventData)
     {
-        if (usable == false) return;
+        if (usable) return;
+        canvasGroup.blocksRaycasts = false;
+        front.transform.SetParent(parentSlot);
+        front.transform.position = back.transform.position;
+        canvasGroup.blocksRaycasts = true;
     }
 
     public override void OnPointerEnter(PointerEventData eventData)
     {
-        if (usable == false) return;
+        if (usable) return;
+        front.transform.localScale = new Vector3(1.2f,1.2f,1.2f);
     }
 
     public override void OnPointerExit(PointerEventData eventData)
     {
-        if (usable == false) return;
+        if (usable) return;
+        front.transform.localScale = new Vector3(1f, 1f, 1f);
     }
 }

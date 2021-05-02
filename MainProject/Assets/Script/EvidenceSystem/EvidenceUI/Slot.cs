@@ -9,6 +9,7 @@ using UnityEngine.EventSystems;
 public abstract class Slot : MonoBehaviour, IDragHandler,IDropHandler,IPointerEnterHandler,IPointerExitHandler
 {
     [HideInInspector]public bool usable=true;
+    [SerializeReference] protected Transform parentSlot;
     public CanvasGroup canvasGroup;
 
     protected void Awake()

@@ -590,17 +590,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8626916146628682649, guid: 17265356102be2642be40afcea199f70, type: 3}
-      propertyPath: canvasGroup
-      value: 
-      objectReference: {fileID: 6009904139731568209}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17265356102be2642be40afcea199f70, type: 3}
---- !u!225 &6009904139731568209 stripped
-CanvasGroup:
-  m_CorrespondingSourceObject: {fileID: 6091142819934258927, guid: 17265356102be2642be40afcea199f70, type: 3}
-  m_PrefabInstance: {fileID: 571783320258724030}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7896567256341933168 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7672268935600680142, guid: 17265356102be2642be40afcea199f70, type: 3}

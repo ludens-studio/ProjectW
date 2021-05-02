@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Managers\EvidenceManager.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\BaseEvidence.cs" />
+    <Compile Include="Assets\Script\EvidenceSystem\InteractableEvidence\InteractableObj.cs" />
     <Compile Include="Assets\Script\Base\SingletonAutoMono.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\AllEvidence.cs" />
     <Compile Include="Assets\AtrMaterial\Free Pixel Art Forest\Demo\MoveBackground.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Script\UI\Package\PackageFunc\SurveyLog.cs" />
     <Compile Include="Assets\Script\UI\Menu\MenuButton.cs" />
     <Compile Include="Assets\Script\UI\Package\Tool\ToolMGR.cs" />
+    <Compile Include="Assets\Script\EvidenceSystem\InteractableEvidence\ObjEviOnScene.cs" />
     <Compile Include="Assets\Script\Item\Interaction.cs" />
     <Compile Include="Assets\Script\Managers\GameManager.cs" />
     <Compile Include="Assets\Script\DialogSys\Talkable.cs" />
@@ -87,8 +89,6 @@
     <Compile Include="Assets\Script\UI\Package\Tool\ToolBlock.cs" />
     <Compile Include="Assets\Script\UI\WordBullet\BulletUIAction.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\PackageSlot.cs" />
-    <Compile Include="Assets\Script\EvidenceSystem\InteractableEvidence\InteractableObj.cs" />
-    <Compile Include="Assets\Script\EvidenceSystem\InteractableEvidence\ObjEviOnScene.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AtrMaterial\Free Pixel Art Forest\Contact.txt" />
@@ -785,6 +785,14 @@
       <Project>{7F15C2D4-1E60-7DDD-A943-B0BA45A8ED7A}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{C3ACAA61-38B5-4756-304F-F2AD8085DC3F}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{E6809A54-B84F-538A-4921-89F46414B51A}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{216BF568-E9A5-C3D2-D758-4CA678F9E8CD}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
@@ -824,14 +832,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{2B6A074C-46F5-7B99-9185-0CFC66006748}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{E6809A54-B84F-538A-4921-89F46414B51A}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{C3ACAA61-38B5-4756-304F-F2AD8085DC3F}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -242,7 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usable: 1
-  canvasGroup: {fileID: 0}
+  parentSlot: {fileID: 7672268935600680142}
+  canvasGroup: {fileID: 6091142819934258927}
   back: {fileID: 2332125091666556688}
   front: {fileID: 5525304043244739831}
 --- !u!225 &6091142819934258927
@@ -254,6 +255,6 @@ CanvasGroup:
   m_GameObject: {fileID: 8646364964625992659}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 0
+  m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
