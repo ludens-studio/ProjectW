@@ -37,12 +37,20 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
         return false;
     }
 
+    /// <summary>
+    /// 删除物证
+    /// </summary>
+    /// <param name="eviname"></param>
     public void RemoveObjectEvidence(string eviname) 
     {
         package.RemoveEvidence(eviname);
         RemoveObjectEvent(eviname);
     }
 
+    /// <summary>
+    /// 添加口供
+    /// </summary>
+    /// <param name="evidence"></param>
     public void AddWordEvidence(string evidence)
     {
         log.AddEvidence(evidence);

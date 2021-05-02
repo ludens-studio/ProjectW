@@ -5,7 +5,6 @@ using UnityEngine;
 /// <summary>
 /// 注意，所有的道具都没考虑或多次出现在背包中
 /// </summary>
-[CreateAssetMenu(menuName = "ScriptableObject/Collection/Package")]
 public class Package : BaseCollector
 {
     

@@ -38,7 +38,7 @@ public abstract class BaseCollector : ScriptableObject
     /// </summary>
     /// <param name="objectName"></param>
     /// <returns></returns>
-    protected BaseEvidence GetEvidence(string objectName)
+    public BaseEvidence GetEvidence(string objectName)
     {
         return SearchEvidence(objectName);
     }

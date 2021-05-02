@@ -6,7 +6,6 @@ using UnityEngine;
 /// 所有的证据都加在这里面
 /// 所有的证据的主图鉴，需要GameManager管理
 /// </summary>
-[CreateAssetMenu(menuName = "ScriptableObject/AllEvidence")]
 public class AllEvidence : ScriptableObject
 {
     [SerializeReference] private List<WordEvidence> words = new List<WordEvidence>();
