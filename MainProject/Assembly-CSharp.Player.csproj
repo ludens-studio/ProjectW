@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\Item\DialogCollider.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageAni\PackageUI.cs" />
     <Compile Include="Assets\Script\UIPoor\BulletPool.cs" />
+    <Compile Include="Assets\Script\Base\MonoController.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\Package.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\SurveyLog.cs" />
     <Compile Include="Assets\Script\UI\Menu\MenuButton.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Script\DialogSys\Talkable.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\ObjectEvidence.cs" />
     <Compile Include="Assets\Script\UI\Menu\MenuPanel.cs" />
+    <Compile Include="Assets\Script\Base\ResMgr.cs" />
     <Compile Include="Assets\Script\Player\PlayerControl.cs" />
     <Compile Include="Assets\Script\Base\SingletonMono.cs" />
     <Compile Include="Assets\Script\Base\BaseManager.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Script\UI\Package\Tool\ToolBlock.cs" />
     <Compile Include="Assets\Script\UI\WordBullet\BulletUIAction.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\PackageSlot.cs" />
+    <Compile Include="Assets\Script\Base\MonoMgr.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AtrMaterial\Free Pixel Art Forest\Contact.txt" />
