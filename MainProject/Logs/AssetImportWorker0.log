@@ -15,11 +15,11 @@ F:/work/Unity/ProjectW/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13215
+3599
 Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
 F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 170.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 154.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2021.1.0f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,65 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/2021.1.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011034 seconds.
+Registered in 0.010547 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 173.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 172.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.540 seconds
+- Completed reload, in  1.891 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007734 seconds.
+Registered in 0.006432 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 159.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 155.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.471 seconds
+- Completed reload, in  2.374 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.5 MB.
-System memory in use after: 133.7 MB.
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4008.
-Total: 4.492800 ms (FindLiveObjects: 0.601600 ms CreateObjectMapping: 0.200400 ms MarkObjects: 3.586900 ms  DeleteObjects: 0.101300 ms)
+Total: 4.539400 ms (FindLiveObjects: 0.476500 ms CreateObjectMapping: 0.155100 ms MarkObjects: 3.806100 ms  DeleteObjects: 0.099700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AtrMaterial/Characters/人物常态(半身)/哈里常态.psb
-  artifactKey: Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物常态(半身)/哈里常态.psb using Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cbeda6b243b774a5212146d9a4a465') in 0.337664 seconds 
+  path: Assets/AtrMaterial/Characters
+  artifactKey: Guid(f87e3d4198c77a34180cf0230b8bbfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Characters using Guid(f87e3d4198c77a34180cf0230b8bbfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5ebda78e4060ce1b387db29080450d') in 0.011573 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/AtrMaterial/Characters/人物常态(半身)/酒吧老板常态.psb
-  artifactKey: Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物常态(半身)/酒吧老板常态.psb using Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00e61a598f3e0b27ed36850e539e90d') in 0.055553 seconds 
+  Time since last request: 52.461861 seconds.
+  path: Assets/AtrMaterial/Characters/New Folder
+  artifactKey: Guid(1bd80755e65d235488b1901ad7f5a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Characters/New Folder using Guid(1bd80755e65d235488b1901ad7f5a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1d99f7efa28fa63d5870c3b8682d3a') in 0.006006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000491 seconds.
+  Time since last request: 63.284834 seconds.
+  path: Assets/代码及某些操作的说明/背包系统.doc
+  artifactKey: Guid(05f17bdaa9c21634ea986a8bc7fa3cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/代码及某些操作的说明/背包系统.doc using Guid(05f17bdaa9c21634ea986a8bc7fa3cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3217308384ea9e40cb03ca09416a707') in 0.122925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.378679 seconds.
+  path: Assets/AtrMaterial/Characters/人物常态(半身)
+  artifactKey: Guid(6ab027fc96ba87b4bbaae3f8364050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Characters/人物常态(半身) using Guid(6ab027fc96ba87b4bbaae3f8364050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8678c910af5d2a9ae940eff86f87e696') in 0.005484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.132536 seconds.
   path: Assets/AtrMaterial/Characters/人物常态(半身)/侦探常态.psb
   artifactKey: Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物常态(半身)/侦探常态.psb using Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a4002cde372512da1f4896f050ae0') in 0.123831 seconds 
+Start importing Assets/AtrMaterial/Characters/人物常态(半身)/侦探常态.psb using Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6757ef472dd1e843877a3ff9bf813ad') in 0.290834 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000611 seconds.
+  Time since last request: 0.000507 seconds.
+  path: Assets/AtrMaterial/Characters/人物常态(半身)/哈里常态.psb
+  artifactKey: Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Characters/人物常态(半身)/哈里常态.psb using Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0a50bf1603c941aec22bfe688dac9d') in 0.081507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/AtrMaterial/Characters/人物常态(半身)/酒吧老板常态.psb
+  artifactKey: Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Characters/人物常态(半身)/酒吧老板常态.psb using Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda1233cf02af25493ec6c78777e536b') in 0.072769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
   path: Assets/AtrMaterial/Characters/人物常态(半身)/艾伦常态.psb
   artifactKey: Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物常态(半身)/艾伦常态.psb using Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463998f2c5c24bb2ba6b43225bdebc91') in 0.087028 seconds 
+Start importing Assets/AtrMaterial/Characters/人物常态(半身)/艾伦常态.psb using Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15774eeec79492ade6599fc9e7407a9d') in 0.087565 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000697 seconds.
+  Time since last request: 0.000496 seconds.
   path: Assets/AtrMaterial/Characters/人物常态(半身)/西蒙娜常态.psb
   artifactKey: Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物常态(半身)/西蒙娜常态.psb using Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1e62b8cef88ec0c6c8de1d716ec790') in 0.065692 seconds 
+Start importing Assets/AtrMaterial/Characters/人物常态(半身)/西蒙娜常态.psb using Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43229308e5aad6a1055b1c822bb07bed') in 0.072336 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
