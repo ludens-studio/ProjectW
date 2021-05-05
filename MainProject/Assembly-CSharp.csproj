@@ -58,7 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Managers\EvidenceManager.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\BaseEvidence.cs" />
-    <Compile Include="Assets\Script\Item\InteractableEvidence\InteractableObj.cs" />
+    <Compile Include="Assets\Script\Item\InteractableEvidence\TakeableObject.cs" />
+    <Compile Include="Assets\Script\UI\StaticPuzzel\Tem\DescribePanel.cs" />
     <Compile Include="Assets\Script\Base\SingletonAutoMono.cs" />
     <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\AllEvidence.cs" />
     <Compile Include="Assets\AtrMaterial\Free Pixel Art Forest\Demo\MoveBackground.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Script\Base\MonoController.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\Package.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\SurveyLog.cs" />
+    <Compile Include="Assets\Script\Item\InteractableEvidence\EvidenceInteractor.cs" />
     <Compile Include="Assets\Script\UI\Menu\MenuButton.cs" />
     <Compile Include="Assets\Script\UI\Package\Tool\ToolMGR.cs" />
     <Compile Include="Assets\Script\Item\InteractableEvidence\ObjEviOnScene.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Assets\Script\UI\WordBullet\BulletUIAction.cs" />
     <Compile Include="Assets\Script\UI\Package\PackageFunc\PackageSlot.cs" />
     <Compile Include="Assets\Script\Base\MonoMgr.cs" />
+    <Compile Include="Assets\Script\Item\InteractableEvidence\EvidenceInterfaces.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AtrMaterial\Free Pixel Art Forest\Contact.txt" />

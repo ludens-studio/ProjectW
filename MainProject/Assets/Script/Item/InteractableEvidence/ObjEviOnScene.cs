@@ -1,17 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
 /// ø… π”√
 /// </summary>
-public class ObjEviOnScene : InteractableObj
+public class ObjEviOnScene : TalkableObject
 {
-
-    protected override void InteractAction()
+    public override void EndAquire()
     {
-        ToPackage();
         Destroy(gameObject);
+    }
+
+    public override void StartAquire()
+    {
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

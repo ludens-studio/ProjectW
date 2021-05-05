@@ -70,11 +70,22 @@ public class PackageSlot : Slot
         if (usable) return;
         //当前射线所在的位置
 
-        string rayTarget = eventData.pointerCurrentRaycast.gameObject.name;
-        if (evidence.Interact(rayTarget)) return;
-        else if (rayTarget.Equals("Front")) 
+        GameObject raycastTarget=null;
+        string rayTargetName = "";
+        if (eventData.pointerCurrentRaycast.gameObject != null) 
         {
-            SwitchSlot(eventData.pointerCurrentRaycast.gameObject.GetComponent<PackageSlot>());        
+            raycastTarget = eventData.pointerCurrentRaycast.gameObject;
+            rayTargetName = raycastTarget.name;
+        }
+        Debug.Log(rayTargetName);
+
+        if (evidence.Interactable(rayTargetName)) 
+        raycastTarget.GetComponent<EvidenceInteractor>().Interact(evidence.GetEvidenceName());
+        
+
+        if (rayTargetName.Equals("Front")) 
+        {
+            SwitchSlot(eventData.pointerCurrentRaycast.gameObject.GetComponent<PackageSlot>());
         }
         else ReturnSlot();
     }

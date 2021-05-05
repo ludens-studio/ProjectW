@@ -16,3 +16,5 @@ MonoBehaviour:
   describe: "\u53CD\u6B63\u725B\u903C\u5C31\u5BF9\u4E86"
   candidateDescribe: []
   imageSprite: {fileID: 21300000, guid: 22f2c736975c8c449b714a8c4a1e8858, type: 3}
+  interactableObj:
+  - DescribePanel

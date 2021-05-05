@@ -24,9 +24,9 @@ public class ObjectEvidence : BaseEvidence
     /// </summary>
     /// <param name="objname"></param>
     /// <returns></returns>
-    public bool Interact(string objname) 
+    public bool Interactable(string objname) 
     {
         if (!interactableObj.Contains(objname)) return false;
-        else return true;
+        return true;
     }
 }
