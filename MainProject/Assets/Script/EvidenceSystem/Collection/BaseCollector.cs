@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// æ”¶é›†å™¨ç±»
+/// ÊÕ¼¯Æ÷Àà£¬Á½´ó´¢´æÏµÍ³µÄ¸¸Àà
 /// </summary>
 public abstract class BaseCollector : ScriptableObject
 {
@@ -13,7 +13,7 @@ public abstract class BaseCollector : ScriptableObject
    
 
     /// <summary>
-    /// å°†è¯æ®ç§»é™¤æ”¶é›†å™¨
+    /// ½«Ö¤¾İ´ÓÊÕ¼¯Æ÷ÖĞÒÆ³ı
     /// </summary>
     /// <param name="objectName"></param>
     public void RemoveEvidence(string objectName)
@@ -29,12 +29,12 @@ public abstract class BaseCollector : ScriptableObject
     }
 
     /// <summary>
-    /// å°†è¯æ®åŠ å…¥èƒŒåŒ…
+    /// ÏòÊÕ¼¯Æ÷ÖĞÌí¼ÓÖ¤¾İ£¬·µ»ØÊÇ·ñ³É¹¦¼ÓÈë
     /// </summary>
     public abstract bool AddEvidence(string evidence);
 
     /// <summary>
-    /// Í¨ä»æ”¶é›†å™¨ä¸­è·å¾—åå«objectNameçš„è¯æ®
+    /// Í¨¹ıÃû×Ö»ñµÃÊÕ¼¯Æ÷ÖĞÎïÆ·
     /// </summary>
     /// <param name="objectName"></param>
     /// <returns></returns>
@@ -42,7 +42,7 @@ public abstract class BaseCollector : ScriptableObject
     {
         return SearchEvidence(objectName);
     }
-    
+
     private BaseEvidence SearchEvidence(string objectName) 
     {
         foreach (BaseEvidence evidence in evidenceList) 

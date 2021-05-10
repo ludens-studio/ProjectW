@@ -8,12 +8,12 @@ public class BaseEvidence : ScriptableObject
     [SerializeReference]protected string evidenceName;
     [TextArea]
     [SerializeReference]protected string describe;
-    [Header("å¤‡é€‰æè¿°ï¼Œç”¨äºæ›´æ”¹")]
+    [Header("ºòÑ¡ÃèÊö£¬ÓÃÓÚÓ¦¸¶¿ÉÄÜÃèÊö±ä»¯µÄ¿ÉÄÜ")]
     [TextArea]
     [SerializeReference] protected List<string> candidateDescribe=new List<string>();
 
     /// <summary>
-    /// è·å–è¯æ®çš„åå­—
+    /// »ñÈ¡Ö¤¾İÃû×Ö
     /// </summary>
     /// <returns></returns>
     public string GetEvidenceName() 
@@ -21,7 +21,7 @@ public class BaseEvidence : ScriptableObject
         return evidenceName;
     }
     /// <summary>
-    /// è·å–è¯æ®çš„æè¿°
+    /// »ñÈ¡Ö¤¾İÃèÊö
     /// </summary>
     /// <returns></returns>
     public string GetDescribe() 
@@ -29,7 +29,7 @@ public class BaseEvidence : ScriptableObject
         return describe;
     }
     /// <summary>
-    /// ä¿®æ”¹è¯æ®çš„æè¿°
+    /// ĞŞ¸ÄÖ¤¾İÃèÊö
     /// </summary>
     /// <param name="desc"></param>
     protected void ChangeDescribe(string desc) 
