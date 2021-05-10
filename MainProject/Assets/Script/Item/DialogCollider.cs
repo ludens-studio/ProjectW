@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogCollider : MonoBehaviour
 {
-    //触碰式对话框通用
+    //触碰式对话框用
     public GameObject Dialog ; 
     private void OnTriggerEnter2D(Collider2D other)
     {

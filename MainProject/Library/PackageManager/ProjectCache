@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637557205756586651
+      ticks: 637562055838647185
     m_Hash: 4178023909
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -1355,11 +1355,13 @@ m_ResolvedPackages:
     - 1.5.4
     - 1.6.0-pre.1
     - 1.6.0-pre.3
+    - 1.6.0-pre.4
     compatible:
     - 1.5.2
     - 1.5.4
     - 1.6.0-pre.1
     - 1.6.0-pre.3
+    - 1.6.0-pre.4
     verified: 1.5.4
   dependencies:
   - name: com.unity.modules.director

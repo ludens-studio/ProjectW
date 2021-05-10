@@ -1,25 +1,25 @@
 /// <summary>
-/// ����Ʒ���뱳����ʵ��
+/// 可加入背包物品的接口
 /// </summary>
 public interface AddToPackage 
 {
     /// <summary>
-    ///�ѵ��߼��뱳��ǰ����Ϊ
+    ///加入背包之前的动作
     /// </summary>
     void StartAquire();
     /// <summary>
-    ///�ѵ��߼��뱳�������Ϊ
+    ///加入背包之后的动作
     /// </summary>
     void EndAquire();
 }
 
 /// <summary>
-/// ����֮�佻����ʵ��
+/// 交互类物品接口，让场景上的物品与证据交互
 /// </summary>
 public interface MatchEvidence 
 {
     /// <summary>
-    /// �ɽ�����Ʒ����Ľ����߼�
+    /// 匹配的行为
     /// </summary>
     /// <param name="evidence"></param>
     /// <returns></returns>

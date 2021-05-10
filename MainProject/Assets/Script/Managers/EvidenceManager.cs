@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ±³°üÏµÍ³µÄµ¥Àı£¬Í¬Ê±¹ÜÀíÎïÖ¤,¿Ú¹©µÄ¹ÜÀíÆ÷
+/// å•ä¾‹ï¼Œç”¨äºå…¨å±€æ·»åŠ åˆ é™¤ç‰©è¯ï¼Œå¹¶ä¸”åˆå§‹åŒ–å›¾é‰´å­—å…¸
+/// ç”¨äºå…¨å±€åŠ å…¥ç‰©è¯å£è¯ï¼Œå…¨å±€åˆ é™¤ç‰©è¯
 /// </summary>
 public class EvidenceManager : SingletonMono<EvidenceManager> 
 {
@@ -24,7 +25,7 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
     }
 
     /// <summary>
-    /// Íâ½çµ÷ÓÃ£¬Í¬Ê±¿ØÖÆÊı¾İ¿âÓëUIµÄ¸Ä±ä,·µ»ØÊÇ·ñ³É¹¦¼ÓÈë±³°ü
+    /// å°†åå­—evidenceçš„ç‰©è¯åŠ å…¥èƒŒåŒ…ï¼Œè¿”å›æ˜¯å¦æˆåŠŸåŠ å…¥èƒŒåŒ…
     /// </summary>
     /// <param name="evidence"></param>
     public bool AddObjectEvidence(string evidence) 
@@ -38,7 +39,7 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
     }
 
     /// <summary>
-    /// É¾³ıÎïÖ¤
+    /// å°†ç‰©è¯ä»èƒŒåŒ…ä¸­ç§»é™¤
     /// </summary>
     /// <param name="eviname"></param>
     public void RemoveObjectEvidence(string eviname) 
@@ -48,7 +49,7 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
     }
 
     /// <summary>
-    /// Ìí¼Ó¿Ú¹©
+    ///æ·»åŠ å£è¯
     /// </summary>
     /// <param name="evidence"></param>
     public void AddWordEvidence(string evidence)
