@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticPanelMgr : SingletonMono<StaticPanelMgr>
+public class StaticPanelMgr : SingletonAutoMono<StaticPanelMgr>
 {
     //已加载的静态面板列表
     private List<GameObject> panelList = new List<GameObject>();
     //当前静态面板
-    private static GameObject currentPanel;
+    private static GameObject currentPanel = null;
     
     /// <summary>
     /// 加载对应路径上的房间预制件，name写路径
@@ -21,14 +21,12 @@ public class StaticPanelMgr : SingletonMono<StaticPanelMgr>
                 return;
             }
         }
-        //注意一下，这里的name要写成路径，比如UI文件夹下的a图片，name应该是UI/a
-        ResMgr.GetInstance().LoadAsync<GameObject>(name,(o) =>
-        {
-            o.transform.SetParent(GameObject.Find("StaticCanvas").transform);
-            o.name = name;
-            panelList.Add(o);
-            currentPanel = o;
-        });
+        GameObject o = (GameObject)Resources.Load(name);
+        GameObject mUICanvas = GameObject.Find("StaticCanvas"); 
+        o = Instantiate(o, o.transform.position, o.transform.rotation, mUICanvas.transform); 
+        o.name = name;
+        panelList.Add(o);
+        currentPanel = o;
     }
 
     /// <summary>

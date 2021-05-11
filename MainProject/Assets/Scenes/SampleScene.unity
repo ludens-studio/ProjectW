@@ -1165,8 +1165,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 274072364}
-  - {fileID: 222522938}
   - {fileID: 1646820109}
+  - {fileID: 222522938}
   - {fileID: 1208384646}
   - {fileID: 311534845}
   m_Father: {fileID: 582652698}
@@ -1236,7 +1236,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!1001 &222522937
 PrefabInstance:
@@ -1341,7 +1341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 381963756978006304, guid: 050400a44d30b3b41939440e491451cd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 381963756978006304, guid: 050400a44d30b3b41939440e491451cd, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1443,7 +1443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7064405162500339563, guid: 908445a633830b64798b40556e2df619, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7064405162500339563, guid: 908445a633830b64798b40556e2df619, type: 3}
       propertyPath: m_LocalScale.x
@@ -2602,7 +2602,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7800697569565840144, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7800697569565840144, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2942,7 +2942,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &1451415306
 GameObject:
@@ -3122,7 +3122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5758113426086616652, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5758113426086616652, guid: f020d635efa484f4380e2adeb7e7d118, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3477,7 +3477,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1755142621
 RectTransform:

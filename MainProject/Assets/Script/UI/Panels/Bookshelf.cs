@@ -16,7 +16,6 @@ public class Bookshelf : MonoBehaviour
     {
         getBook.GetComponent<Button>().onClick.AddListener(BookOnClick);
         getBlood.GetComponent<Button>().onClick.AddListener(BloodOnClick);
-        panelExiter.GetComponent<Button>().onClick.AddListener(ExitPanel);
     }
     void BookOnClick()
     {
@@ -30,7 +29,7 @@ public class Bookshelf : MonoBehaviour
         //需要防止重复添加发生
         print("获取奇怪的血液");
     }
-    void ExitPanel(){
+    public void ExitPanel(){
         StaticPanelMgr.GetInstance().LeavePanel();
     }
 }

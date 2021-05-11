@@ -38,9 +38,9 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1920, y: -1080}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1920, y: 1070}
   m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2952441634152133918
@@ -493,6 +493,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2952441634152133891}
     m_Modifications:
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2952441634152133888}
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookshelf, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6006370234455268394, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
