@@ -32,6 +32,5 @@ public class Bookshelf : MonoBehaviour
     }
     void ExitPanel(){
         StaticPanelMgr.GetInstance().LeavePanel();
-        panelExiter.enabled = false;
     }
 }

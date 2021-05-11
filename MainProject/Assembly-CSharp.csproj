@@ -65,6 +65,7 @@
      <Compile Include="Assets\Script\Player\PlayerControl.cs" />
      <Compile Include="Assets\Script\Base\SingletonMono.cs" />
      <Compile Include="Assets\Script\UI\Panels\Bookshelf.cs" />
+     <Compile Include="Assets\Script\PanelTest.cs" />
      <Compile Include="Assets\Script\Base\BaseManager.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\Collection\BaseCollector.cs" />
      <Compile Include="Assets\Script\Managers\DiaLogManager.cs" />

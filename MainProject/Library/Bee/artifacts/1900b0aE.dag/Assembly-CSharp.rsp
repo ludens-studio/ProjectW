@@ -368,6 +368,7 @@
 "Assets/Script/Managers/DiaLogManager.cs"
 "Assets/Script/Managers/EvidenceManager.cs"
 "Assets/Script/Managers/GameManager.cs"
+"Assets/Script/PanelTest.cs"
 "Assets/Script/Player/PlayerControl.cs"
 "Assets/Script/UI/Evidence/CriminalLog/LogMGR.cs"
 "Assets/Script/UI/Evidence/CriminalLog/LogUIAction.cs"
