@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ÊÕ¼¯Æ÷Àà£¬Á½´ó´¢´æÏµÍ³µÄ¸¸Àà
+/// æ”¶é›†å™¨ç±»ï¼ŒæŠ½è±¡ç±»
 /// </summary>
 public abstract class BaseCollector : ScriptableObject
 {
@@ -13,7 +13,7 @@ public abstract class BaseCollector : ScriptableObject
    
 
     /// <summary>
-    /// ½«Ö¤¾İ´ÓÊÕ¼¯Æ÷ÖĞÒÆ³ı
+    /// å°†æŸä¸ªè¯æ®ç§»é™¤
     /// </summary>
     /// <param name="objectName"></param>
     public void RemoveEvidence(string objectName)
@@ -29,12 +29,12 @@ public abstract class BaseCollector : ScriptableObject
     }
 
     /// <summary>
-    /// ÏòÊÕ¼¯Æ÷ÖĞÌí¼ÓÖ¤¾İ£¬·µ»ØÊÇ·ñ³É¹¦¼ÓÈë
+    /// å°†æŸä¸ªè¯æ®åŠ å…¥æ”¶é›†å™¨
     /// </summary>
     public abstract bool AddEvidence(string evidence);
 
     /// <summary>
-    /// Í¨¹ıÃû×Ö»ñµÃÊÕ¼¯Æ÷ÖĞÎïÆ·
+    /// Í¨è·å–æŸä¸ªè¯æ®
     /// </summary>
     /// <param name="objectName"></param>
     /// <returns></returns>

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerControl : SingletonMono<PlayerControl>
 {
-    public static PlayerControl instance ;
 
     [Header("基础组件")]
     Rigidbody2D rb ; 

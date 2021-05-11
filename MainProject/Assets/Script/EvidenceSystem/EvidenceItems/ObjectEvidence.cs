@@ -7,11 +7,11 @@ public class ObjectEvidence : BaseEvidence
 {
     [SerializeReference] private Sprite imageSprite;
     /// <summary>
-    /// ¿É½»»¥ÎïÆ·ÁĞ±í£¬ÓÃÓÚ¶¯¾²Ì¬½âÃÜ
+    /// å¯äº¤äº’ç‰©å“åå­—
     /// </summary>
     [SerializeReference] private List<string> interactableObj=new List<string>();
     /// <summary>
-    /// ÓÃÓÚ»ñÈ¡ÎïÆ·ÔÚ±³°üÖĞµÄSprite
+    /// ç‰©è¯åœ¨èƒŒåŒ…ä¸­çš„Sprite
     /// </summary>
     /// <returns></returns>
     public Sprite GetSprite() 
@@ -20,7 +20,7 @@ public class ObjectEvidence : BaseEvidence
     }
 
     /// <summary>
-    /// ½»»¥,²¢ÇÒ·µ»ØÊÇ·ñÄÜ¹»½»»¥
+    /// åˆ¤æ–­æ˜¯å¦èƒ½å¤Ÿä¸æŸä¸ªç‰©å“äº¤äº’
     /// </summary>
     /// <param name="objname"></param>
     /// <returns></returns>

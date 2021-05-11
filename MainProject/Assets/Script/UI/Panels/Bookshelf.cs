@@ -12,7 +12,7 @@ public class Bookshelf : MonoBehaviour
     public Button getBook;              //点击获取“带血的书的照片”道具
     public Button getBlood;             //点击获取“奇怪的血液的照片”道具
     public Button panelExiter;          //离开面板
-    void Update()
+    void Start()
     {
         getBook.GetComponent<Button>().onClick.AddListener(BookOnClick);
         getBlood.GetComponent<Button>().onClick.AddListener(BloodOnClick);

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ¿É½»»¥Àà,³éÏóÀà
+/// å¯è¢«å¸¦èµ°çš„ç‰©è¯
 /// </summary>
 public abstract class TalkableObject : MonoBehaviour, AddToPackage
 {
@@ -11,7 +11,7 @@ public abstract class TalkableObject : MonoBehaviour, AddToPackage
     [SerializeReference] private bool isObject;
 
     /// <summary>
-    /// ¼ÓÈë±³°ü½Ó¿Ú
+    /// åŠ å…¥èƒŒåŒ…çš„å…·ä½“é€»è¾‘
     /// </summary>
     protected void ToPackage()
     {
@@ -22,9 +22,9 @@ public abstract class TalkableObject : MonoBehaviour, AddToPackage
     }
 
     /// <summary>
-    /// ½»»¥Ä£Ê½£¬Íæ¼ÒÔõÃ´Ñù°ÑÎïÆ·¼ÓÈë±³°ü
+    /// å…·ä½“äº¤äº’å½¢å¼
     /// </summary>
-    protected void InteractAction() 
+    protected virtual void InteractAction() 
     {
         StartAquire();
         ToPackage();
