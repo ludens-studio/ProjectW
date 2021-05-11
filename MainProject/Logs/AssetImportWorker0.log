@@ -15,11 +15,11 @@ S:/gitHub/ProjectW/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52409
+50776
 Successfully changed project path to: S:/gitHub/ProjectW/MainProject
 S:/gitHub/ProjectW/MainProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,135 +43,147 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.012124 seconds.
+Registered in 0.010278 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.858 seconds
+- Completed reload, in  3.106 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005685 seconds.
+Registered in 0.003853 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.467 seconds
+- Completed reload, in  1.216 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3559 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.0 MB.
 System memory in use after: 136.2 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4016.
-Total: 2.741500 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.203800 ms MarkObjects: 2.005300 ms  DeleteObjects: 0.082500 ms)
+Total: 2.314100 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.145400 ms MarkObjects: 1.812700 ms  DeleteObjects: 0.050000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AtrMaterial/Characters/人物动态/老板动态.psb
-  artifactKey: Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/老板动态.psb using Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559494efabb594fa4ca23572d6a00652') in 0.343178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态
-  artifactKey: Guid(5837c206a811a104c8cea745dcdd304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态 using Guid(5837c206a811a104c8cea745dcdd304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d3c2b5827ce3d0f26738659ff0a21e') in 0.003350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/西蒙娜动态.psb
-  artifactKey: Guid(21cdce2f53d04a446ab57bd9cc98833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/西蒙娜动态.psb using Guid(21cdce2f53d04a446ab57bd9cc98833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6529d881a9ca44bb2afa0c8b57d017') in 0.394131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/侦探动态.psb
-  artifactKey: Guid(1318c894f3607974393cce134004bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/侦探动态.psb using Guid(1318c894f3607974393cce134004bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7460afb448e28fdc54516c0a69f883') in 0.493416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/哈里动态.psb
-  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d5a224c7c180182394a1bd8fe96f4') in 0.392317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
   path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb
   artifactKey: Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb using Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a760f339b8ac064560337dbb2a7e6288') in 0.459432 seconds 
+Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb using Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a257868bc5c82c7d63ca81f7bd3dde') in 0.300047 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.766273 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦静息.anim
-  artifactKey: Guid(080837dcd772a4f4e8a8db3bcfcd1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦静息.anim using Guid(080837dcd772a4f4e8a8db3bcfcd1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a61e513b3755fce4d8277b4cb8e6c79') in 0.017160 seconds 
+  Time since last request: 8.131287 seconds.
+  path: Assets/代码及某些操作的说明/大地图对话框.docx
+  artifactKey: Guid(c3482a5715a3f544a8fccd98e977f158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/代码及某些操作的说明/大地图对话框.docx using Guid(c3482a5715a3f544a8fccd98e977f158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077597f96e142af1a8b62889ee4ac5c5') in 0.070443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.262939 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller
-  artifactKey: Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller using Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae06981ae2408e5a122059d7fbc6c44') in 0.013390 seconds 
+  Time since last request: 11.083013 seconds.
+  path: Assets/Thaleah_PixelFont/Materials
+  artifactKey: Guid(5bbfc5203b36a9040838fe59081d4888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/Materials using Guid(5bbfc5203b36a9040838fe59081d4888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e939cfc0ea9cc842c580a8fa9035296f') in 0.002886 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.077091 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb
-  artifactKey: Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb using Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b381a0220bf169c981be1e2658a6b5') in 0.193361 seconds 
+  Time since last request: 53.545375 seconds.
+  path: Assets/Materials/Physical/smooth.physicsMaterial2D
+  artifactKey: Guid(96027027cb5bbb04e9db7eee6ff81d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Physical/smooth.physicsMaterial2D using Guid(96027027cb5bbb04e9db7eee6ff81d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f65b68d9bed01fbb7faf0d95c1f331') in 0.009122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 295.628626 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/侦探常态.psb
-  artifactKey: Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/侦探常态.psb using Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4071532791546f411eff82c6e306806e') in 0.063841 seconds 
+  Time since last request: 23.525173 seconds.
+  path: Assets/Animation/动画
+  artifactKey: Guid(f8400f89471d5674f8d55c683bfa2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/动画 using Guid(f8400f89471d5674f8d55c683bfa2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b3e97554b15ce227c4a8a53370e61d') in 0.004122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/哈里常态.psb
-  artifactKey: Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/哈里常态.psb using Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e6103bad8b31dfc08320fa5ca69e6a') in 0.092830 seconds 
+  Time since last request: 8.298480 seconds.
+  path: Assets/Animation/人物
+  artifactKey: Guid(f8400f89471d5674f8d55c683bfa2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物 using Guid(f8400f89471d5674f8d55c683bfa2592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cb699280d1c33ffac5cef422cad5c0') in 0.003623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/酒吧老板常态.psb
-  artifactKey: Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/酒吧老板常态.psb using Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eab6fa82fd7a5bb3f177a4e1ba93e2') in 0.092784 seconds 
+  Time since last request: 21.103700 seconds.
+  path: Assets/AtrMaterial/BagMaterial/对话框.png
+  artifactKey: Guid(2a5ec515eb1497745a906118b972bf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/对话框.png using Guid(2a5ec515eb1497745a906118b972bf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127d4ddd0d77b1f69087f71b9c8a12f3') in 0.032574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/艾伦常态.psb
-  artifactKey: Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/艾伦常态.psb using Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9a99fe8110fbef0885e4bace1ce0b3') in 0.157928 seconds 
+  Time since last request: 0.000269 seconds.
+  path: Assets/AtrMaterial/BagMaterial/背包格子.png
+  artifactKey: Guid(aeec985866ae0654b8ffbb813defd665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/背包格子.png using Guid(aeec985866ae0654b8ffbb813defd665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa018204bcbcd9c0ca378503f225918') in 0.012819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/西蒙娜常态.psb
-  artifactKey: Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/西蒙娜常态.psb using Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c042c8f8f585b2d77bd66a3dd333ea65') in 0.115726 seconds 
+  Time since last request: 0.000356 seconds.
+  path: Assets/AtrMaterial/BagMaterial/背包上拉.png
+  artifactKey: Guid(e80505269d027254eab382dd7c8f3421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/背包上拉.png using Guid(e80505269d027254eab382dd7c8f3421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d024b555238b4ed48571530a4641f8') in 0.017835 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.385821 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘
-  artifactKey: Guid(6ab027fc96ba87b4bbaae3f8364050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘 using Guid(6ab027fc96ba87b4bbaae3f8364050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a17750729012da753bd4d645aca1a9') in 0.004973 seconds 
+  Time since last request: 0.000246 seconds.
+  path: Assets/AtrMaterial/BagMaterial/手持.png
+  artifactKey: Guid(92750e986b590be48ba5813b756093b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/手持.png using Guid(92750e986b590be48ba5813b756093b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929b6445e42109e536182a5412d26fb4') in 0.012016 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.492020 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller
-  artifactKey: Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller using Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1295ee54b4166c4d89b8366303e88c6') in 0.006508 seconds 
+  Time since last request: 0.000290 seconds.
+  path: Assets/AtrMaterial/BagMaterial/返回.png
+  artifactKey: Guid(c4ebf5f28afa0754690ac9a7dfa7ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/返回.png using Guid(c4ebf5f28afa0754690ac9a7dfa7ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10b962efa528ad87e0c68cac9790eae') in 0.011864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AtrMaterial/BagMaterial/日志.png
+  artifactKey: Guid(3dbdd25e3fa980b4d983d92a8ad30ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/日志.png using Guid(3dbdd25e3fa980b4d983d92a8ad30ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348bbb9240fe353327234981d257cd03') in 0.011485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AtrMaterial/BagMaterial/背包下拉.png
+  artifactKey: Guid(27b2f837f67f1fb489bfb0cb145eb1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/背包下拉.png using Guid(27b2f837f67f1fb489bfb0cb145eb1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5574475c2a4f26095dbdd130f62c6f') in 0.011669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/AtrMaterial/BagMaterial/设置.png
+  artifactKey: Guid(ce50d3b20c7470c4080a290ad8932fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/设置.png using Guid(ce50d3b20c7470c4080a290ad8932fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaac6b4326b4dfe35970cff9b6afd83') in 0.011260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AtrMaterial/BagMaterial/背包.png
+  artifactKey: Guid(d0f48ee9da074b34bb2fd8c59b0f2cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/BagMaterial/背包.png using Guid(d0f48ee9da074b34bb2fd8c59b0f2cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13e13611270dd7835922a5d42b1a274') in 0.011752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.598019 seconds.
+  path: Assets/AtrMaterial/ItemMaterial/几乎满的药品.png
+  artifactKey: Guid(65a75d7bf59e51a48a6dad0138d6b4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/ItemMaterial/几乎满的药品.png using Guid(65a75d7bf59e51a48a6dad0138d6b4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a265cc2eebcb72eaaa646fb12138e543') in 0.015178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AtrMaterial/ItemMaterial/尺寸略大的化妆盒.png
+  artifactKey: Guid(88e0c77c2e80e81498486c614139578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/ItemMaterial/尺寸略大的化妆盒.png using Guid(88e0c77c2e80e81498486c614139578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0dc5b0d5fdfa92ba23987bb572bb31') in 0.015683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/AtrMaterial/ItemMaterial/染血的刀.png
+  artifactKey: Guid(0e957d16ab9edd4459be390caf711e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/ItemMaterial/染血的刀.png using Guid(0e957d16ab9edd4459be390caf711e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5462daada92a71f652e530cd53f5d9') in 0.014688 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
