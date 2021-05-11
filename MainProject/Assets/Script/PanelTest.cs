@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PanelTest : MonoBehaviour
 {
-
     void Update()
     {
         if(Input.GetKeyDown (KeyCode.P)){
