@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// ��ʹ��
+/// 碰到就加入背包的物品
 /// </summary>
 public class ObjEviOnScene : TalkableObject
 {
