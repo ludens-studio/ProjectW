@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/china_unity/release' branch; Version is '2021.1.0f1c1 (cd437fc7d72d) revision 13452159'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 18363.1016; Version 1909; 64bit' Language: 'zh' Physical Memory: 16303 MB
+OS: 'Windows 10 Pro; OS build 17763.1098; Version 1809; 64bit' Language: 'zh' Physical Memory: 16002 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,167 +11,414 @@ C:\Program Files\Unity\Hub\Editor\2021.1.0f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-S:/gitHub/ProjectW/MainProject
+F:/work/Unity/ProjectW/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52409
-Successfully changed project path to: S:/gitHub/ProjectW/MainProject
-S:/gitHub/ProjectW/MainProject
+14717
+Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
+F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 142.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path S:/gitHub/ProjectW/MainProject/Assets
+[Subsystems] Discovering subsystems at path F:/work/Unity/ProjectW/MainProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   26.21.14.4223
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     8001 MB
+    Driver:   26.20.12001.7006
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.012124 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
+Registered in 0.008665 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 163.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.858 seconds
+- Completed reload, in  1.756 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005685 seconds.
+Registered in 0.005738 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 149.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.467 seconds
+- Completed reload, in  2.194 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3559 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.2 MB.
+System memory in use before: 133.7 MB.
+System memory in use after: 133.9 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4016.
-Total: 2.741500 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.203800 ms MarkObjects: 2.005300 ms  DeleteObjects: 0.082500 ms)
+Total: 4.390900 ms (FindLiveObjects: 0.492400 ms CreateObjectMapping: 0.146000 ms MarkObjects: 3.648100 ms  DeleteObjects: 0.102700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AtrMaterial/Characters/人物动态/老板动态.psb
-  artifactKey: Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/老板动态.psb using Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559494efabb594fa4ca23572d6a00652') in 0.343178 seconds 
+  path: Assets/EvidencePrefab/HandTool.prefab
+  artifactKey: Guid(050400a44d30b3b41939440e491451cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvidencePrefab/HandTool.prefab using Guid(050400a44d30b3b41939440e491451cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a87b070f0acda936870e954bc456f73') in 0.131715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态
-  artifactKey: Guid(5837c206a811a104c8cea745dcdd304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态 using Guid(5837c206a811a104c8cea745dcdd304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d3c2b5827ce3d0f26738659ff0a21e') in 0.003350 seconds 
+  Time since last request: 0.000586 seconds.
+  path: Assets/EvidencePrefab/MenuSystem.prefab
+  artifactKey: Guid(47a28cd80f5f7a5488d8c226a40ba2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvidencePrefab/MenuSystem.prefab using Guid(47a28cd80f5f7a5488d8c226a40ba2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df91e66231741d38d2084bd085f095') in 0.008260 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/西蒙娜动态.psb
-  artifactKey: Guid(21cdce2f53d04a446ab57bd9cc98833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/西蒙娜动态.psb using Guid(21cdce2f53d04a446ab57bd9cc98833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6529d881a9ca44bb2afa0c8b57d017') in 0.394131 seconds 
+  Time since last request: 502.504087 seconds.
+  path: Assets/Script/Managers/DiaLogManager.cs
+  artifactKey: Guid(d5c34cabbe3d52e4bb878585a97df7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Managers/DiaLogManager.cs using Guid(d5c34cabbe3d52e4bb878585a97df7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c736a2d6427af5521f254211b8ba8') in 0.017857 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/侦探动态.psb
-  artifactKey: Guid(1318c894f3607974393cce134004bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/侦探动态.psb using Guid(1318c894f3607974393cce134004bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7460afb448e28fdc54516c0a69f883') in 0.493416 seconds 
+  Time since last request: 22.023662 seconds.
+  path: Assets/Script/Managers/GameManager.cs
+  artifactKey: Guid(29378b155ed206246b55989bb8b3426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Managers/GameManager.cs using Guid(29378b155ed206246b55989bb8b3426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f0b1b54c02db72a26e8c4802fb34e0') in 0.007377 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.351 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4022.
+Total: 4.313600 ms (FindLiveObjects: 0.550400 ms CreateObjectMapping: 0.258900 ms MarkObjects: 3.474000 ms  DeleteObjects: 0.028100 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/哈里动态.psb
-  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d5a224c7c180182394a1bd8fe96f4') in 0.392317 seconds 
+  Time since last request: 229.800417 seconds.
+  path: Assets/Animation/TalkPanel/DialogCanvas.controller
+  artifactKey: Guid(93d07249a813a5f46816723fed841064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TalkPanel/DialogCanvas.controller using Guid(93d07249a813a5f46816723fed841064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a7ef9806e548ef1a2189fb5a961910') in 0.033419 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb
-  artifactKey: Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb using Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a760f339b8ac064560337dbb2a7e6288') in 0.459432 seconds 
+  Time since last request: 45.182762 seconds.
+  path: Assets/Animation/TalkPanel
+  artifactKey: Guid(2b44b91c0fd752847963be55f5703ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TalkPanel using Guid(2b44b91c0fd752847963be55f5703ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f060eff266e097ed9a0303dfd9c340') in 0.005610 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.766273 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦静息.anim
-  artifactKey: Guid(080837dcd772a4f4e8a8db3bcfcd1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦静息.anim using Guid(080837dcd772a4f4e8a8db3bcfcd1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a61e513b3755fce4d8277b4cb8e6c79') in 0.017160 seconds 
+  Time since last request: 20.754044 seconds.
+  path: Assets/Animation/TalkPanel/DialogCanvas.controller
+  artifactKey: Guid(93d07249a813a5f46816723fed841064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TalkPanel/DialogCanvas.controller using Guid(93d07249a813a5f46816723fed841064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a05ff789a161d6b31f85396e99fad7') in 0.007104 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.262939 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller
-  artifactKey: Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller using Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae06981ae2408e5a122059d7fbc6c44') in 0.013390 seconds 
+  Time since last request: 101.514823 seconds.
+  path: Assets/Animation/TalkPanel/Hide.anim
+  artifactKey: Guid(3973702e5238c714db84caa8289d6ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TalkPanel/Hide.anim using Guid(3973702e5238c714db84caa8289d6ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0a47c3e1c4d7c662716e1c995c98b') in 0.012553 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.077091 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb
-  artifactKey: Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.psb using Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b381a0220bf169c981be1e2658a6b5') in 0.193361 seconds 
+  Time since last request: 0.151978 seconds.
+  path: Assets/Animation/TalkPanel/Show.anim
+  artifactKey: Guid(3f29f799259f4c745a0abc61a7c1dc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TalkPanel/Show.anim using Guid(3f29f799259f4c745a0abc61a7c1dc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e8f667ccf86da85d5c801093134828') in 0.006368 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4026.
+Total: 5.124700 ms (FindLiveObjects: 0.567000 ms CreateObjectMapping: 0.238300 ms MarkObjects: 4.286600 ms  DeleteObjects: 0.030700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.238 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4030.
+Total: 5.589400 ms (FindLiveObjects: 0.659200 ms CreateObjectMapping: 0.287400 ms MarkObjects: 4.604500 ms  DeleteObjects: 0.035300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4034.
+Total: 4.569400 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 0.201900 ms MarkObjects: 3.839600 ms  DeleteObjects: 0.029300 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 295.628626 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/侦探常态.psb
-  artifactKey: Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/侦探常态.psb using Guid(5944e8c543fc9484db3f703d1b57eeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4071532791546f411eff82c6e306806e') in 0.063841 seconds 
+  Time since last request: 465.453351 seconds.
+  path: Assets/Script/DialogSys/Talkable.cs
+  artifactKey: Guid(754f131fbf7435e48a686a84bb42b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DialogSys/Talkable.cs using Guid(754f131fbf7435e48a686a84bb42b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6659fa2636f8845f4215a10d175f63') in 0.063561 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4037.
+Total: 4.540000 ms (FindLiveObjects: 0.548900 ms CreateObjectMapping: 0.265400 ms MarkObjects: 3.687300 ms  DeleteObjects: 0.036600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.157 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4041.
+Total: 4.469600 ms (FindLiveObjects: 0.578100 ms CreateObjectMapping: 0.156900 ms MarkObjects: 3.702900 ms  DeleteObjects: 0.030100 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/哈里常态.psb
-  artifactKey: Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/哈里常态.psb using Guid(5ac9bf0c817b30d45bd63f4782263710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e6103bad8b31dfc08320fa5ca69e6a') in 0.092830 seconds 
+  Time since last request: 90.477009 seconds.
+  path: Assets/Script/DialogSys/Talkings.cs
+  artifactKey: Guid(687ba978481747644a2d7eab5d57d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DialogSys/Talkings.cs using Guid(687ba978481747644a2d7eab5d57d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2a37890d4a3a36b736d17e2cc8b543') in 0.019822 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4046.
+Total: 4.684300 ms (FindLiveObjects: 0.538200 ms CreateObjectMapping: 0.178900 ms MarkObjects: 3.932300 ms  DeleteObjects: 0.032800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.061 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4050.
+Total: 4.932200 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.204000 ms MarkObjects: 4.199600 ms  DeleteObjects: 0.033400 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/酒吧老板常态.psb
-  artifactKey: Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/酒吧老板常态.psb using Guid(db1b076ee5b1e244bbc70baefcb42c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eab6fa82fd7a5bb3f177a4e1ba93e2') in 0.092784 seconds 
+  Time since last request: 70.653177 seconds.
+  path: Assets/Script/DialogSys/Talkings.cs
+  artifactKey: Guid(687ba978481747644a2d7eab5d57d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DialogSys/Talkings.cs using Guid(687ba978481747644a2d7eab5d57d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdffed8b552bbec2d4d686178aed5fd') in 0.011984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/艾伦常态.psb
-  artifactKey: Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/艾伦常态.psb using Guid(a5cfd0f4af3138043a1f82e2b07eaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9a99fe8110fbef0885e4bace1ce0b3') in 0.157928 seconds 
+  Time since last request: 68.258969 seconds.
+  path: Assets/Script/DialogSys/DialogContent.cs
+  artifactKey: Guid(4634fc79119692e48bd839f16e9d807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DialogSys/DialogContent.cs using Guid(4634fc79119692e48bd839f16e9d807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f04b4971074f1310d912fd60e129cb') in 0.008590 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3548 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4055.
+Total: 4.309900 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.158000 ms MarkObjects: 3.626100 ms  DeleteObjects: 0.030000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.061 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3548 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4059.
+Total: 3.772600 ms (FindLiveObjects: 0.456000 ms CreateObjectMapping: 0.118400 ms MarkObjects: 3.167900 ms  DeleteObjects: 0.029000 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘/西蒙娜常态.psb
-  artifactKey: Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘/西蒙娜常态.psb using Guid(5226eca0b4d45f14ba8a20196bd1e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c042c8f8f585b2d77bd66a3dd333ea65') in 0.115726 seconds 
+  Time since last request: 570.670923 seconds.
+  path: Assets/Database/Dialog
+  artifactKey: Guid(b9f584ce92808f24998ab81f804b23f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog using Guid(b9f584ce92808f24998ab81f804b23f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a950faf3fa3308aaccb20aa32497df') in 0.020738 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.186 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4062.
+Total: 4.660600 ms (FindLiveObjects: 0.760700 ms CreateObjectMapping: 0.315200 ms MarkObjects: 3.548700 ms  DeleteObjects: 0.034000 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 3.385821 seconds.
-  path: Assets/AtrMaterial/Characters/人物立绘
-  artifactKey: Guid(6ab027fc96ba87b4bbaae3f8364050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物立绘 using Guid(6ab027fc96ba87b4bbaae3f8364050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a17750729012da753bd4d645aca1a9') in 0.004973 seconds 
+  Time since last request: 48.165534 seconds.
+  path: Assets/Script/DialogSys/DialogContent.cs
+  artifactKey: Guid(4634fc79119692e48bd839f16e9d807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DialogSys/DialogContent.cs using Guid(4634fc79119692e48bd839f16e9d807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e964da23abdd5c6d8d4683ecad8ab0a') in 0.013536 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 4.149200 ms (FindLiveObjects: 0.458100 ms CreateObjectMapping: 0.120300 ms MarkObjects: 3.532300 ms  DeleteObjects: 0.036600 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 14.492020 seconds.
-  path: Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller
-  artifactKey: Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/Characters/人物动态/艾伦动态.controller using Guid(01738fa837a6a294fa142b553f074cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1295ee54b4166c4d89b8366303e88c6') in 0.006508 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 114.700704 seconds.
+  path: Assets/Script/DialogSys/TalkToManager.cs
+  artifactKey: Guid(59483e919d749f3438935ab80d7968ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DialogSys/TalkToManager.cs using Guid(59483e919d749f3438935ab80d7968ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a23377eff4c9be955cf9caa310f30') in 0.011405 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.305 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3548 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4071.
+Total: 5.460400 ms (FindLiveObjects: 0.665600 ms CreateObjectMapping: 0.277100 ms MarkObjects: 4.481800 ms  DeleteObjects: 0.034200 ms)
+
