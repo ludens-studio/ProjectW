@@ -365,6 +365,7 @@
 "Assets/Script/Managers/DiaLogManager.cs"
 "Assets/Script/Managers/EvidenceManager.cs"
 "Assets/Script/Managers/GameManager.cs"
+"Assets/Script/Managers/StaticPanelMgr.cs"
 "Assets/Script/PanelTest.cs"
 "Assets/Script/Player/PlayerControl.cs"
 "Assets/Script/UI/Evidence/CriminalLog/LogMGR.cs"
@@ -379,7 +380,6 @@
 "Assets/Script/UI/Menu/MenuButton.cs"
 "Assets/Script/UI/Menu/MenuPanel.cs"
 "Assets/Script/UI/Panels/Bookshelf.cs"
-"Assets/Script/UI/Panels/StaticPanelMgr.cs"
 "Assets/Script/UI/StaticPuzzel/Tem/DescribePanel.cs"
 "Assets/Script/UIPoor/BulletPool.cs"
 -langversion:8.0

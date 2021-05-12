@@ -40,7 +40,7 @@
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\BaseEvidence.cs" />
      <Compile Include="Assets\Script\Item\InteractableEvidence\TakeableObject.cs" />
      <Compile Include="Assets\Script\UI\StaticPuzzel\Tem\DescribePanel.cs" />
-     <Compile Include="Assets\Script\UI\Panels\StaticPanelMgr.cs" />
+     <Compile Include="Assets\Script\Managers\StaticPanelMgr.cs" />
      <Compile Include="Assets\Script\Base\SingletonAutoMono.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\AllEvidence.cs" />
      <Compile Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Demo\MoveBackground.cs" />
