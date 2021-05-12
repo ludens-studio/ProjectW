@@ -6,13 +6,11 @@ using UnityEngine.UI;
 public class ToolMGR : MonoBehaviour
 {
     private static ToolMGR instance;
-    private string currentTool="Hand";
+    [SerializeField]private string currentTool="ç©º";
+    public Image toolImage;
     private Animator anitor;
     private bool isOpen = false;
-    /// <summary>
-    /// text×é¼şÊÇÔİ¶¨ÄÚÈİ£¬Î´À´»áĞŞ¸ÄÎªimage×é¼ş
-    /// </summary>
-    [SerializeReference] Text currentToolText;
+
 
     private void Awake()
     {
@@ -26,7 +24,7 @@ public class ToolMGR : MonoBehaviour
     }
 
     /// <summary>
-    /// °´Å¥ÊÂ¼ş£¬ÓÃÓÚ´ò¿ªµÀ¾ßÑ¡ÔñÃæ°å
+    /// åŠ¨ç”»å™¨åˆ‡æ¢é“å…·çŠ¶æ€
     /// </summary>
     public void ShowTools() 
     {
@@ -44,7 +42,7 @@ public class ToolMGR : MonoBehaviour
 
 
     /// <summary>
-    /// »ñÈ¡µÀ¾ß
+    /// è·å–å½“å‰ä½¿ç”¨çš„å·¥å…·
     /// </summary>
     /// <returns></returns>
     public string GetTool() 
@@ -53,12 +51,12 @@ public class ToolMGR : MonoBehaviour
     }
 
     /// <summary>
-    /// ¸Ä±äµ±Ç°ÊÖ³ÖµÀ¾ß
+    /// æ”¹å˜ç°åœ¨å·¥å…·çš„å†…å®¹
     /// </summary>
     /// <param name="toolName"></param>
-    public void ChangeTool(string toolName) 
+    public void ChangeTool(string toolName,Sprite sprite) 
     {
         currentTool = toolName;
-        currentToolText.text = currentTool;
+        toolImage.sprite=sprite;
     }
 }

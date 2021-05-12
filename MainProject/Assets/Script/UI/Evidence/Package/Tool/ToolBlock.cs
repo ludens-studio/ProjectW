@@ -5,31 +5,30 @@ using UnityEngine.UI;
 
 public class ToolBlock : MonoBehaviour
 {
-    /// <summary>
-    /// toolText属性是测试使用，记得修改
-    /// </summary>
-    private Text toolText;
-    /// <summary>
-    /// toolName属性是固有属性，不能修改
-    /// </summary>
-    private string toolName;
 
+    [SerializeField]private string toolName;
+    private Image image;
+    private Sprite toolSprite;
 
     private void Start()
     {
-        toolText = gameObject.GetComponentInChildren<Text>();
-        toolName = toolText.text;
+        image=gameObject.GetComponent<Image>();
+        toolSprite=image.sprite;
     }
     /// <summary>
-    /// 选择当前工具
+    /// 鎸夐挳浜嬩欢
     /// </summary>
     public void ChooseTool() 
     {
         var toolMGR = ToolMGR.GetInstance();
-        string tem = toolName;
-        toolName = toolMGR.GetTool();
-        toolText.text = toolName;
-        toolMGR.ChangeTool(tem);
-        ToolMGR.GetInstance().ShowTools();
+        Sprite tem = toolSprite;
+        string temName=toolMGR.GetTool();
+        image.sprite=toolMGR.toolImage.sprite;
+
+        toolMGR.ChangeTool(toolName,tem);
+        toolName=temName;
+        toolSprite=image.sprite;
+
+        toolMGR.ShowTools();
     }
 }
