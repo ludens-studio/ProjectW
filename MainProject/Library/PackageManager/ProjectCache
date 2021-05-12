@@ -14,9 +14,13 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 637564180794232889
 =======
       ticks: 637564191901580969
+>>>>>>> Stashed changes
+=======
+      ticks: 637564268411365332
 >>>>>>> Stashed changes
     m_Hash: 4178023909
 m_EmbeddedPackageManifests:
