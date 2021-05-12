@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ËùÓÐµÄÖ¤¾Ý¶¼¼ÓÔÚÕâÀïÃæ
-/// ËùÓÐµÄÖ¤¾ÝµÄÖ÷Í¼¼ø£¬ÐèÒªGameManager¹ÜÀí
+/// ï¿½ï¿½ï¿½Ðµï¿½Ö¤ï¿½Ý¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+/// ï¿½ï¿½ï¿½Ðµï¿½Ö¤ï¿½Ýµï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªGameManagerï¿½ï¿½ï¿½ï¿½
 /// </summary>
 public class AllEvidence : ScriptableObject
 {
@@ -15,7 +15,7 @@ public class AllEvidence : ScriptableObject
     private Dictionary<string, ObjectEvidence> objectDic = new Dictionary<string, ObjectEvidence>();
 
     /// <summary>
-    /// ÓÃÓÚµ¥ÀýÄ£Ê½£¬³õÊ¼»¯¿âÖÐµÄ×Öµä
+    /// ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½Öµï¿½
     /// </summary>
     public void Initialize() 
     {
@@ -33,23 +33,27 @@ public class AllEvidence : ScriptableObject
     }
 
     /// <summary>
-    /// »ñµÃ¿Ú¹©
+    /// ï¿½ï¿½Ã¿Ú¹ï¿½
     /// </summary>
     /// <param name="evidenceName"></param>
     /// <returns></returns>
     public WordEvidence GetWordEvidence(string evidenceName) 
     {
+        if(wordDic.ContainsKey(evidenceName))
         return wordDic[evidenceName];
+        else return null;
     }
 
     /// <summary>
-    /// »ñµÃÎïÖ¤
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤
     /// </summary>
     /// <param name="evidenceName"></param>
     /// <returns></returns>
     public ObjectEvidence GetObjectEvidence(string evidenceName)
     {
+        if(objectDic.ContainsKey(evidenceName))
         return objectDic[evidenceName];
+        else return null;
     }
 
 }

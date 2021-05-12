@@ -16,16 +16,9 @@ public abstract class TalkableObject : MonoBehaviour, AddToPackage
     protected void ToPackage()
     {
         EvidenceManager eviMGR = EvidenceManager.GetInstance();
-        if (isObject) 
-        {
-            eviMGR.AddObjectEvidence(objectName);
-            DiaLogManager.GetInstance().ShowDescribe(eviMGR.allEvidences.GetObjectEvidence(objectName).GetDescribe());
-        }
-        else 
-        {
-            eviMGR.AddWordEvidence(objectName);
-            DiaLogManager.GetInstance().ShowDescribe(eviMGR.allEvidences.GetWordEvidence(objectName).GetDescribe());
-        }
+        if (isObject) eviMGR.AddObjectEvidence(objectName);     
+        else eviMGR.AddWordEvidence(objectName);
+        
     }
 
     /// <summary>

@@ -21,13 +21,15 @@ public class Bookshelf : MonoBehaviour
     {
         //在这里把道具加入背包
         //需要防止重复添加发生
-        print("获取带血的书");
+        EvidenceManager.GetInstance().AddObjectEvidence("奇怪的血迹");
+        getBook.interactable=false;
     }
     void BloodOnClick()
     {
         //在这里把道具加入背包
         //需要防止重复添加发生
-        print("获取奇怪的血液");
+        EvidenceManager.GetInstance().AddObjectEvidence("放错的书");
+        getBlood.interactable=false;
     }
     public void ExitPanel(){
         StaticPanelMgr.GetInstance().LeavePanel();

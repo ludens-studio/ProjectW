@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e82dad48a8c30384090a28c9463925e8, type: 3}
-  m_Name: "\u5C3A\u5BF8\u8F83\u5927\u7684\u68B3\u5986\u53F0"
+  m_Name: "\u5C3A\u5BF8\u8F83\u5927\u7684\u8863\u670D"
   m_EditorClassIdentifier: 
-  evidenceName: "\u5C3A\u5BF8\u8F83\u5927\u7684\u5316\u5986\u76D2"
-  describe: 
+  evidenceName: "\u5C3A\u5BF8\u4E0D\u4E00\u7684\u8863\u670D"
+  describe: "\u5C3A\u5BF8\u4E0D\u4E00\u7684\u8863\u670D"
   candidateDescribe: []
-  imageSprite: {fileID: 21300000, guid: 88e0c77c2e80e81498486c614139578b, type: 3}
+  imageSprite: {fileID: 21300000, guid: ee9d1ea05a525b440ad9970a88112d12, type: 3}
   interactableObj: []

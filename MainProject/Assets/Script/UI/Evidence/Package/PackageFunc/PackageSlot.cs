@@ -11,7 +11,7 @@ public class PackageSlot : Slot
     
 
     /// <summary>
-    ///ÉèÖÃÎïÖ¤ÔÚ±³°üÖÐµÄ×´Ì¬ 
+    ///ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ú±ï¿½ï¿½ï¿½ï¿½Ðµï¿½×´Ì¬ 
     /// </summary>
     /// <param name="evidence"></param>
     public void SetEvidence(ObjectEvidence evidence) 
@@ -24,7 +24,7 @@ public class PackageSlot : Slot
     }
 
     /// <summary>
-    /// ·µ»ØµÀ¾ßÃû£¬ÓÃÓÚ½»»¥ 
+    /// ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ 
     /// </summary>
     /// <returns></returns>
     public string GetEvidenceName() 
@@ -33,7 +33,7 @@ public class PackageSlot : Slot
     }
 
     /// <summary>
-    /// Çå¿ÕÎïÖ¤
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤
     /// </summary>
     public void Clear() 
     {
@@ -68,7 +68,7 @@ public class PackageSlot : Slot
     public override void OnEndDrag(PointerEventData eventData)
     {
         if (usable) return;
-        //µ±Ç°ÉäÏßËùÔÚµÄÎ»ÖÃ
+        //ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Î»ï¿½ï¿½
 
         GameObject raycastTarget=null;
         string rayTargetName = "";
@@ -77,7 +77,6 @@ public class PackageSlot : Slot
             raycastTarget = eventData.pointerCurrentRaycast.gameObject;
             rayTargetName = raycastTarget.name;
         }
-        Debug.Log(rayTargetName);
 
         if (evidence.Interactable(rayTargetName)) 
         raycastTarget.GetComponent<EvidenceInteractor>().Interact(evidence.GetEvidenceName());
@@ -91,7 +90,7 @@ public class PackageSlot : Slot
     }
 
     /// <summary>
-    /// ·µ»ØÖ®Ç°µÄ¸ñ×Ó
+    /// ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½Ä¸ï¿½ï¿½ï¿½
     /// </summary>
     private void ReturnSlot() 
     {
@@ -101,7 +100,7 @@ public class PackageSlot : Slot
     }
 
     /// <summary>
-    /// ½»»»¸ñ×ÓÖ®¼äµÄÄÚÈÝ
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     /// <param name="slot"></param>
     private void SwitchSlot(PackageSlot slot) 

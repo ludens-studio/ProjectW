@@ -20,6 +20,12 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     [SerializeField]private Animator animator;
     private bool talking=false;
 
+    void Start()
+    {
+        EvidenceManager.GetInstance().AddObjectEvent+=ShowDescribe;
+        EvidenceManager.GetInstance().AddWordEvent+=ShowDescribe;
+    }
+
     void Update()
     {
         
@@ -75,10 +81,19 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     /// 用于对物品进行描述
     /// </summary>
     /// <param name="describe"></param>
-    public void ShowDescribe(string describe)
+    private void ShowDescribe(string eviname)
     {
+        BaseEvidence evidence=EvidenceManager.GetInstance().allEvidences.GetObjectEvidence(eviname);
+        if(evidence==null) evidence=EvidenceManager.GetInstance().allEvidences.GetObjectEvidence(eviname);
+        string describe =evidence.GetDescribe();
         string[] context={describe};
         dialogLines=context;
         ShowDialog(false);
+    }
+
+    void OnDestroy()
+    {
+        EvidenceManager.GetInstance().AddObjectEvent-=ShowDescribe;
+        EvidenceManager.GetInstance().AddWordEvent-=ShowDescribe;
     }
 }

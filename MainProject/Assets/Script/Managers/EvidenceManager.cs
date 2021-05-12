@@ -12,6 +12,7 @@ public class EvidenceManager : SingletonMono<EvidenceManager>
     public SurveyLog log;
 
     public delegate void EvidenceHandler(string objectEvi);
+
     public event EvidenceHandler AddObjectEvent;
     public event EvidenceHandler RemoveObjectEvent;
     public event EvidenceHandler AddWordEvent;

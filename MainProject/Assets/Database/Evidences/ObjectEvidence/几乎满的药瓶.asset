@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u51E0\u4E4E\u6EE1\u7684\u836F\u74F6"
   m_EditorClassIdentifier: 
   evidenceName: "\u51E0\u4E4E\u6EE1\u7684\u836F\u74F6"
-  describe: 
+  describe: "\u51E0\u4E4E\u6EE1\u7684\u836F\u74F6"
   candidateDescribe: []
   imageSprite: {fileID: 21300000, guid: 65a75d7bf59e51a48a6dad0138d6b4d2, type: 3}
   interactableObj: []
