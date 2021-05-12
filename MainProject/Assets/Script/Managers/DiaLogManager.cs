@@ -37,7 +37,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
             {
                 currentLine = 0 ; 
                 animator.Play("Hide");
-                PlayerControl.GetInstance().canMove = true ;
+                PlayerControl.GetInstance().EnableMove();
                 talking=false;
             } 
 
@@ -51,7 +51,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
         talking=true;
        if(!_hasName) nameText.text="Player";
        else nameText.text=speaker;
-        PlayerControl.GetInstance().canMove = false ; //限制玩家在对话状态不可移动
+        PlayerControl.GetInstance().Pause(); //限制玩家在对话状态不可移动
         dialogText.text=dialogLines[currentLine]+"（按T继续）";
     }
 

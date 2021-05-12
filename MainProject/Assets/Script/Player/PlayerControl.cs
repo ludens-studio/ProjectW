@@ -7,18 +7,20 @@ public class PlayerControl : SingletonMono<PlayerControl>
 
     [Header("基础组件")]
     Rigidbody2D rb ; 
-    Animator    anim ;
+    Animator  anim ;
     private LayerMask ground;//“地面”
+
+    private Vector2 DOWNWARD=new Vector2(0,1);
 
 
 
     [Header("基础数值")]
-    public bool canMove = true; //玩家当前是否是可移动状态
+    private bool canMove = true; //玩家当前是否是可移动状态
     public float speed ;
 
     public float jumpForce ;
     public bool isGround,isJump ;
-    public Collider2D feet;
+    public Transform feet;
 
     bool jumpPressed ; //是否按下跳跃
     private float moveX;
@@ -33,8 +35,7 @@ public class PlayerControl : SingletonMono<PlayerControl>
 
     private void FixedUpdate()
     {
-        isGround = feet.IsTouchingLayers(ground.value);
-
+        isGround = Physics2D.OverlapCircle(feet.position,0.1f,ground);
         FreshData();
 
         //移动判定区
@@ -57,8 +58,13 @@ public class PlayerControl : SingletonMono<PlayerControl>
     void PlayerMovement()
     {
         rb.velocity = new Vector2( moveX * speed*Time.deltaTime , rb.velocity.y);
-        if(moveX>0)  transform.localScale = new Vector3(1,1,1);
-        if(moveX<0)   transform.localScale = new Vector3(-1,1,1);
+        if(moveX>0)  transform.localScale = new Vector3(-0.1f,0.1f,1);
+        if(moveX<0)   transform.localScale = new Vector3(0.1f,0.1f,1);
+        if(isGround)
+        {
+            if(moveX>0||moveX<0) anim.Play("侦探动态");
+            else anim.Play("侦探静息");
+        }
     }
 
     void Jump() 
@@ -66,11 +72,32 @@ public class PlayerControl : SingletonMono<PlayerControl>
         if (!jumpPressed) return;
        if(isGround) rb.velocity = new Vector2(rb.velocity.x, jumpForce*Time.deltaTime);
         jumpPressed = false;
+         anim.Play("侦探跳跃");
     }
 
 
     void FreshData()
     {
         moveX = Input.GetAxisRaw("Horizontal");
+    }
+
+    /// <summary>
+    /// 暂停侦探
+    /// </summary>
+    public void Pause()
+    {
+        rb.velocity=new Vector3(0,0,0);
+        rb.gravityScale=0;
+        anim.Play("侦探静息");
+        canMove=false;
+    }
+
+    /// <summary>
+    /// 允许侦探移动
+    /// </summary>
+    public void EnableMove()
+    {
+        canMove=true;
+        rb.gravityScale=1;
     }
 }
