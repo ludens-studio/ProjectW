@@ -13,13 +13,15 @@ public class DialogContent : ScriptableObject
     /// 对话主题
     /// </summary>
     /// <value></value>
-    [SerializeField]
-    public string topic{get=>topic;} 
-    [SerializeField]
+    [SerializeReference]private string speaker;
+    [SerializeReference]public string topic; 
+        
+        [TextArea(1,3)]
+    [SerializeReference]
     /// <summary>
     /// 对话内容
     /// </summary>
-    private String[] context;
+    private string[] context;
 
     /// <summary>
     /// 获取具体对话数组
@@ -28,6 +30,14 @@ public class DialogContent : ScriptableObject
     public String[] GetContext()
     {
         return context;
+    }
+    /// <summary>
+    /// 获取是谁说话
+    /// </summary>
+    /// <returns></returns>
+    public string GetSpeaker()
+    {
+        return speaker;
     }
 }
 

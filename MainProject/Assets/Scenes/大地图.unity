@@ -1585,6 +1585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5c34cabbe3d52e4bb878585a97df7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boringWords:
+  - {fileID: 11400000, guid: 7631858a87adbf14c9b0a53c61a581e9, type: 2}
   dialogBox: {fileID: 1089845138}
   dialogText: {fileID: 926786128}
   nameText: {fileID: 1845890440}

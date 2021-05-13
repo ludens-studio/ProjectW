@@ -6,12 +6,13 @@ using UnityEngine.UI ;
 public class DiaLogManager : SingletonMono<DiaLogManager>
 {
 
+    public DialogContent[] boringWords; 
     //对话框的UI
     public GameObject dialogBox ; 
     //输出的内容以及说话者的名字
     public Text dialogText , nameText ; 
 
-    [TextArea(1,3)]
+    [HideInInspector]
     public string[] dialogLines ; //对话框输出内容
     [SerializeField] private int currentLine ; //实时追踪是行，哪个元素在输出
 
@@ -36,7 +37,6 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
             if(currentLine < dialogLines.Length)
             {
                 currentLine=0;
-                CheckName(); 
                 dialogText.text = dialogLines[currentLine]+"（按T继续）";
             }
             else
@@ -64,18 +64,19 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     public void SetContext(DialogContent content)
     {
         dialogLines=content.GetContext();
+        speaker=content.GetSpeaker();
+        if(!talking)ShowDialog(speaker==null);
     }
 
-    private void CheckName()
+    /// <summary>
+    /// 一些不可能存在交互的简单对话，为内置内容
+    /// </summary>
+    /// <param name="idx"></param>
+    public void BoringSpeak(int idx)
     {
-        //检测该行是否是“代表玩家名字”的字符行
-        //实现途径是利用StartWith来进行判断，通过检测字符串的开头得到对应的布尔值
-        if(dialogLines[currentLine].StartsWith("n-")){
-            //将对应名字的文本框的文本，传递给UI中的NameText
-            nameText.text = dialogLines[currentLine].Replace("n-",""); //将前文的n-替换掉，从而得到正确的名字显示 
-            currentLine ++ ;
-        }
-    } 
+        SetContext(boringWords[idx]);
+    }
+ 
 
     /// <summary>
     /// 用于对物品进行描述

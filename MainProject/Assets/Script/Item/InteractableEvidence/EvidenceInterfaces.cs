@@ -1,25 +1,25 @@
 /// <summary>
-/// ½«ÎïÆ·¼ÓÈë±³°üµÄÊµÏÖ
+/// å¯è¢«å¸¦èµ°çš„æˆ‘
 /// </summary>
 public interface AddToPackage 
 {
     /// <summary>
-    ///°ÑµÀ¾ß¼ÓÈë±³°üÇ°µÄĞĞÎª
+    ///è·å¾—ç‰©å“å‰çš„åŠ¨ä½œ
     /// </summary>
     void StartAquire();
     /// <summary>
-    ///°ÑµÀ¾ß¼ÓÈë±³°üºóµÄĞĞÎª
+    ///è·å¾—ç‰©å“åçš„åŠ¨ä½œ
     /// </summary>
     void EndAquire();
 }
 
 /// <summary>
-/// µÀ¾ßÖ®¼ä½»»¥µÄÊµÏÖ
+/// ä¸èƒŒåŒ…è¯æ®äº¤äº’
 /// </summary>
 public interface MatchEvidence 
 {
     /// <summary>
-    /// ¿É½»»¥ÎïÆ·¾ßÌåµÄ½»»¥Âß¼­
+    /// ä¸é“å…·äº¤äº’çš„è¡Œä¸º
     /// </summary>
     /// <param name="evidence"></param>
     /// <returns></returns>

@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public abstract class BaseCollector : ScriptableObject
 {
-    [SerializeReference]public BaseEvidence[] evidenceList;
+    public BaseEvidence[] evidenceList;
     [SerializeReference]protected AllEvidence mainDic;
 
    
@@ -38,15 +38,18 @@ public abstract class BaseCollector : ScriptableObject
     /// </summary>
     /// <param name="objectName"></param>
     /// <returns></returns>
-    public BaseEvidence GetEvidence(string objectName)
+    public ObjectEvidence GetEvidence(string objectName)
     {
-        return SearchEvidence(objectName);
+        BaseEvidence tem=SearchEvidence(objectName);
+        if(tem!=null) return (ObjectEvidence) tem;
+        else return null;
     }
 
     private BaseEvidence SearchEvidence(string objectName) 
     {
         foreach (BaseEvidence evidence in evidenceList) 
         {
+            if(evidence==null) return null;
             if (evidence.GetEvidenceName().Equals(objectName)) return evidence;
         }
 

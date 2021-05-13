@@ -11,6 +11,10 @@ public class ToolMGR : MonoBehaviour
     private Animator anitor;
     private bool isOpen = false;
 
+    private bool isHand=true;
+
+    private ToolBlock currentBlock;
+
 
     private void Awake()
     {
@@ -54,9 +58,34 @@ public class ToolMGR : MonoBehaviour
     /// 改变现在工具的内容
     /// </summary>
     /// <param name="toolName"></param>
-    public void ChangeTool(string toolName,Sprite sprite) 
+    public void ChangeTool(string toolName,Sprite sprite,ToolBlock block) 
     {
         currentTool = toolName;
         toolImage.sprite=sprite;
+        if(isHand) 
+        {
+            currentBlock=block;
+            block.isHand=true;
+            isHand=false;
+        }
+        else if(block.isHand)
+        {
+            isHand=true;
+            block.isHand=false;
+            currentBlock=null;
+        }
+    }
+
+    /// <summary>
+    /// 更换手持道具
+    /// </summary>
+    public void ChangeHandTool(string toolName)
+    {
+        if(currentBlock!=null)
+        {
+            currentTool=toolName;
+            toolImage.sprite=EvidenceManager.GetInstance().package.GetEvidence(toolName).GetSprite();
+        }
+        else currentBlock.SetTool(toolName);
     }
 }

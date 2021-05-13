@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ²Ù×÷±³°üUI µÄ¶¯»­ÐÐÎª
+/// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½UI ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½Îª
 /// </summary>
 public class PackageUI : MonoBehaviour
 {
@@ -15,23 +15,23 @@ public class PackageUI : MonoBehaviour
 
     private void Awake()
     {
-        //³õÊ¼»¯±äÁ¿
+        //ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         antor = gameObject.GetComponent<Animator>();
         slots = GetComponentsInChildren<PackageSlot>();
         eviMgr = EvidenceManager.GetInstance();
         package = eviMgr.package;
 
-        //³õÊ¼»¯UI
+        //ï¿½ï¿½Ê¼ï¿½ï¿½UI
         ResetPackage();
 
-        //¶©ÔÄÌí¼ÓÉ¾³ýÎïÆ·ÊÂ¼þ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½Æ·ï¿½Â¼ï¿½
         eviMgr.AddObjectEvent += new EvidenceManager.EvidenceHandler(AddEvidence);
         eviMgr.RemoveObjectEvent += new EvidenceManager.EvidenceHandler(RemoveEvidence);
 
     }
 
     /// <summary>
-    /// ¿ª¹ØÃæ°å¶¯»­¶øÒÑ
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å¶¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     public void ShowPanel()
     {
@@ -48,7 +48,7 @@ public class PackageUI : MonoBehaviour
     }
 
     /// <summary>
-    /// UIÐÐÎª£¬½«Ö¤¾Ý¼ÓÈëÌØ¶¨¸ñÖÐ
+    /// UIï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ý¼ï¿½ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     private void AddEvidence(string eviname)
     {
@@ -66,7 +66,7 @@ public class PackageUI : MonoBehaviour
     }
 
     /// <summary>
-    /// ½«ÎïÆ·´Ó±³°üUIÒÆ³ý
+    /// ï¿½ï¿½ï¿½ï¿½Æ·ï¿½Ó±ï¿½ï¿½ï¿½UIï¿½Æ³ï¿½
     /// </summary>
     /// <param name="eviname"></param>
     private void RemoveEvidence(string eviname) 
@@ -83,7 +83,7 @@ public class PackageUI : MonoBehaviour
     }
 
     /// <summary>
-    /// ÔÚ¼ÓÔØ³¡¾°Ê±±£´æ±³°ü½á¹¹
+    /// ï¿½Ú¼ï¿½ï¿½Ø³ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½æ±³ï¿½ï¿½ï¿½á¹¹
     /// </summary>
     private void ResetPackage() 
     {
@@ -96,7 +96,7 @@ public class PackageUI : MonoBehaviour
 
     private void OnDestroy()
     {
-        //È¡Ïû¶©ÔÄÊÂ¼þ£¬±ÜÃâ±¨´í
+        //È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â±¨ï¿½ï¿½
         eviMgr.AddObjectEvent -= new EvidenceManager.EvidenceHandler(AddEvidence);
         eviMgr.RemoveObjectEvent -= new EvidenceManager.EvidenceHandler(RemoveEvidence);
     }

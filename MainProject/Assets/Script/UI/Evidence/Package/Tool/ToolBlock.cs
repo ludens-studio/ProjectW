@@ -8,12 +8,12 @@ public class ToolBlock : MonoBehaviour
 
     [SerializeField]private string toolName;
     private Image image;
-    private Sprite toolSprite;
+
+    public bool isHand=false;
 
     private void Start()
     {
         image=gameObject.GetComponent<Image>();
-        toolSprite=image.sprite;
     }
     /// <summary>
     /// 按钮事件
@@ -21,14 +21,23 @@ public class ToolBlock : MonoBehaviour
     public void ChooseTool() 
     {
         var toolMGR = ToolMGR.GetInstance();
-        Sprite tem = toolSprite;
+        Sprite tem = image.sprite;
         string temName=toolMGR.GetTool();
         image.sprite=toolMGR.toolImage.sprite;
 
-        toolMGR.ChangeTool(toolName,tem);
+        toolMGR.ChangeTool(toolName,tem,this);
         toolName=temName;
-        toolSprite=image.sprite;
 
         toolMGR.ShowTools();
+    }
+
+    /// <summary>
+    /// 如果是手持道具格子，更换格子休闲
+    /// </summary>
+    /// <param name="newTool"></param>
+    public void SetTool(string newTool)
+    {
+        toolName=newTool;
+        image.sprite=EvidenceManager.GetInstance().package.GetEvidence(newTool).GetSprite();
     }
 }
