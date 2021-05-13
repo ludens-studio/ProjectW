@@ -58,8 +58,8 @@ public class PlayerControl : SingletonMono<PlayerControl>
     void PlayerMovement()
     {
         rb.velocity = new Vector2( moveX * speed*Time.deltaTime , rb.velocity.y);
-        if(moveX>0)  transform.localScale = new Vector3(-0.1f,0.1f,1);
-        if(moveX<0)   transform.localScale = new Vector3(0.1f,0.1f,1);
+        if(moveX>0)  transform.localScale = new Vector3(-0.2f,0.2f,1);
+        if(moveX<0)   transform.localScale = new Vector3(0.2f,0.2f,1);
         if(isGround)
         {
             if(moveX>0||moveX<0) anim.Play("侦探动态");
