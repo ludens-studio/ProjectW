@@ -41,6 +41,7 @@
      <Compile Include="Assets\Script\Item\InteractableEvidence\TakeableObject.cs" />
      <Compile Include="Assets\Script\UI\StaticPuzzel\Tem\DescribePanel.cs" />
      <Compile Include="Assets\Script\Managers\StaticPanelMgr.cs" />
+     <Compile Include="Assets\Script\Item\ItemHighlighter.cs" />
      <Compile Include="Assets\Script\Base\SingletonAutoMono.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\AllEvidence.cs" />
      <Compile Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Demo\MoveBackground.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets\Script\UI\Evidence\Package\Tool\ToolMGR.cs" />
      <Compile Include="Assets\Script\Item\InteractableEvidence\ObjEviOnScene.cs" />
      <Compile Include="Assets\Script\Managers\GameManager.cs" />
+     <Compile Include="Assets\Script\Item\InteractableEvidence\ItemInRoom.cs" />
      <Compile Include="Assets\Script\DialogSys\TalkToManager.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\ObjectEvidence.cs" />
      <Compile Include="Assets\Script\UI\Menu\MenuPanel.cs" />
