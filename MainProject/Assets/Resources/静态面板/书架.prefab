@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2952441634152133891}
   - component: {fileID: 2952441634152133918}
   - component: {fileID: 2952441634152133889}
-  - component: {fileID: 2952441634152133888}
   m_Layer: 5
   m_Name: "\u4E66\u67B6"
   m_TagString: Untagged
@@ -81,21 +80,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2952441634152133888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2952441634152133890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee80552063bb644468428e05dc8a7ee9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  getBook: {fileID: 2952441635007956526}
-  getBlood: {fileID: 2952441635005765173}
-  panelExiter: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
 --- !u!1 &2952441634541399095
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +242,7 @@ GameObject:
   - component: {fileID: 2952441635005765171}
   - component: {fileID: 2952441635005765170}
   - component: {fileID: 2952441635005765173}
+  - component: {fileID: 4111803274995708952}
   m_Layer: 5
   m_Name: "\u70B9\u51FB\u83B7\u53D6\u5947\u602A\u7684\u8840\u8FF9"
   m_TagString: Untagged
@@ -365,7 +350,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2952441635005765170}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4111803274995708952}
+        m_TargetAssemblyTypeName: TalkableObject, Assembly-CSharp
+        m_MethodName: InteractAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4111803274995708952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952441635005765175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5ac58de6a0dfa44a0906fe83ddc988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: "\u5947\u602A\u7684\u8840\u8FF9"
 --- !u!1 &2952441635007956944
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,6 +388,7 @@ GameObject:
   - component: {fileID: 2952441635007956524}
   - component: {fileID: 2952441635007956527}
   - component: {fileID: 2952441635007956526}
+  - component: {fileID: 5345116119093893706}
   m_Layer: 5
   m_Name: "\u70B9\u51FB\u83B7\u53D6\u653E\u9519\u7684\u4E66"
   m_TagString: Untagged
@@ -485,7 +496,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2952441635007956527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5345116119093893706}
+        m_TargetAssemblyTypeName: TalkableObject, Assembly-CSharp
+        m_MethodName: InteractAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5345116119093893706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2952441635007956944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5ac58de6a0dfa44a0906fe83ddc988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: "\u653E\u9519\u7684\u4E66"
 --- !u!1001 &7457437215318927772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -493,34 +529,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2952441634152133891}
     m_Modifications:
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2952441634152133888}
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Bookshelf, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6006370234455268393, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 6006370234455268394, guid: 3546f1f0d5c2b07458c1ef13bc5518ca, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

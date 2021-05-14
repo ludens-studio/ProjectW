@@ -40,7 +40,7 @@ public class Door : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player"){
             if(doorOpen == true && Input.GetKeyDown(KeyCode.F)){
-                InteractiveManager.instance.ChangeSence(Goto_String);
+                InteractiveManager.GetInstance().ChangeSence(Goto_String);
             }
         }
     }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6006370234455268391}
   - component: {fileID: 6006370234455268392}
   - component: {fileID: 6006370234455268393}
+  - component: {fileID: -3799269172816594154}
   m_Layer: 5
   m_Name: PanelExiter
   m_TagString: Untagged
@@ -119,4 +120,28 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6006370234455268392}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -3799269172816594154}
+        m_TargetAssemblyTypeName: Exiter, Assembly-CSharp
+        m_MethodName: Close
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-3799269172816594154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006370234455268395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562635ceb92ddd340bcdda3b1c125f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

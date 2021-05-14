@@ -3,6 +3,7 @@ using UnityEngine;
 public class ItemHighlighter : MonoBehaviour
 {
     public bool enter=false;
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
