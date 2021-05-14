@@ -15,7 +15,7 @@ public class PhotoItem : TalkableObject
     {
         if(highlighter!=null&&highlighter.enter)
         {
-            if(Input.GetKeyDown(KeyCode.T))InteractAction();
+            if(Input.GetKeyDown(KeyCode.K))InteractAction();
         }
     }
 

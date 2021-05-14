@@ -29,7 +29,7 @@ public class interactiveItem : MonoBehaviour
     {
         if(highlighter.enter)
         {
-            if(Input.GetKeyDown(KeyCode.T))
+            if(Input.GetKeyDown(KeyCode.K))
             {
                 switch((int)actionType)
                 {

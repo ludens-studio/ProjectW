@@ -15,7 +15,7 @@ public class TakenItem : TalkableObject
     {
         if(highlighter.enter)
         {
-            if(Input.GetKeyDown(KeyCode.T)) InteractAction();
+            if(Input.GetKeyDown(KeyCode.K)) InteractAction();
         }
     }
 
