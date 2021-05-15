@@ -88,7 +88,6 @@ public class PlayerControl : SingletonMono<PlayerControl>
     public void Pause()
     {
         rb.velocity=new Vector3(0,0,0);
-        rb.gravityScale=0;
         anim.Play("侦探静息");
         canMove=false;
     }
@@ -99,6 +98,5 @@ public class PlayerControl : SingletonMono<PlayerControl>
     public void EnableMove()
     {
         canMove=true;
-        rb.gravityScale=1;
     }
 }

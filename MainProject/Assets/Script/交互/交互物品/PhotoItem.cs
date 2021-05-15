@@ -38,7 +38,6 @@ public class PhotoItem : TalkableObject
         }
         else 
         {
-            print(false);
             DiaLogManager.GetInstance().BoringSpeak(0);
         }
     }

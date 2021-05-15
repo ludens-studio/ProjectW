@@ -76,6 +76,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     /// <param name="idx"></param>
     public void BoringSpeak(int idx)
     {
+        speaker="侦探";
         SetContext(boringWords[idx]);
     }
  

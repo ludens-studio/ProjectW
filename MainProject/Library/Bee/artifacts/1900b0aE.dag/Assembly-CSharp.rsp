@@ -373,6 +373,7 @@
 "Assets/Script/UI/Evidence/WordBullet/BulletUIAction.cs"
 "Assets/Script/UI/Menu/MenuButton.cs"
 "Assets/Script/UI/Menu/MenuPanel.cs"
+"Assets/Script/UI/Panels/EnterGame.cs"
 "Assets/Script/UI/Panels/Exiter.cs"
 "Assets/Script/UI/StaticPuzzel/Tem/DescribePanel.cs"
 "Assets/Script/UIPoor/BulletPool.cs"

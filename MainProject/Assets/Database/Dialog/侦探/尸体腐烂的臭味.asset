@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4634fc79119692e48bd839f16e9d807f, type: 3}
   m_Name: "\u5C38\u4F53\u8150\u70C2\u7684\u81ED\u5473"
   m_EditorClassIdentifier: 
-  speaker: 
+  speaker: "\u4FA6\u63A2"
   topic: "\u5C38\u4F53\u8150\u70C2\u7684\u81ED\u5473"
   plot: -1
   playerTopic: 

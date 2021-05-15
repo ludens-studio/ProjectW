@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4634fc79119692e48bd839f16e9d807f, type: 3}
   m_Name: "\u5DF2\u62CD\u7167"
   m_EditorClassIdentifier: 
-  speaker: 
+  speaker: "\u4FA6\u63A2"
   topic: "\u4EE5\u62CD\u7167"
   plot: -1
+  playerTopic: 
   context:
   - "\u6211\u5DF2\u7ECF\u62CD\u8FC7\u8FD9\u4E2A\u7167\u7247\u4E86"
