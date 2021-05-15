@@ -131,9 +131,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 8
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 38
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -3967613659405801931, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -163,7 +169,11 @@ MonoBehaviour:
   - {fileID: 1792581103741380884}
   - {fileID: 6554181662508419702}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: -0.00095522404, y: 0.0018000603, z: 0}
+=======
+    m_Center: {x: -0.00095522404, y: 0.001801014, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 1.1963252, y: 2.7682, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -267,9 +277,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 11
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 41
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 497827404950192347, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -298,7 +314,11 @@ MonoBehaviour:
   - {fileID: 6564863957125501332}
   - {fileID: 3231065143857246181}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: -0.00025248528, y: -0.0006841421, z: 0}
+=======
+    m_Center: {x: -0.00026011467, y: -0.00068342686, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 3.0369506, y: 1.8877152, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -372,9 +392,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 3
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 33
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -2189125833928525371, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -403,8 +429,13 @@ MonoBehaviour:
   - {fileID: 474204555438600505}
   - {fileID: 3484662920702188027}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.000002861023, y: 0.0021253228, z: 0}
     m_Extent: {x: 1.135003, y: 0.56287384, z: 0}
+=======
+    m_Center: {x: 0.000003695488, y: 0.0021272302, z: 0}
+    m_Extent: {x: 1.135, y: 0.5628748, z: 0}
+>>>>>>> Stashed changes
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1372997386204068871
@@ -508,9 +539,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 4
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 34
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -5880179109918854211, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -646,9 +683,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 7
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 37
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -2105936213771225967, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -678,8 +721,13 @@ MonoBehaviour:
   - {fileID: 9032212736001831908}
   - {fileID: 1640431137416023940}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0000076293945, y: -0.0031900406, z: 0}
     m_Extent: {x: 3.0550003, y: 4.1018105, z: 0}
+=======
+    m_Center: {x: 0.0000019073486, y: -0.003189087, z: 0}
+    m_Extent: {x: 3.0549984, y: 4.1018105, z: 0}
+>>>>>>> Stashed changes
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2385874178251253484
@@ -783,9 +831,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 1
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 31
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -8798950264056086801, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -814,8 +868,13 @@ MonoBehaviour:
   - {fileID: 6112804014399256145}
   - {fileID: 8300224943035715592}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0003774166, y: 0.00009071827, z: 0}
     m_Extent: {x: 1.1896303, y: 0.56428945, z: 0}
+=======
+    m_Center: {x: 0.00036978722, y: 0.000091552734, z: 0}
+    m_Extent: {x: 1.1896303, y: 0.5642903, z: 0}
+>>>>>>> Stashed changes
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3586840228248053861
@@ -919,9 +978,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 13
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 43
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 7677548748598975647, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -952,7 +1017,11 @@ MonoBehaviour:
   - {fileID: 3231065143857246181}
   - {fileID: 3265979104651904992}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0025091171, y: 0.0013344288, z: 0}
+=======
+    m_Center: {x: 0.0025091171, y: 0.001335144, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 5.3624887, y: 2.3884244, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1151,9 +1220,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 10
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 40
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 8316413824484861895, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1181,7 +1256,11 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6826652742673116751}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0, y: -0.00000071525574, z: 0}
+=======
+    m_Center: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 1.0599998, y: 1.2949998, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1379,9 +1458,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 9
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 39
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 6497677098903382310, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1409,7 +1494,11 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 9109656608879435038}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0015147924, y: -0.00000023841858, z: 0}
+=======
+    m_Center: {x: 0.0015147924, y: 0.00000047683716, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 0.68848526, y: 1.5800002, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1483,9 +1572,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 6
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 36
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 9176785785906214179, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1517,7 +1612,11 @@ MonoBehaviour:
   - {fileID: 5076596768079389658}
   - {fileID: 1640431137416023940}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0000076293945, y: 0.00000023841858, z: 0}
+=======
+    m_Center: {x: 0, y: 0.0000011920929, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 2.335, y: 3.8549998, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1621,9 +1720,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 12
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 42
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -3173818344104622641, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1652,8 +1757,13 @@ MonoBehaviour:
   - {fileID: 6826652742673116751}
   - {fileID: 2369031097150261047}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0018874407, y: 0.000000834465, z: 0}
     m_Extent: {x: 1.34812, y: 0.89500093, z: 0}
+=======
+    m_Center: {x: 0.0018759966, y: 0.0000016093254, z: 0}
+    m_Extent: {x: 1.34812, y: 0.89500105, z: 0}
+>>>>>>> Stashed changes
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6479104394621587586
@@ -1926,9 +2036,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 5
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 35
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 7307666756499676253, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1958,8 +2074,13 @@ MonoBehaviour:
   - {fileID: 8650974566910377204}
   - {fileID: 2727445853827667379}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: -0.00021243095, y: -0.0000009536743, z: 0}
     m_Extent: {x: 1.0358729, y: 3.1150007, z: 0}
+=======
+    m_Center: {x: -0.00021624565, y: 0, z: 0}
+    m_Extent: {x: 1.0358765, y: 3.1150007, z: 0}
+>>>>>>> Stashed changes
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7432902176259461307
@@ -2062,9 +2183,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 2
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 32
+>>>>>>> Stashed changes
   m_Sprite: {fileID: 6302884080390554451, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2095,8 +2222,13 @@ MonoBehaviour:
   - {fileID: 8499383213156894786}
   - {fileID: 1640431137416023940}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0028272867, y: -0.0000009536743, z: 0}
     m_Extent: {x: 1.0580702, y: 2.8450003, z: 0}
+=======
+    m_Center: {x: 0.0028196573, y: 0.0000009536743, z: 0}
+    m_Extent: {x: 1.0580664, y: 2.8450003, z: 0}
+>>>>>>> Stashed changes
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8169519761582287507
@@ -2265,9 +2397,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -410051651
   m_SortingLayer: 3
   m_SortingOrder: 14
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 44
+>>>>>>> Stashed changes
   m_Sprite: {fileID: -5304828342382124186, guid: 1318c894f3607974393cce134004bb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2295,7 +2433,11 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6564863957125501332}
   m_Bounds:
+<<<<<<< Updated upstream
     m_Center: {x: 0.0000076293945, y: 0.000000029802322, z: 0}
+=======
+    m_Center: {x: -0.0000038146973, y: 0.00000086426735, z: 0}
+>>>>>>> Stashed changes
     m_Extent: {x: 1.6150004, y: 0.35500008, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

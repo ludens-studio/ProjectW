@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/china_unity/release' branch; Version is '2021.1.0f1c1 (cd437fc7d72d) revision 13452159'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 17763.1098; Version 1809; 64bit' Language: 'zh' Physical Memory: 16002 MB
+OS: 'Windows 10 Home China; OS build 18363.1016; Version 1909; 64bit' Language: 'zh' Physical Memory: 16303 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,34 +11,49 @@ C:\Program Files\Unity\Hub\Editor\2021.1.0f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-F:/work/Unity/ProjectW/MainProject
+S:/gitHub/ProjectW/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 5305
 Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
 F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 159.51 ms, found 2 plugins.
+=======
+50380
+Successfully changed project path to: S:/gitHub/ProjectW/MainProject
+S:/gitHub/ProjectW/MainProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 93.90 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/work/Unity/ProjectW/MainProject/Assets
+[Subsystems] Discovering subsystems at path S:/gitHub/ProjectW/MainProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
-    Vendor:   ATI
-    VRAM:     8001 MB
-    Driver:   26.20.12001.7006
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   26.21.14.4223
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.010046 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 147.50 ms, found 2 plugins.
@@ -48,8 +63,28 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.009146 seconds.
-Begin MonoManager ReloadAssembly
+=======
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.010501 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.220 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004268 seconds.
+>>>>>>> Stashed changes
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 153.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -134,8 +169,58 @@ Start importing Assets/Script/UI/Panels/EnterGame.cs using Guid(b5ad828f90d9cf44
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006036 seconds.
+=======
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4020.
+Total: 2.286100 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.155200 ms MarkObjects: 1.768500 ms  DeleteObjects: 0.050400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animation/人物/侦探静息.anim
+  artifactKey: Guid(6f3b32efe334f674ebe1bcd8dd00a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/侦探静息.anim using Guid(6f3b32efe334f674ebe1bcd8dd00a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e70e25f7410a6cbd8dcef33f9e3413') in 0.060261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Animation/人物/侦探动态.anim
+  artifactKey: Guid(09cdf5252749fed479cf81b6eabb9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/侦探动态.anim using Guid(09cdf5252749fed479cf81b6eabb9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf794dcbfcd4703f9a5027e9126bd415') in 0.006317 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4020.
+Total: 3.305000 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.822100 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004104 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -160,8 +245,45 @@ Start importing Assets/Script/UI/Panels/EnterGame.cs using Guid(b5ad828f90d9cf44
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006012 seconds.
+=======
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4024.
+Total: 2.470500 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.152300 ms MarkObjects: 2.027600 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.684741 seconds.
+  path: Assets/Animation/人物/艾伦静息.anim
+  artifactKey: Guid(080837dcd772a4f4e8a8db3bcfcd1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/艾伦静息.anim using Guid(080837dcd772a4f4e8a8db3bcfcd1744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f0b26487ecd11798e05ba30e99657f') in 0.016069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.807215 seconds.
+  path: Assets/Animation/人物/侦探静息.anim
+  artifactKey: Guid(6f3b32efe334f674ebe1bcd8dd00a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/侦探静息.anim using Guid(6f3b32efe334f674ebe1bcd8dd00a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf52886ad985ec24c630840f76e9af4') in 0.004200 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004446 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -204,14 +326,62 @@ Start importing Assets/Animation/Animation/开始菜单 using Guid(3212b8b22b97c
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006157 seconds.
+=======
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 2.240600 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.180000 ms MarkObjects: 1.741000 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.813511 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/哈里动态.psb
+  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bedfc8ce21cf482ff600389e9e8d193') in 0.203386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.059346 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/西蒙娜动态.psb
+  artifactKey: Guid(21cdce2f53d04a446ab57bd9cc98833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/西蒙娜动态.psb using Guid(21cdce2f53d04a446ab57bd9cc98833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caf2188b890e4daefc51c7a7c36299c') in 0.076963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.205113 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/老板动态.psb
+  artifactKey: Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/老板动态.psb using Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6652a3e6bec3b81f5a7ed545309e10a') in 0.240358 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003964 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.088 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+=======
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3553 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 133.5 MB.
@@ -229,6 +399,7 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  2.061 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
@@ -239,13 +410,62 @@ System memory in use after: 133.8 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4046.
 Total: 3.923400 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.171600 ms MarkObjects: 3.242500 ms  DeleteObjects: 0.027700 ms)
+=======
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3554 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.8 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4146.
+Total: 2.922100 ms (FindLiveObjects: 0.507800 ms CreateObjectMapping: 0.233400 ms MarkObjects: 2.159600 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.120671 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/哈里动态.psb
+  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf6b16f2e879631d3fc109e2e51446b') in 0.133206 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4175.
+Total: 2.620900 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.175800 ms MarkObjects: 2.105400 ms  DeleteObjects: 0.015900 ms)
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.006556 seconds.
+=======
+Registered in 0.003980 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -600,11 +820,44 @@ Start importing Assets/Script/Managers/DiaLogManager.cs using Guid(d5c34cabbe3d5
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.012923 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+=======
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4179.
+Total: 2.547500 ms (FindLiveObjects: 0.316800 ms CreateObjectMapping: 0.175900 ms MarkObjects: 2.039400 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.891376 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/艾伦动态.psb
+  artifactKey: Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/艾伦动态.psb using Guid(4c616435b6526cb43939e23e9523e085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47a56f5000de427008f6ed12d531c39') in 0.166631 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004301 seconds.
+>>>>>>> Stashed changes
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  2.042 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
@@ -641,10 +894,275 @@ System memory in use after: 229.7 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4174.
 Total: 4.671200 ms (FindLiveObjects: 0.527100 ms CreateObjectMapping: 0.167300 ms MarkObjects: 3.946200 ms  DeleteObjects: 0.029100 ms)
+=======
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4223.
+Total: 2.622900 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.107000 ms  DeleteObjects: 0.016900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+Registered in 0.003875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 153.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4227.
+Total: 2.545600 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.163000 ms MarkObjects: 2.058300 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4231.
+Total: 2.547200 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.148800 ms MarkObjects: 2.081000 ms  DeleteObjects: 0.016400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.466600 seconds.
+  path: Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-1.png
+  artifactKey: Guid(1a4497d8531b845f185bb7742441138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-1.png using Guid(1a4497d8531b845f185bb7742441138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f00aff74f772348daf10a9c240bc314') in 0.107477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-4.png
+  artifactKey: Guid(d1c3b6a233b524474899f14a81d5c3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-4.png using Guid(d1c3b6a233b524474899f14a81d5c3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1f8da9c8221a191a140b24e4d3f74c') in 0.011049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-3.png
+  artifactKey: Guid(857b27bf305c140dab35e3de694fcfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-3.png using Guid(857b27bf305c140dab35e3de694fcfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedbf9c33f1e109af278c535c351da16') in 0.017812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-2.png
+  artifactKey: Guid(d01b0b4f13e044d0c83c424e542ddcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/Temp/Sunnyland/artwork/Sprites/Fx/item-feedback/item-feedback-2.png using Guid(d01b0b4f13e044d0c83c424e542ddcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375078ed03a2b78ed1a9a8c3af8423cc') in 0.043291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/EvidencePrefab/Package/ItemBlock.prefab
+  artifactKey: Guid(17265356102be2642be40afcea199f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvidencePrefab/Package/ItemBlock.prefab using Guid(17265356102be2642be40afcea199f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db995f268fd5e2620314bbfd118de08') in 0.017228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.106003 seconds.
+  path: Assets/Script/交互/交互物品/ItemHighlighter.cs
+  artifactKey: Guid(ad7208bd54f370e439292d07220ed47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/交互/交互物品/ItemHighlighter.cs using Guid(ad7208bd54f370e439292d07220ed47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7ca5ddc6f7be9e41c5807bfde4fdc') in 0.011952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.502354 seconds.
+  path: Assets/Animation/人物/哈里静息.anim
+  artifactKey: Guid(6541390483aee4b43ad0b29cf0eb5a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/哈里静息.anim using Guid(6541390483aee4b43ad0b29cf0eb5a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd62e52efd80de4c0fc27009b2ede58') in 0.005262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 207.991603 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/哈里动态.psb
+  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f7756a8aa124b779d5ee2d126c7131') in 0.135363 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4312.
+Total: 2.525700 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.144000 ms MarkObjects: 2.037000 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.0 MB.
+System memory in use after: 155.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4316.
+Total: 2.447200 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.187400 ms MarkObjects: 1.891400 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.734607 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d721c9de2973221213f892395603c6') in 0.064723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788150 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca751d9c3cb7910fd86c50e173b64af') in 0.028107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.585206 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3de26bb1e3e28fe5733e43e915a166') in 0.027726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.592572 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04191118a890a3243c738cd7e9922af7') in 0.024077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.792619 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bda6a35dcd6cbe444be36ab000ccde') in 0.024898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.799171 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75eaa6fa3804430b6a5ed651e94158b') in 0.022773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.238264 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b79b40b57b3115fa9def4f91c091f4') in 0.027982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998051 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15c8fa0119325c778d284b48606a03c') in 0.030594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.587929 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a33a57f2a385bace7110cc6d40aa90') in 0.028477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.992148 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbda8b00fcf774ed5cec7ed42314a38') in 0.027219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.795160 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf0ebe4f0c86528889bcf2129bf8587') in 0.031189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.779426 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17c1ee8e03de6ebf0758885a857b937') in 0.023926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.804865 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030fea3107af8d572e95e33940a7ab00') in 0.023874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.636590 seconds.
+  path: Assets/Prefabs/人物/侦探动态.prefab
+  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f70f9f874243d0dbcc503865da0670') in 0.027121 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.1 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4321.
+Total: 2.743100 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.202600 ms MarkObjects: 2.139900 ms  DeleteObjects: 0.019900 ms)
+>>>>>>> Stashed changes
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.008433 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -661,5 +1179,108 @@ System memory in use after: 229.7 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4178.
 Total: 4.432000 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.107400 ms MarkObjects: 3.825200 ms  DeleteObjects: 0.038000 ms)
+=======
+Registered in 0.004737 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 155.5 MB.
 
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4325.
+Total: 2.762900 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.141000 ms MarkObjects: 2.213800 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24181.278110 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/哈里动态.psb
+  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432f228fa2a7440c8a8b86310c642e3') in 0.344996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.531923 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/哈里动态.psb
+  artifactKey: Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/哈里动态.psb using Guid(9c2b86ff4015cf84497d839e8f902cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fab709e413adb69ea46e6eec8552523') in 0.191522 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3551 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 156.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4358.
+Total: 2.663500 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.216700 ms MarkObjects: 2.089500 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1177.160247 seconds.
+  path: Assets/Prefabs/人物/哈里动态.prefab
+  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a853b48953ea6cd5422affd10c727e54') in 0.066561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.479544 seconds.
+  path: Assets/AtrMaterial/角色/人物动态/老板动态.psb
+  artifactKey: Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/角色/人物动态/老板动态.psb using Guid(2098265bfbb3b63468ca628c3254245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfe00d2f39afec7405de13af67e31b1') in 0.147864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.303064 seconds.
+  path: Assets/Prefabs/人物/老板动态.prefab
+  artifactKey: Guid(7e6e67c85a65cef4e9a39123a96a64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/人物/老板动态.prefab using Guid(7e6e67c85a65cef4e9a39123a96a64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (老板动态) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[E:\unity\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (老板动态) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[E:\unity\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+>>>>>>> Stashed changes
+
+ -> (artifact id: 'c107f32bf584c722ecc3e8481bfe2fd0') in 0.026286 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
