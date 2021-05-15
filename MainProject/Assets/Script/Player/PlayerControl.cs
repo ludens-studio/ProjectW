@@ -31,6 +31,7 @@ public class PlayerControl : SingletonMono<PlayerControl>
         rb   =  GetComponent<Rigidbody2D>();
         anim =  GetComponent<Animator>();
         ground= LayerMask.GetMask("Ground");
+        GameManager.GetInstance().GameStart+=EnableMove;
     }
 
     private void FixedUpdate()

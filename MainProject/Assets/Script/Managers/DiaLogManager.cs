@@ -12,6 +12,8 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     //输出的内容以及说话者的名字
     public Text dialogText , nameText ; 
 
+    private DialogContent currentDialog;
+
     [HideInInspector]
     public string[] dialogLines ; //对话框输出内容
     [SerializeField] private int currentLine ; //实时追踪是行，哪个元素在输出
@@ -29,22 +31,19 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
 
     void Update()
     {
-        
+
         if(!talking)return;
         if(Input.GetKeyDown(KeyCode.T))
         {
             currentLine ++ ; 
             if(currentLine < dialogLines.Length)
             {
-                currentLine=0;
                 dialogText.text = dialogLines[currentLine]+"（按T继续）";
             }
             else
             {
                 currentLine = 0 ; 
-                animator.Play("Hide");
-                PlayerControl.GetInstance().EnableMove();
-                talking=false;
+                EndContent();
             } 
 
         }
@@ -55,17 +54,20 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     {
         animator.Play("Show");
         talking=true;
-       if(!_hasName) nameText.text="Player";
-       else nameText.text=speaker;
+        if(!_hasName) nameText.text="Player";
+        else nameText.text=speaker;
         PlayerControl.GetInstance().Pause(); //限制玩家在对话状态不可移动
         dialogText.text=dialogLines[currentLine]+"（按T继续）";
     }
 
     public void SetContext(DialogContent content)
     {
+        currentDialog=content;
         dialogLines=content.GetContext();
         speaker=content.GetSpeaker();
-        if(!talking)ShowDialog(speaker==null);
+        if(!talking)ShowDialog(speaker.Length>0);
+        nameText.text=content.GetSpeaker();
+
     }
 
     /// <summary>
@@ -92,9 +94,22 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
         ShowDialog(false);
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
         EvidenceManager.GetInstance().AddObjectEvent-=ShowDescribe;
         EvidenceManager.GetInstance().AddWordEvent-=ShowDescribe;
+    }
+
+    private void EndContent()
+    {
+        string topic=currentDialog.PlayerTopic();
+        GameManager.GetInstance().StartPlot(currentDialog.GetPlot());
+        if(topic.Length<1)
+        {
+            animator.Play("Hide");
+            PlayerControl.GetInstance().EnableMove();
+            talking=false;
+        }
+        else GameManager.GetInstance().StartSpeaking(topic);
     }
 }

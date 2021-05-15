@@ -59,7 +59,7 @@
      <Compile Include="Assets\Script\Managers\InteractiveManager.cs" />
      <Compile Include="Assets\Script\Managers\GameManager.cs" />
      <Compile Include="Assets\Script\交互\交互物品\TakenItem.cs" />
-     <Compile Include="Assets\Script\DialogSys\TalkToManager.cs" />
+     <Compile Include="Assets\Script\DialogSys\Speaker.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\ObjectEvidence.cs" />
      <Compile Include="Assets\Script\UI\Menu\MenuPanel.cs" />
      <Compile Include="Assets\Script\交互\交互门\Door.cs" />
@@ -67,7 +67,6 @@
      <Compile Include="Assets\Script\Player\PlayerControl.cs" />
      <Compile Include="Assets\Script\Base\SingletonMono.cs" />
      <Compile Include="Assets\Script\DialogSys\DialogContent.cs" />
-     <Compile Include="Assets\Script\PanelTest.cs" />
      <Compile Include="Assets\Script\Base\BaseManager.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\Collection\BaseCollector.cs" />
      <Compile Include="Assets\Script\Managers\DiaLogManager.cs" />
@@ -80,6 +79,8 @@
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageFunc\PackageSlot.cs" />
      <Compile Include="Assets\Script\Base\MonoMgr.cs" />
      <Compile Include="Assets\Script\交互\证据交互物品\EvidenceInterfaces.cs" />
+     <Compile Include="Assets\Script\角色\Harry.cs" />
+     <Compile Include="Assets\Script\角色\Player.cs" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Contact.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Lisense.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\readme.txt" />

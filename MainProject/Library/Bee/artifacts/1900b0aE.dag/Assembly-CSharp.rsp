@@ -349,7 +349,7 @@
 "Assets/Script/Base/SingletonAutoMono.cs"
 "Assets/Script/Base/SingletonMono.cs"
 "Assets/Script/DialogSys/DialogContent.cs"
-"Assets/Script/DialogSys/TalkToManager.cs"
+"Assets/Script/DialogSys/Speaker.cs"
 "Assets/Script/EvidenceSystem/Collection/BaseCollector.cs"
 "Assets/Script/EvidenceSystem/EvidenceItems/AllEvidence.cs"
 "Assets/Script/EvidenceSystem/EvidenceItems/BaseEvidence.cs"
@@ -361,7 +361,6 @@
 "Assets/Script/Managers/GameManager.cs"
 "Assets/Script/Managers/InteractiveManager.cs"
 "Assets/Script/Managers/StaticPanelMgr.cs"
-"Assets/Script/PanelTest.cs"
 "Assets/Script/Player/PlayerControl.cs"
 "Assets/Script/UI/Evidence/CriminalLog/LogMGR.cs"
 "Assets/Script/UI/Evidence/CriminalLog/LogUIAction.cs"
@@ -385,6 +384,8 @@
 "Assets/Script/交互/交互门/Door.cs"
 "Assets/Script/交互/证据交互物品/EvidenceInteractor.cs"
 "Assets/Script/交互/证据交互物品/EvidenceInterfaces.cs"
+"Assets/Script/角色/Harry.cs"
+"Assets/Script/角色/Player.cs"
 -langversion:8.0
 
 /deterministic

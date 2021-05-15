@@ -3,16 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TalkToManager : MonoBehaviour
+public class Speaker : MonoBehaviour
 {
-    public string talker;
+    private GameManager gameManager;
+    [SerializeReference]private string talker;
     public DialogContent[] contents;
-    private Dictionary<String,DialogContent> topics;
+    protected Dictionary<String,DialogContent> topics=new Dictionary<string, DialogContent>();
 
-    void Start()
+    protected void Start()
     {
+        gameManager=GameManager.GetInstance();
         if(contents.Length==0) return;
-        Dictionary<String,DialogContent> topics=new Dictionary<string, DialogContent>();
         foreach(DialogContent con in contents)
         {
             topics.Add(con.topic,con);
@@ -21,7 +22,7 @@ public class TalkToManager : MonoBehaviour
     public void Talk(String topic)
     {
         DiaLogManager.GetInstance().SetContext(topics[topic]);
-        DiaLogManager.GetInstance().ShowDialog(talker.Equals(null));
+        DiaLogManager.GetInstance().ShowDialog(topics[topic].GetSpeaker().Length>0);
     }
 
 }
