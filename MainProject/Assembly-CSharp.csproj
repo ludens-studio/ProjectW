@@ -64,6 +64,7 @@
      <Compile Include="Assets\Script\交互\交互物品\TakenItem.cs" />
      <Compile Include="Assets\Script\DialogSys\Speaker.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\ObjectEvidence.cs" />
+     <Compile Include="Assets\Script\SceneControl\CameraControl.cs" />
      <Compile Include="Assets\Script\UI\Menu\MenuPanel.cs" />
      <Compile Include="Assets\Script\交互\交互门\Door.cs" />
      <Compile Include="Assets\Script\Base\ResMgr.cs" />
@@ -82,7 +83,7 @@
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageFunc\PackageSlot.cs" />
      <Compile Include="Assets\Script\Base\MonoMgr.cs" />
      <Compile Include="Assets\Script\交互\证据交互物品\EvidenceInterfaces.cs" />
-     <Compile Include="Assets\Script\SceneControl\CameraControl.cs" />
+     <Compile Include="Assets\Script\UI\StaticPuzzel\BookShell.cs" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Contact.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Lisense.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\readme.txt" />

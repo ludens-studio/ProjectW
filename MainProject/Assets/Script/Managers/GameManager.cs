@@ -6,7 +6,10 @@ using UnityEngine.UI ;
 public enum PlotEvent:int
 {
     GAME_START=0,
-    NULL=-1
+    NULL=-1,
+
+    ENTER_BOOKSHEL=2
+
 }
 public class GameManager : SingletonAutoMono<GameManager>
 {
