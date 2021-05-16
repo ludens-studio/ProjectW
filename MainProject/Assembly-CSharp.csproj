@@ -76,6 +76,7 @@
      <Compile Include="Assets\Script\Managers\DiaLogManager.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceUI\Slot.cs" />
      <Compile Include="Assets\Script\UI\Panels\Exiter.cs" />
+     <Compile Include="Assets\Script\UI\StaticPuzzel\BookShell.cs" />
      <Compile Include="Assets\Script\UI\Evidence\CriminalLog\LogUIAction.cs" />
      <Compile Include="Assets\Script\交互\交互物品\PhotoItem.cs" />
      <Compile Include="Assets\Script\UI\Evidence\Package\Tool\ToolBlock.cs" />
@@ -83,10 +84,6 @@
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageFunc\PackageSlot.cs" />
      <Compile Include="Assets\Script\Base\MonoMgr.cs" />
      <Compile Include="Assets\Script\交互\证据交互物品\EvidenceInterfaces.cs" />
-<<<<<<< Updated upstream
-     <Compile Include="Assets\Script\UI\StaticPuzzel\BookShell.cs" />
-=======
->>>>>>> Stashed changes
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Contact.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Lisense.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\readme.txt" />
