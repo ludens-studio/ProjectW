@@ -6,43 +6,53 @@ using UnityEngine.UI ;
 public class Door : MonoBehaviour
 {
     [Header("门的基本属性")]
-    public string doorNum ;
     public bool doorOpen ; 
+
+    public bool doorEntry=false;
 
     [Header("这个门通向哪")]
    // public int Goto_Num ;   //数字模式和字符串模式二选一
-    public string Goto_String ; 
-    public bool canMove ; 
+    public Transform target ; 
+
+    private Transform player;
+    
+
+    void Start()
+    {
+        player=PlayerControl.GetInstance().gameObject.GetComponent<Transform>();
+    }
+
     private void Update()
     {
-        UpdateDoorData();
-        CheckDoorData();
-        
+        if(doorEntry&&Input.GetKeyDown(KeyCode.F)) Move();
     }
 
-    private void UpdateDoorData(){
-        //读取键值对数据，更新门的状态
-        if(PlayerPrefs.GetInt(doorNum) == 1){
-            doorOpen = true; 
-            Debug.Log("Door "+doorNum+doorOpen);
-        }else if(PlayerPrefs.GetInt(doorNum) == 0){
-            doorOpen = false;
-            Debug.Log("Door "+doorNum+doorOpen);
+    public void Move()
+    {
+        PlayerControl.GetInstance().Pause();
+        player.position=new Vector3(target.position.x,target.position.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            doorEntry=true;
+            InteractiveManager.GetInstance().CurrentDoor=this;
         }
     }
 
-    private void CheckDoorData(){
-        //针对情况发出反应
-        this.gameObject.SetActive(doorOpen);
-        canMove = doorOpen ;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "Player"){
-            if(doorOpen == true && Input.GetKeyDown(KeyCode.F)){
-                InteractiveManager.GetInstance().ChangeSence(Goto_String);
-            }
+    void OnTriggerExit2D(Collider2D other)
+    {
+         if(other.gameObject.tag == "Player")
+        {
+            doorEntry=false;
+            InteractiveManager.GetInstance().CurrentDoor=null;
         }
     }
 
+    public void EnterScene()
+    {
+
+    }
 }
