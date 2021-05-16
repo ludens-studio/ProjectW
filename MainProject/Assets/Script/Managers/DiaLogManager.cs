@@ -87,6 +87,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     /// <param name="describe"></param>
     private void ShowDescribe(string eviname)
     {
+        speaker="侦探";
         BaseEvidence evidence=EvidenceManager.GetInstance().allEvidences.GetObjectEvidence(eviname);
         if(evidence==null) evidence=EvidenceManager.GetInstance().allEvidences.GetObjectEvidence(eviname);
         string describe =evidence.GetDescribe();
