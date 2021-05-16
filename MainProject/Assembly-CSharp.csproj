@@ -48,6 +48,7 @@
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\WordEvidence.cs" />
      <Compile Include="Assets\Script\UI\Evidence\CriminalLog\LogMGR.cs" />
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageAni\PackageUI.cs" />
+     <Compile Include="Assets\Script\UI\Panels\EnterGame.cs" />
      <Compile Include="Assets\Script\UIPoor\BulletPool.cs" />
      <Compile Include="Assets\Script\角色\Harry.cs" />
      <Compile Include="Assets\Script\Base\MonoController.cs" />
@@ -81,7 +82,6 @@
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageFunc\PackageSlot.cs" />
      <Compile Include="Assets\Script\Base\MonoMgr.cs" />
      <Compile Include="Assets\Script\交互\证据交互物品\EvidenceInterfaces.cs" />
-     <Compile Include="Assets\Script\UI\Panels\EnterGame.cs" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Contact.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Lisense.txt" />
      <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\readme.txt" />
