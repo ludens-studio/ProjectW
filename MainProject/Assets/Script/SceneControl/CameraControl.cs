@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class CameraControl : SingletonAutoMono<CameraControl>
+public class CameraControl : SingletonMono<CameraControl>
 {
     public static CameraControl instance ; 
     public List<Transform> target = new List<Transform>() ; // 注意第一位一位（下标0）总是Player , 第二位以后是添加的相机点
@@ -26,7 +26,6 @@ public class CameraControl : SingletonAutoMono<CameraControl>
         target.Add( PlayerControl.GetInstance().gameObject.GetComponent<Transform>());
         manager=InteractiveManager.GetInstance();
         animator=gameObject.GetComponent<Animator>();
-
     }
 
 
@@ -52,6 +51,29 @@ public class CameraControl : SingletonAutoMono<CameraControl>
             break ;
 
         }   
+    }
+
+    public void PlayEnterAnim()
+    {
+        if(animator!=null)
+        {
+            animator.Play("Move");
+        }
+        else Debug.Log("null");
+    }
+
+    public void Pause()
+    {
+        PlayerControl.GetInstance().Pause();
+    }
+    public void EnableMove()
+    {
+        PlayerControl.GetInstance().EnableMove();
+    }
+
+    public void Move()
+    {
+        InteractiveManager.GetInstance().CurrentDoor.Move();
     }
 
 }

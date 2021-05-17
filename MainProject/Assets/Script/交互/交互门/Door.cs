@@ -24,12 +24,14 @@ public class Door : MonoBehaviour
 
     private void Update()
     {
-        if(doorEntry&&Input.GetKeyDown(KeyCode.F)) Move();
+        if(doorEntry&&Input.GetKeyDown(KeyCode.F)) 
+        {
+            CameraControl.GetInstance().PlayEnterAnim();
+        }
     }
 
     public void Move()
     {
-        PlayerControl.GetInstance().Pause();
         player.position=new Vector3(target.position.x,target.position.y);
     }
 
@@ -47,12 +49,7 @@ public class Door : MonoBehaviour
          if(other.gameObject.tag == "Player")
         {
             doorEntry=false;
-            InteractiveManager.GetInstance().CurrentDoor=null;
         }
     }
 
-    public void EnterScene()
-    {
-
-    }
 }
