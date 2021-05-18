@@ -15,9 +15,11 @@ public class AchievementManager : SingletonAutoMono<AchievementManager>
     public void GetAchievement(string _name)
     {
         //1.设置专门的UI弹出提示
-
+        Debug.Log("1");
+        ShowTips.GetInstance().SetTips("获得成就",_name);
+        Debug.Log("1");
         //2.在List里面设置对应的成就
-
+        Achievements.Add(_name);
         //3.通过playerPrefs来保存成就进度，直接使用 _name对应 , 1代表该成就已经得到
         PlayerPrefs.SetInt(_name, 1);
     }

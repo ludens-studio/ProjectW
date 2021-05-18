@@ -1,0 +1,9 @@
+1.将成就系统的代码AchievementManager添加至Scrip-Mangers文件夹中
+2.将AchievementManager挂载至Manager中，并设置了UI
+
+使用：
+目前有用的就一个方法
+
+GetAchievement(string _name)
+传入成就的名字就好了，其它的系统内部会处理好
+AchievementManager可以用Getinstance在其他地方被使用

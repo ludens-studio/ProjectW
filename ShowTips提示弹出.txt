@@ -1,0 +1,20 @@
+1.ShowTips被放在script—UI目录下
+2.ShowTips提供一种十分简单的弹出消息效果
+3.具体方法如下，Getinstance一下就能直接使用了
+
+public void SetTips(string _title , string _text)
+设置内容，第一个参数是提示的标题，第二个是内容
+
+public void OpenTips()   
+展示提示
+
+public void CloseTips()
+关闭提示
+事实上，展示提示后在动画中会自动收起提示。这个方法是强制收起
+（之后可以让玩家在进行下一个交互时立即收起提示）
+
+4.ShowTips需要挂载使用，因为我为它设置了一个专门的UI，目前它被挂载在Manager物体上
+ShowTips独立的UI画布也在这，没有和其它UI放在一起
+
+5.目前在ShowTips中可以使用J唤出提示，N关闭提示。
+	这次我直接写成按J获得“第一次游玩”的成就，之后记得要注释掉这个部分
