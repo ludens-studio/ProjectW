@@ -7,7 +7,7 @@ using UnityEngine.UI ;
 public class AchievementManager : SingletonAutoMono<AchievementManager>
 {
     private int theImpression ; //好感度的值，这次可能用不上，我觉得这个Mgr太单薄所以写在这里了
-    public List<string> Achievements = new List<string>; // 成就栏
+    public List<string> Achievements = new List<string>(); // 成就栏
 
     /// <summary>
     /// 显示获得成就的名字，输入参数是成就名字
