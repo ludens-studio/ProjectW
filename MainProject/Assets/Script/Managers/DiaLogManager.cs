@@ -5,7 +5,7 @@ using UnityEngine.UI ;
 
 public class DiaLogManager : SingletonMono<DiaLogManager>
 {
-
+    private AllEvidence evidences;
     public DialogContent[] boringWords; 
     //对话框的UI
     public GameObject dialogBox ; 
@@ -27,6 +27,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     {
         EvidenceManager.GetInstance().AddObjectEvent+=ShowDescribe;
         EvidenceManager.GetInstance().AddWordEvent+=ShowDescribe;
+        evidences=EvidenceManager.GetInstance().allEvidences;
     }
 
     void Update()
@@ -45,27 +46,28 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
                 currentLine = 0 ; 
                 EndContent();
             } 
-
-        }
-       
+        }    
     }
 
-    public void ShowDialog( bool _hasName)
+    public void ShowDialog()
     {
         animator.Play("Show");
         talking=true;
-        if(!_hasName) nameText.text="Player";
-        else nameText.text=speaker;
+        nameText.text=speaker;
         PlayerControl.GetInstance().Pause(); //限制玩家在对话状态不可移动
         dialogText.text=dialogLines[currentLine]+"（按T继续）";
     }
 
+    /// <summary>
+    /// 设置具体对话的内容
+    /// </summary>
+    /// <param name="content"></param>
     public void SetContext(DialogContent content)
     {
         currentDialog=content;
         dialogLines=content.GetContext();
         speaker=content.GetSpeaker();
-        if(!talking)ShowDialog(speaker.Length>0);
+        if(!talking)ShowDialog();
         nameText.text=content.GetSpeaker();
 
     }
@@ -87,13 +89,26 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     /// <param name="describe"></param>
     private void ShowDescribe(string eviname)
     {
-        speaker="侦探";
-        BaseEvidence evidence=EvidenceManager.GetInstance().allEvidences.GetObjectEvidence(eviname);
-        if(evidence==null) evidence=EvidenceManager.GetInstance().allEvidences.GetObjectEvidence(eviname);
-        string describe =evidence.GetDescribe();
-        string[] context={describe};
-        dialogLines=context;
-        ShowDialog(false);
+        DialogContent content=evidences.GetObjectEvidence(eviname).GetContent();
+        SetContext(content);
+    }
+
+    private void EndContent()
+    {
+        DialogContent nextTopic=currentDialog.GetNextContent();
+        PlotEvent plot=currentDialog.GetPlot();
+        if(nextTopic==null)
+        {
+            currentDialog=null;
+            animator.Play("Hide");
+            talking=false;
+            PlayerControl.GetInstance().EnableMove();
+        }
+        else
+        {
+            SetContext(nextTopic);
+        }
+        GameManager.GetInstance().StartPlot(plot);
     }
 
     private void OnDestroy()
@@ -102,16 +117,4 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
         EvidenceManager.GetInstance().AddWordEvent-=ShowDescribe;
     }
 
-    private void EndContent()
-    {
-        string topic=currentDialog.PlayerTopic();
-        GameManager.GetInstance().StartPlot(currentDialog.GetPlot());
-        if(topic.Length<1)
-        {
-            animator.Play("Hide");
-            PlayerControl.GetInstance().EnableMove();
-            talking=false;
-        }
-        else GameManager.GetInstance().StartSpeaking(topic);
-    }
 }

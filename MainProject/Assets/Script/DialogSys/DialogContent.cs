@@ -16,8 +16,8 @@ public class DialogContent : ScriptableObject
     [SerializeReference]private string speaker;
     [SerializeReference]public string topic; 
 
-    [SerializeReference]private PlotEvent plot;
-    [SerializeReference]private string playerTopic;
+    [SerializeReference]private PlotEvent plot=PlotEvent.NULL;
+    [SerializeReference]private DialogContent nextContent;
         
         [TextArea(1,3)]
     [SerializeReference]
@@ -48,9 +48,9 @@ public class DialogContent : ScriptableObject
         return plot;
     }
 
-    public string PlayerTopic()
+    public DialogContent GetNextContent()
     {
-        return playerTopic;
+        return nextContent;
     }
 }
 

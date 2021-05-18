@@ -15,5 +15,6 @@ MonoBehaviour:
   evidenceName: "\u4F20\u771F\u673A"
   describe: "\u4F20\u771F\u673A"
   candidateDescribe: []
-  imageSprite: {fileID: 7258022567781735081, guid: 20a218a4028b51c42bfc7fda8cd192d7, type: 3}
+  imageSprite: {fileID: -125970021419489289, guid: 837c31c99ecf4d64397bdc3ecb7ecd64, type: 3}
+  content: {fileID: 11400000, guid: bdd43e7a6cca7e441a49935af58d797e, type: 2}
   interactableObj: []

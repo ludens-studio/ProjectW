@@ -22,7 +22,7 @@ public class Speaker : MonoBehaviour
     public void Talk(String topic)
     {
         DiaLogManager.GetInstance().SetContext(topics[topic]);
-        DiaLogManager.GetInstance().ShowDialog(topics[topic].GetSpeaker().Length>0);
+        DiaLogManager.GetInstance().ShowDialog();
     }
 
 }

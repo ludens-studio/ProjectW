@@ -15,7 +15,7 @@ MonoBehaviour:
   speaker: "\u54C8\u91CC"
   topic: "\u5F00\u573A\u767D"
   plot: -1
-  playerTopic: "\u5C38\u4F53\u8150\u70C2\u7684\u81ED\u5473"
+  nextContent: {fileID: 11400000, guid: 63a33f6dcf3208a48aa19847387db5b1, type: 2}
   context:
   - "\u5C38\u4F53\u8150\u70C2\u7684\u5473\u9053\u3002\u8FD8\u6709\u8840\u8165\u5473\u3002"
   - "\u8FD8\u6709\u4E00\u70B9\u2026\u2026\u9694\u591C\u7684\u5976\u916A\u53D1\u9175\u7684\u81ED\u5473\u3002"

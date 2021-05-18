@@ -16,4 +16,5 @@ MonoBehaviour:
   describe: "\u653E\u9519\u7684\u4E66"
   candidateDescribe: []
   imageSprite: {fileID: 21300000, guid: 74c97385f3f56384a8318a1ab522f00f, type: 3}
+  content: {fileID: 11400000, guid: 9916d0c595fde5d409bbc032bda7ed52, type: 2}
   interactableObj: []

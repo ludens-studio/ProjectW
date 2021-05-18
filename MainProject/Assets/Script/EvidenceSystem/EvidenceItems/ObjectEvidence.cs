@@ -6,6 +6,7 @@ using UnityEngine;
 public class ObjectEvidence : BaseEvidence
 {
     [SerializeReference] private Sprite imageSprite;
+    [SerializeReference] private DialogContent content;
     /// <summary>
     /// 可交互物品名字
     /// </summary>
@@ -28,5 +29,10 @@ public class ObjectEvidence : BaseEvidence
     {
         if (!interactableObj.Contains(objname)) return false;
         return true;
+    }
+
+    public DialogContent GetContent()
+    {
+        return content;
     }
 }
