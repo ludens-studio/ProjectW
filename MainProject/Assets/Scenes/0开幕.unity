@@ -470,9 +470,10 @@ MonoBehaviour:
   - "\u8C22\u8C22\u4F60\u542C\u5230\u8FD9\u91CC \\n (\u83B7\u5F97\u6210\u5C31)"
   - "\u6309T\u7EE7\u7EED"
   - '  '
-  currentLine: 3
+  currentLine: 0
   specialLine: 208
   nextScene: "\u827E\u4F26\u623F\u95F4"
+  skipTime: 2
 --- !u!1 &1142915471
 GameObject:
   m_ObjectHideFlags: 0

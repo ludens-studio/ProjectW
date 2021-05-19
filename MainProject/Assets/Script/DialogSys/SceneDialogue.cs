@@ -24,19 +24,33 @@ public class SceneDialogue : MonoBehaviour
     [Tooltip("下一个场景的名字")]
     public string nextScene ; 
 
+    private int skipStep = 0 ; //计算跳过的步骤，来实现长按跳过
+    private float theTime1 = 0 ; //短按的瞬间计时
+    private float theTime2  = 0 ; //长按的时候持续计时
+
+    [Header("长按跳过设置")]
+    public float skipTime = 2 ; //长按跳过的时间判定
+    private bool isSkip ;  
+
     private void Start()
     {
         textUI.text = theTexts[currentLine] ; 
         sumOfText = theTexts.Count ;  
+        isSkip = false ;
     }
     private void Update()
     {
         ReadText();
+        Skip();
     }
 
     private void ReadText(){
         //进行文本阅读的方法
         if(Input.GetKeyDown(KeyCode.T) && currentLine != sumOfText-1){
+            theTime1 += Time.deltaTime ; 
+
+            Debug.Log("TIME 1 : --"+theTime1);
+
             Debug.Log("下一条");
             currentLine++ ; 
 
@@ -64,6 +78,25 @@ public class SceneDialogue : MonoBehaviour
         SceneManager.LoadScene(_scene);
     }
 
+    private void Skip(){
+        //长按T跳过对话
+        if(Input.GetKey(KeyCode.T)){
+            theTime2 += Time.deltaTime ; 
+            Debug.Log("t2 = "+theTime2);
+        }
+
+        if((theTime2-theTime1) >= skipTime  && isSkip == false) {
+            Debug.Log("S-K-I-P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            isSkip = true ;
+            currentLine = sumOfText-2 ;
+            textUI.text = theTexts[currentLine];
+
+            if(currentLine == sumOfText-1){
+                Debug.Log("对话结束");
+                TotheScene(nextScene);
+            }
+        }       
+    }
 
 
 }
