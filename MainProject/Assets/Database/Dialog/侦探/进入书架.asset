@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: "\u4FA6\u63A2"
   topic: "\u8FDB\u5165\u4E66\u67B6"
-  plot: 2
-  playerTopic: 
+  plot: 0
+  nextContent: {fileID: 0}
   context:
   - "\u4E66\u67B6\u4E0A\u6709\u8840\u8FF9\u3002"
   - "\u770B\u8D77\u6765\u6709\u4EBA\u5012\u5728\u4E66\u67B6\u4E0A\uFF0C\u88AB\u9694\u677F\u78B0\u4F24\uFF0C\u5BFC\u81F4\u4E66\u810A\u4E0A\u6CBE\u67D3\u4E86\u8840\u8FF9\u3002"

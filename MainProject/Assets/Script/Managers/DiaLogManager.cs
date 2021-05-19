@@ -51,10 +51,13 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
 
     public void ShowDialog()
     {
-        animator.Play("Show");
-        talking=true;
+        if(!talking)
+        {
+         animator.Play("Show");
+         talking=true;
+         PlayerControl.GetInstance().Pause(); //限制玩家在对话状态不可移动
+        }
         nameText.text=speaker;
-        PlayerControl.GetInstance().Pause(); //限制玩家在对话状态不可移动
         dialogText.text=dialogLines[currentLine]+"（按T继续）";
     }
 

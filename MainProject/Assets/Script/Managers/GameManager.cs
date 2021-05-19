@@ -7,8 +7,7 @@ public enum PlotEvent:int
 {
     GAME_START=0,
     NULL=-1,
-
-    ENTER_BOOKSHEL=2
+    ENTER_BOOKSHEL=1
 
 }
 public class GameManager : SingletonAutoMono<GameManager>
@@ -32,13 +31,21 @@ public class GameManager : SingletonAutoMono<GameManager>
             case -1:break;
             case 0:
             {
+                Cursor.visible=true;
                 GameStart();
                 break;
             }
+            case 1:
+            {
+                Cursor.visible=false;
+                PlayerControl.GetInstance().Pause();
+                StartSpeaking("进入书架");
+                break;
+            } 
         }
     }
 
-    public void StartSpeaking(string topic)
+    private void StartSpeaking(string topic)
     {
         PlayerSay(topic);
     }    
