@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI ; 
+using UnityEngine.UI; 
+using TMPro;
 
 public class DiaLogManager : SingletonMono<DiaLogManager>
 {
@@ -10,7 +11,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     //对话框的UI
     public GameObject dialogBox ; 
     //输出的内容以及说话者的名字
-    public Text dialogText , nameText ; 
+    public TextMeshProUGUI dialogText , nameText ; 
 
     private DialogContent currentDialog;
 
