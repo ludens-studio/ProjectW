@@ -1,0 +1,12 @@
+SceneDialogue 是 一个单独的对话系统，它提供的是一种独白，旁白似的效果
+SceneDialogue 除了提供这种效果外，还可以在指定对话中触发事件配合演出，加载下一场景等等。
+总而言之，这个系统就是为转场而生的
+
+SceneDialogue 放在 DialogSys 目录下，游戏中被挂载在BackGround下
+
+SceneDialogue使用说明：
+将SceneDialogue 挂载即可，然后设置对应的参数
+在text的List中来写文案，可以使用富文本和换行符（因为我就设置了一个Text UI 所以要换行符）
+specialLine 对应的是text List的下标，对应的text[specialLine]会让玩家得到成就
+
+场景切换中写上对应的scene的名字就好了

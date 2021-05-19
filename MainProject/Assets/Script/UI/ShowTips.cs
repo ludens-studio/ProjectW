@@ -21,6 +21,7 @@ public class ShowTips : SingletonMono<ShowTips>
 
     private void Update()
     {
+        //测试用
         time += Time.deltaTime ;
        // Debug.Log(time);
        if(Input.GetKeyDown(KeyCode.M)){
