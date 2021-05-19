@@ -87,6 +87,9 @@
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageFunc\PackageSlot.cs" />
      <Compile Include="Assets\Script\Base\MonoMgr.cs" />
      <Compile Include="Assets\Script\交互\证据交互物品\EvidenceInterfaces.cs" />
+     <Compile Include="Assets\Script\密码锁控制\CodeButtonMgr.cs" />
+     <Compile Include="Assets\Script\密码锁控制\TextShining.cs" />
+     <Compile Include="Assets\Script\密码锁控制\CodeLockController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
