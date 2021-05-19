@@ -72,11 +72,14 @@ public class PackageSlot : Slot
 
         GameObject raycastTarget=null;
         string rayTargetName = "";
+
         if (eventData.pointerCurrentRaycast.gameObject != null) 
         {
             raycastTarget = eventData.pointerCurrentRaycast.gameObject;
             rayTargetName = raycastTarget.name;
-        }
+        }       
+         else ReturnSlot();
+
 
         if (evidence.Interactable(rayTargetName)) 
         raycastTarget.GetComponent<EvidenceInteractor>().Interact(evidence.GetEvidenceName());

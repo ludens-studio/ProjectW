@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 /// <summary>
-/// 格子的父类，就是实现接口的
+/// 锟斤拷锟接的革拷锟洁，锟斤拷锟斤拷实锟街接口碉拷
 /// </summary>
 public abstract class Slot : MonoBehaviour, IDragHandler,IPointerEnterHandler,IPointerExitHandler,IEndDragHandler
 {

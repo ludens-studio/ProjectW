@@ -3,45 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ToolMGR : MonoBehaviour
+public class ToolMGR : SingletonMono<ToolMGR>
 {
     private static ToolMGR instance;
-    [SerializeField]private string currentTool="空";
+    [SerializeField]private string currentTool="null";
     public Image toolImage;
-    private Animator anitor;
-    private bool isOpen = false;
+    public Sprite emptySprite;
 
-    private bool isHand=true;
-
-    private ToolBlock currentBlock;
-
-
-    private void Awake()
+    void Start()
     {
-        instance = this;
-        anitor = gameObject.GetComponent<Animator>();
-    }
-
-    public static ToolMGR GetInstance() 
-    {
-        return instance;
-    }
-
-    /// <summary>
-    /// 动画器切换道具状态
-    /// </summary>
-    public void ShowTools() 
-    {
-        if (!isOpen)
-        {
-            anitor.Play("Show");
-            isOpen = true;
-        }
-        else 
-        {
-            anitor.Play("Hide");
-            isOpen = false;
-        }
+            EvidenceManager.GetInstance().RemoveObjectEvent+=ClearSprite;
     }
 
 
@@ -58,34 +29,20 @@ public class ToolMGR : MonoBehaviour
     /// 改变现在工具的内容
     /// </summary>
     /// <param name="toolName"></param>
-    public void ChangeTool(string toolName,Sprite sprite,ToolBlock block) 
+    public void ChangeTool(string toolName) 
     {
-        currentTool = toolName;
-        toolImage.sprite=sprite;
-        if(isHand) 
-        {
-            currentBlock=block;
-            block.isHand=true;
-            isHand=false;
-        }
-        else if(block.isHand)
-        {
-            isHand=true;
-            block.isHand=false;
-            currentBlock=null;
-        }
+       Package evidence=EvidenceManager.GetInstance().package;
+       currentTool=toolName;
+       toolImage.sprite=evidence.GetEvidence(toolName).GetSprite();
     }
 
-    /// <summary>
-    /// 更换手持道具
-    /// </summary>
-    public void ChangeHandTool(string toolName)
+    private void ClearSprite(string tool)
     {
-        if(currentBlock!=null)
+        if(!tool.Equals(currentTool)) return;
+        else 
         {
-            currentTool=toolName;
-            toolImage.sprite=EvidenceManager.GetInstance().package.GetEvidence(toolName).GetSprite();
+            currentTool=tool;
+            toolImage.sprite=emptySprite;
         }
-        else currentBlock.SetTool(toolName);
     }
 }
