@@ -46,7 +46,6 @@
      <Compile Include="Assets\Script\交互\交互物品\ItemHighlighter.cs" />
      <Compile Include="Assets\Script\Base\SingletonAutoMono.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\AllEvidence.cs" />
-     <Compile Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Demo\MoveBackground.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\WordEvidence.cs" />
      <Compile Include="Assets\Script\UI\Evidence\CriminalLog\LogMGR.cs" />
      <Compile Include="Assets\Script\Managers\AchievementManager.cs" />
@@ -93,10 +92,8 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Contact.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
@@ -104,13 +101,11 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\Lisense.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\AtrMaterial\Temp\Free Pixel Art Forest\readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

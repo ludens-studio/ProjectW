@@ -43,10 +43,17 @@ public class EnterGame : MonoBehaviour
         }
     }
 
+    //开始游戏
     public void Play()
     {
         loadin.gameObject.SetActive(true);
         StartCoroutine("LoadGame");
+    }
+
+    //退出游戏
+    public void Exit()
+    {
+        Application.Quit();
     }
 
     IEnumerator LoadGame()
