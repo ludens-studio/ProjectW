@@ -247,6 +247,7 @@ MonoBehaviour:
   id: 0
   back: {fileID: 2332125091666556688}
   front: {fileID: 5525304043244739831}
+  background: {fileID: 5433429276563207901}
 --- !u!225 &6091142819934258927
 CanvasGroup:
   m_ObjectHideFlags: 0

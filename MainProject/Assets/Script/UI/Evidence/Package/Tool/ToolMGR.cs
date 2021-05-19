@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,10 +7,11 @@ public class ToolMGR : SingletonMono<ToolMGR>
     [SerializeField]private string currentTool="null";
     public Image toolImage;
     public Sprite emptySprite;
+    private PackageSlot currentSlot;
 
     void Start()
     {
-            EvidenceManager.GetInstance().RemoveObjectEvent+=ClearSprite;
+            EvidenceManager.GetInstance().RemoveObjectEvent+=CancleTool;
     }
 
 
@@ -25,23 +24,29 @@ public class ToolMGR : SingletonMono<ToolMGR>
         return currentTool;
     }
 
+    public void SelectTool(PackageSlot slot)
+    {
+        if(currentSlot=null) currentSlot=slot;
+        ChangeTool(slot.GetEvidenceName());
+    }
+
     /// <summary>
     /// 改变现在工具的内容
     /// </summary>
     /// <param name="toolName"></param>
-    public void ChangeTool(string toolName) 
+    private void ChangeTool(string toolName) 
     {
        Package evidence=EvidenceManager.GetInstance().package;
        currentTool=toolName;
        toolImage.sprite=evidence.GetEvidence(toolName).GetSprite();
     }
 
-    private void ClearSprite(string tool)
+    public void CancleTool(string tool)
     {
         if(!tool.Equals(currentTool)) return;
         else 
         {
-            currentTool=tool;
+            currentTool=null;
             toolImage.sprite=emptySprite;
         }
     }
