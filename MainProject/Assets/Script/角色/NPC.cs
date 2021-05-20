@@ -7,7 +7,7 @@ public abstract class NPC : Speaker
     /// <summary>
     /// 默认情况下对于玩家没有任何交互的话题
     /// </summary>
-    protected string defaultTopic;
+    [SerializeReference]protected string defaultTopic;
 
     /// <summary>
     /// 对于对给予道具毫无意义的话题说明

@@ -58,7 +58,7 @@ public class EnterGame : MonoBehaviour
 
     IEnumerator LoadGame()
     {
-        AsyncOperation operation= SceneManager.LoadSceneAsync("艾伦房间");
+        AsyncOperation operation= SceneManager.LoadSceneAsync("0开幕");
 
         while(!operation.isDone )
         {

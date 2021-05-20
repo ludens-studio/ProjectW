@@ -20,6 +20,10 @@ public enum PlotEvent:int
     /// 开场剧情
     /// </summary>
     LATE_TO_MEET=1,
+    ///<summary>
+    /// 和酒吧老板对话
+    /// <summary>
+    TALK_TO_BOSS=2,
     /// <summary>
     /// 进入书架视角
     /// </summary>
@@ -39,6 +43,7 @@ public class GameManager : SingletonAutoMono<GameManager>
     /// <param name="topic"></param>
     public event PlotHandler GameStart;
     public event PlotHandler LateToMeet;
+    public event PlotHandler TalkToBoss;
 
     private Player player;
 
@@ -65,6 +70,11 @@ public class GameManager : SingletonAutoMono<GameManager>
             case 1:
             {
                 LateToMeet();
+                break;
+            }
+            case 2:
+            {
+                TalkToBoss();
                 break;
             }
             case 3:

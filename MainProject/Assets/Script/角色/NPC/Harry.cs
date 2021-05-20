@@ -15,6 +15,11 @@ public class Harry : NPC
         Talk("开场白");   
     }
 
+    private void TalkToBoss()
+    {
+        talkable=true;
+    }
+
     protected override void Subscribe()
     {
         gameManager.LateToMeet+=LateToMeet;

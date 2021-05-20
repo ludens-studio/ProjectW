@@ -1,5 +1,88 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1543094158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543094159}
+  - component: {fileID: 1543094160}
+  m_Layer: 0
+  m_Name: TalkTip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1543094159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543094158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5011196274033924716}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1543094160
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543094158}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &258305966897957700
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,7 +183,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3483271142473743912}
   m_Bounds:
-    m_Center: {x: 0.028179884, y: 0.010004759, z: 0}
+    m_Center: {x: 0.028179884, y: 0.0100057125, z: 0}
     m_Extent: {x: 1.35818, y: 0.58000016, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -237,7 +320,7 @@ MonoBehaviour:
   - {fileID: 4094089915765229312}
   - {fileID: 7840529073363940453}
   m_Bounds:
-    m_Center: {x: 1.2004801, y: 0.00030231476, z: 0}
+    m_Center: {x: 1.2004648, y: 0.00030350685, z: 0}
     m_Extent: {x: 2.2777596, y: 3.5397015, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -525,8 +608,8 @@ MonoBehaviour:
   - {fileID: 4496365841692280278}
   - {fileID: 2357003840185605368}
   m_Bounds:
-    m_Center: {x: 0.028173089, y: -0.0007555485, z: 0}
-    m_Extent: {x: 1.2936599, y: 3.235199, z: 0}
+    m_Center: {x: 0.028188348, y: -0.0007545948, z: 0}
+    m_Extent: {x: 1.2936523, y: 3.235199, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2415107076408813075
@@ -661,8 +744,8 @@ MonoBehaviour:
   - {fileID: 6893684269569816267}
   - {fileID: 2273254336187261295}
   m_Bounds:
-    m_Center: {x: -0.015499949, y: 0.010003328, z: 0}
-    m_Extent: {x: 0.98450017, y: 2.5400016, z: 0}
+    m_Center: {x: -0.015484691, y: 0.010005236, z: 0}
+    m_Extent: {x: 0.98450017, y: 2.5400007, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2715461890198511867
@@ -796,7 +879,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 1382435085838861551}
   m_Bounds:
-    m_Center: {x: 0.029960394, y: 0.01962328, z: 0}
+    m_Center: {x: 0.029975653, y: 0.019624233, z: 0}
     m_Extent: {x: 2.6987205, y: 2.53926, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -961,8 +1044,8 @@ MonoBehaviour:
   - {fileID: 1382435085838861551}
   - {fileID: 708449996767468104}
   m_Bounds:
-    m_Center: {x: 0.00000011920929, y: 0.010002971, z: 0}
-    m_Extent: {x: 1.4800003, y: 1.1600001, z: 0}
+    m_Center: {x: 0.00000011920929, y: 0.010004163, z: 0}
+    m_Extent: {x: 1.4800003, y: 1.16, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4420174371468998551
@@ -1006,6 +1089,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5011196274033924716}
   - component: {fileID: 6198905812741548970}
+  - component: {fileID: 3103795061760032899}
+  - component: {fileID: 3103795061760032898}
   m_Layer: 0
   m_Name: "\u54C8\u91CC\u52A8\u6001"
   m_TagString: Untagged
@@ -1036,6 +1121,7 @@ Transform:
   - {fileID: 2852589003694034669}
   - {fileID: 6020957921040258707}
   - {fileID: 7840529073363940453}
+  - {fileID: 1543094159}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1058,6 +1144,51 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &3103795061760032899
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5719464039844468671}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.27, y: 9.814928}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.85, y: 15.467262}
+  m_EdgeRadius: 0
+--- !u!114 &3103795061760032898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5719464039844468671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cacd9cdbff1bcc84bb13d56370956aa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talker: Harry
+  contents:
+  - {fileID: 11400000, guid: 9475dd41f86a2a5498e776f5c1cec310, type: 2}
+  defaultTopic: 
+  uselessTool: 
+  talkingTip: {fileID: 1543094158}
+  trigger: {fileID: 3103795061760032899}
 --- !u!1 &6109035304151536145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1322,7 @@ MonoBehaviour:
   - {fileID: 4614014094886645739}
   - {fileID: 691453504363938962}
   m_Bounds:
-    m_Center: {x: -0.0000015497208, y: 0.00026464462, z: 0}
+    m_Center: {x: -0.0000015497208, y: 0.0002655983, z: 0}
     m_Extent: {x: 1.4, y: 2.639741, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1297,8 +1428,8 @@ MonoBehaviour:
   - {fileID: 2638104495193648670}
   - {fileID: 5661401759938897680}
   m_Bounds:
-    m_Center: {x: -0.0000076293945, y: -0.0024375916, z: 0}
-    m_Extent: {x: 3.5800004, y: 4.897561, z: 0}
+    m_Center: {x: 0.0000076293945, y: -0.002436161, z: 0}
+    m_Extent: {x: 3.580008, y: 4.897561, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6623037232077201454
@@ -1402,8 +1533,8 @@ MonoBehaviour:
   - {fileID: 3317640049637758582}
   - {fileID: 708449996767468104}
   m_Bounds:
-    m_Center: {x: 0.029999495, y: 0.0000026226044, z: 0}
-    m_Extent: {x: 3.3000002, y: 3.0999994, z: 0}
+    m_Center: {x: 0.029991865, y: 0.0000038146973, z: 0}
+    m_Extent: {x: 3.2999926, y: 3.0999994, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6778294810935908936
@@ -1632,8 +1763,8 @@ MonoBehaviour:
   - {fileID: 3867012425278757324}
   - {fileID: 4614014094886645739}
   m_Bounds:
-    m_Center: {x: 0.01197207, y: 0.03002572, z: 0}
-    m_Extent: {x: 1.3358206, y: 0.6199781, z: 0}
+    m_Center: {x: 0.011995077, y: 0.030026197, z: 0}
+    m_Extent: {x: 1.3358207, y: 0.6199776, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8215813744170378694
@@ -1768,8 +1899,8 @@ MonoBehaviour:
   - {fileID: 4796081742099593937}
   - {fileID: 9066520671915166576}
   m_Bounds:
-    m_Center: {x: 0.007840514, y: 0.0000030994415, z: 0}
-    m_Extent: {x: 1.1977202, y: 3.4199996, z: 0}
+    m_Center: {x: 0.007848144, y: 0.000004529953, z: 0}
+    m_Extent: {x: 1.1977125, y: 3.4199996, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8518526336145085329
