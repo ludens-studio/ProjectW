@@ -7,7 +7,9 @@ public enum PlotEvent:int
 {
     GAME_START=0,
     NULL=-1,
-    ENTER_BOOKSHEL=1
+    ENTER_BOOKSHEL=1,
+
+    LATE_TO_MEET=2
 
 }
 public class GameManager : SingletonAutoMono<GameManager>
@@ -20,9 +22,15 @@ public class GameManager : SingletonAutoMono<GameManager>
     /// 选择玩家说话的主题
     /// </summary>
     /// <param name="topic"></param>
-    public delegate void PlayerSpeak(string topic);
     public event PlotHandler GameStart;
-    public event PlayerSpeak PlayerSay;
+    public event PlotHandler LateToMeet;
+
+    private Player player;
+
+    void Start()
+    {
+        player=PlayerControl.GetInstance().gameObject.GetComponent<Player>();
+    }
 
     public void StartPlot(PlotEvent plot)
     {
@@ -42,11 +50,16 @@ public class GameManager : SingletonAutoMono<GameManager>
                 StartSpeaking("进入书架");
                 break;
             } 
+            case 2:
+            {
+                LateToMeet();
+                break;
+            }
         }
     }
 
     private void StartSpeaking(string topic)
     {
-        PlayerSay(topic);
+        player.Talk(topic);
     }    
 }

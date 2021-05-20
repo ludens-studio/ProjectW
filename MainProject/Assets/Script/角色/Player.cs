@@ -7,6 +7,5 @@ public class Player : Speaker
    new void Start()
    {
      base.Start();
-     GameManager.GetInstance().PlayerSay+=Talk;
    } 
 }

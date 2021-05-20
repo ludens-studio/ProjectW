@@ -24,21 +24,20 @@ public class ToolMGR : SingletonMono<ToolMGR>
         return currentTool;
     }
 
-    public void SelectTool(PackageSlot slot)
-    {
-        if(currentSlot=null) currentSlot=slot;
-        ChangeTool(slot.GetEvidenceName());
-    }
 
     /// <summary>
     /// 改变现在工具的内容
     /// </summary>
     /// <param name="toolName"></param>
-    private void ChangeTool(string toolName) 
+    public void ChangeTool(string toolName) 
     {
-       Package evidence=EvidenceManager.GetInstance().package;
-       currentTool=toolName;
-       toolImage.sprite=evidence.GetEvidence(toolName).GetSprite();
+        if(toolName.Equals(currentTool)) CancleTool(currentTool);
+        else
+        {
+            AllEvidence evidence=EvidenceManager.GetInstance().allEvidences;
+            currentTool=toolName;
+            toolImage.sprite=evidence.GetObjectEvidence(toolName).GetSprite();
+        }
     }
 
     public void CancleTool(string tool)

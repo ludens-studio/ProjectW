@@ -10,7 +10,7 @@ public class Speaker : MonoBehaviour
     public DialogContent[] contents;
     protected Dictionary<String,DialogContent> topics=new Dictionary<string, DialogContent>();
 
-    protected void Start()
+    protected virtual void Start()
     {
         gameManager=GameManager.GetInstance();
         if(contents.Length==0) return;
@@ -19,7 +19,12 @@ public class Speaker : MonoBehaviour
             topics.Add(con.topic,con);
         }
     }
-    public void Talk(String topic)
+    
+    /// <summary>
+    /// 启用某段对话
+    /// </summary>
+    /// <param name="topic"></param>
+    public virtual void Talk(String topic)
     {
         DiaLogManager.GetInstance().SetContext(topics[topic]);
         DiaLogManager.GetInstance().ShowDialog();

@@ -6,11 +6,7 @@ public class PackageSlot : Slot, IPointerDownHandler
 {
     [SerializeReference] private Image back;
     [SerializeReference] private Image front;
-    [SerializeReference] private Image background;
 
-    private static Color emp=new Color(30f,30f,30f,100f);
-
-    private bool isTool=false;
     private ObjectEvidence evidence;
     
 
@@ -130,17 +126,6 @@ public class PackageSlot : Slot, IPointerDownHandler
 
     public void SwitchSelection()
     {
-        if(isTool)
-        {
-            background.color=Color.white;
-            isTool=false;
-            ToolMGR.GetInstance().CancleTool(evidence.GetEvidenceName());
-        }
-        else
-        {
-            isTool=true;
-            background.color=emp;
-            ToolMGR.GetInstance().SelectTool(this);
-        }
+        ToolMGR.GetInstance().ChangeTool(evidence.GetEvidenceName());  
     }
 }
