@@ -10,7 +10,7 @@ public class EnterGame : MonoBehaviour
     public Text loadin; 
     private string textString="正在前往案发现场";
     private int dot=0;
-    private int counter=0;
+    private float counter = 0;
 
     private void Awake()
     {
@@ -24,13 +24,13 @@ public class EnterGame : MonoBehaviour
     {
         if(loadin.gameObject.activeSelf)
         {
-            counter++;
-            if(counter==20)
+            counter += 0.02f;
+            if(counter > 1f)
             {
-               if(dot<4) 
+               if(dot < 3) 
                {
                    dot++;
-                   textString+="。";
+                   textString+=".";
                } 
                else 
                {
@@ -59,7 +59,6 @@ public class EnterGame : MonoBehaviour
     IEnumerator LoadGame()
     {
         AsyncOperation operation= SceneManager.LoadSceneAsync("0开幕");
-
         while(!operation.isDone )
         {
             yield return null;

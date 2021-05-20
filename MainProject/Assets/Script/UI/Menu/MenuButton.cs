@@ -57,16 +57,28 @@ public class MenuButton : MonoBehaviour
         PanelList.Peek().SetActive(true);
     }
 
+    //退出游戏
     public void ExitGame()
     {
         Application.Quit();
     }
     
+    //返回游戏
     public void BackGame()
     {
         PanelList.Peek().SetActive(false);
         PanelList.Pop();
         isOpen = false;
         Cursor.lockState = CursorLockMode.Confined;        
+    }
+
+    //静音
+    public void AudioStopper(){
+        MusicMgr.GetInstance().PauseBKMusic();
+    }
+
+    //重新播放音效
+    public void AudioBeginner(){
+        MusicMgr.GetInstance().PlayBkMusic();
     }
 }

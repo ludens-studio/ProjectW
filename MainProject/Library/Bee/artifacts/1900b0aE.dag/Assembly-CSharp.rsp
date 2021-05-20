@@ -375,6 +375,8 @@
 "Assets/Script/Managers/GameManager.cs"
 "Assets/Script/Managers/InteractiveManager.cs"
 "Assets/Script/Managers/StaticPanelMgr.cs"
+"Assets/Script/Music/MusicController.cs"
+"Assets/Script/Music/MusicMgr.cs"
 "Assets/Script/Player/PlayerControl.cs"
 "Assets/Script/SceneControl/CameraControl.cs"
 "Assets/Script/UI/Evidence/CriminalLog/LogMGR.cs"

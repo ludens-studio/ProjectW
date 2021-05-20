@@ -42,6 +42,7 @@
      <Compile Include="Assets\Script\DialogSys\SceneDialogue.cs" />
      <Compile Include="Assets\Script\EvidenceSystem\EvidenceItems\BaseEvidence.cs" />
      <Compile Include="Assets\Script\交互\交互物品\TakeableObject.cs" />
+     <Compile Include="Assets\Script\Music\MusicController.cs" />
      <Compile Include="Assets\Script\UI\StaticPuzzel\Tem\DescribePanel.cs" />
      <Compile Include="Assets\Script\Managers\StaticPanelMgr.cs" />
      <Compile Include="Assets\Script\交互\交互物品\ItemHighlighter.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\Script\密码锁控制\CodeButtonMgr.cs" />
      <Compile Include="Assets\Script\UI\Evidence\CriminalLog\LogUIAction.cs" />
      <Compile Include="Assets\Script\交互\交互物品\PhotoItem.cs" />
+     <Compile Include="Assets\Script\Music\MusicMgr.cs" />
      <Compile Include="Assets\Script\UI\Evidence\WordBullet\BulletUIAction.cs" />
      <Compile Include="Assets\Script\UI\Evidence\Package\PackageFunc\PackageSlot.cs" />
      <Compile Include="Assets\Script\Base\MonoMgr.cs" />

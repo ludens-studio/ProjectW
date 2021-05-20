@@ -42,12 +42,10 @@ public class SceneDialogue : MonoBehaviour
     }
     private void Update()
     {
-        if(textEffectController){
+        if(textEffectController)
             TextColorEffect();
-        }
         ReadText();
         Skip();
-        print(textEffectController);
     }
 
     private void ReadText(){
@@ -106,7 +104,6 @@ public class SceneDialogue : MonoBehaviour
 
     public void TextColorEffect(){
         textUI.color = Color.Lerp(textUI.color,new Color(1,1,1,0),Time.deltaTime);
-        print("你为什么不透明"+textUI.color.a);
     }
 
 }
