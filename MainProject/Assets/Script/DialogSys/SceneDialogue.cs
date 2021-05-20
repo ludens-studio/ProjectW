@@ -32,6 +32,8 @@ public class SceneDialogue : MonoBehaviour
     public float skipTime = 2 ; //长按跳过的时间判定
     private bool isSkip ;  
 
+    private bool textEffectController = false;
+
     private void Start()
     {
         textUI.text = theTexts[currentLine] ; 
@@ -40,20 +42,22 @@ public class SceneDialogue : MonoBehaviour
     }
     private void Update()
     {
+        if(textEffectController){
+            TextColorEffect();
+        }
         ReadText();
         Skip();
+        print(textEffectController);
     }
 
     private void ReadText(){
         //进行文本阅读的方法
         if(Input.GetKeyDown(KeyCode.T) && currentLine != sumOfText-1){
             theTime1 += Time.deltaTime ; 
-
             Debug.Log("TIME 1 : --"+theTime1);
 
             Debug.Log("下一条");
             currentLine++ ; 
-
             //正常化换行符
             theTexts[currentLine] = theTexts[currentLine].Replace("\\n", "\n");
 
@@ -81,6 +85,8 @@ public class SceneDialogue : MonoBehaviour
     private void Skip(){
         //长按T跳过对话
         if(Input.GetKey(KeyCode.T)){
+            textEffectController = true;
+            textUI.color = Color.white;
             theTime2 += Time.deltaTime ; 
             Debug.Log("t2 = "+theTime2);
         }
@@ -98,5 +104,9 @@ public class SceneDialogue : MonoBehaviour
         }       
     }
 
+    public void TextColorEffect(){
+        textUI.color = Color.Lerp(textUI.color,new Color(1,1,1,0),Time.deltaTime);
+        print("你为什么不透明"+textUI.color.a);
+    }
 
 }
