@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ���е�֤�ݶ�����������
-/// ���е�֤�ݵ���ͼ������ҪGameManager����
+/// 记录游戏里面所有的证据
 /// </summary>
 public class AllEvidence : ScriptableObject
 {
@@ -15,7 +14,7 @@ public class AllEvidence : ScriptableObject
     private Dictionary<string, ObjectEvidence> objectDic = new Dictionary<string, ObjectEvidence>();
 
     /// <summary>
-    /// ���ڵ���ģʽ����ʼ�����е��ֵ�
+    /// 初始化字典
     /// </summary>
     public void Initialize() 
     {
@@ -33,7 +32,7 @@ public class AllEvidence : ScriptableObject
     }
 
     /// <summary>
-    /// ��ÿڹ�
+    /// 
     /// </summary>
     /// <param name="evidenceName"></param>
     /// <returns></returns>
@@ -45,7 +44,7 @@ public class AllEvidence : ScriptableObject
     }
 
     /// <summary>
-    /// �����֤
+    ///获得物证
     /// </summary>
     /// <param name="evidenceName"></param>
     /// <returns></returns>

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Harry : NPC
 {
+    [SerializeReference]private Collider2D collider;
     private new void Start()
     {
         base.Start();
@@ -23,5 +24,10 @@ public class Harry : NPC
     protected override void Subscribe()
     {
         gameManager.LateToMeet+=LateToMeet;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag.Equals("Player")) Talk("酒拿到了吗");
     }
 }

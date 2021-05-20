@@ -16,20 +16,30 @@ public enum PlotEvent:int
     /// 停止动画，允许操作
     /// </summary>
     GAME_START=0,
-    /// <summary>
-    /// 开场剧情
-    /// </summary>
-    LATE_TO_MEET=1,
+
     ///<summary>
-    /// 和酒吧老板对话
+    /// 游戏开幕
+    /// </summary>  
+    LATE_TO_MEET=1,
+
     /// <summary>
-    TALK_TO_BOSS=2,
+    /// 获得白酒
+    /// </summary>
+    GET_WINE=2,
+
+    ///<summary>
+    /// 获得新酒
+    /// </summary>
+    GET_NEW_WINE=3,
+    ///<summary>
+    /// 重新去拿白酒
+    /// </summary>
+    GO_BACK_FOR_WINE=4,
+
     /// <summary>
     /// 进入书架视角
     /// </summary>
-    ENTER_BOOKSHEL=3,
-
-
+    ENTER_BOOKSHEL=6,
 }
 public class GameManager : SingletonAutoMono<GameManager>
 {
@@ -43,13 +53,13 @@ public class GameManager : SingletonAutoMono<GameManager>
     /// <param name="topic"></param>
     public event PlotHandler GameStart;
     public event PlotHandler LateToMeet;
-    public event PlotHandler TalkToBoss;
 
     private Player player;
-
+    private EvidenceManager evidenceManager;
     void Start()
     {
         player=PlayerControl.GetInstance().gameObject.GetComponent<Player>();
+        evidenceManager=EvidenceManager.GetInstance();
     }
 
     /// <summary>
@@ -66,18 +76,28 @@ public class GameManager : SingletonAutoMono<GameManager>
                 Cursor.visible=true;
                 GameStart();
                 break;
-            }       
+            } 
             case 1:
             {
                 LateToMeet();
                 break;
-            }
+            }      
             case 2:
             {
-                TalkToBoss();
+                EvidenceManager.GetInstance().AddObjectEvidence("白酒");
                 break;
             }
             case 3:
+            {
+                evidenceManager.AddObjectEvidence("新酒");
+                break;
+            }
+            case 4:
+            {
+                player.transform.localScale=new Vector3(0.2f,0.2f);
+                break;
+            }
+            case 5:
             {
                 Cursor.visible=false;
                 PlayerControl.GetInstance().Pause();

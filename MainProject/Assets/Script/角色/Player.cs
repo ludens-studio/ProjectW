@@ -17,11 +17,10 @@ public class Player : Speaker
 
     protected override void Subscribe()
     {
-        gameManager.LateToMeet+=LateToMeet;
-        gameManager.GameStart+=GameStart;
+       gameManager.GameStart+=GameStart;
+       gameManager.LateToMeet+=LateToMeet;
     }
 
- 
 
    private void LateToMeet()
    {
