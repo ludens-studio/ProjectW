@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC : Speaker
+public abstract class NPC : Speaker
 {
     /// <summary>
     /// 默认情况下对于玩家没有任何交互的话题

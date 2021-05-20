@@ -3,13 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI ;
 
+/// <summary>
+/// 用于选择开启的情节
+/// </summary>
 public enum PlotEvent:int
 {
-    GAME_START=0,
+    ///<summary>
+    /// 啥都没有
+    ///<summary>
     NULL=-1,
-    ENTER_BOOKSHEL=1,
+    /// <summary>
+    /// 停止动画，允许操作
+    /// </summary>
+    GAME_START=0,
+    /// <summary>
+    /// 开场剧情
+    /// </summary>
+    LATE_TO_MEET=1,
+    /// <summary>
+    /// 进入书架视角
+    /// </summary>
+    ENTER_BOOKSHEL=3,
 
-    LATE_TO_MEET=2
 
 }
 public class GameManager : SingletonAutoMono<GameManager>
@@ -32,6 +47,10 @@ public class GameManager : SingletonAutoMono<GameManager>
         player=PlayerControl.GetInstance().gameObject.GetComponent<Player>();
     }
 
+    /// <summary>
+    /// 开启情节
+    /// </summary>
+    /// <param name="plot"></param>
     public void StartPlot(PlotEvent plot)
     {
         switch((int)plot)
@@ -42,19 +61,19 @@ public class GameManager : SingletonAutoMono<GameManager>
                 Cursor.visible=true;
                 GameStart();
                 break;
-            }
+            }       
             case 1:
+            {
+                LateToMeet();
+                break;
+            }
+            case 3:
             {
                 Cursor.visible=false;
                 PlayerControl.GetInstance().Pause();
                 StartSpeaking("进入书架");
                 break;
             } 
-            case 2:
-            {
-                LateToMeet();
-                break;
-            }
         }
     }
 

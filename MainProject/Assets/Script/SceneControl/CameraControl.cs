@@ -76,4 +76,9 @@ public class CameraControl : SingletonMono<CameraControl>
         InteractiveManager.GetInstance().CurrentDoor.Move();
     }
 
+    public void StartFirstPlot()
+    {
+        GameManager.GetInstance().StartPlot(PlotEvent.LATE_TO_MEET);
+    }
+
 }

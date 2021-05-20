@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class Harry : NPC
 {
-    [SerializeReference]private Collider2D coll;
-
     private new void Start()
     {
         base.Start();
         talkable=false;
     }
 
-    void OnColliderEnter2D(Collider2D other)
+    private void LateToMeet()
     {
-        if(other.gameObject.tag.Equals("Player"))
-        {
-            PlayerControl.GetInstance().Pause();
-            Talk("开场白");
-        }
+        Talk("开场白");   
     }
 
-    private void DisableTrigger()
+    protected override void Subscribe()
     {
-        coll.enabled=false;
+        gameManager.LateToMeet+=LateToMeet;
     }
 }

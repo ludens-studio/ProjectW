@@ -111,6 +111,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
         else
         {
             SetContext(nextTopic);
+            ShowDialog();
         }
         GameManager.GetInstance().StartPlot(plot);
     }

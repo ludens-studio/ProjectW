@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Speaker : MonoBehaviour
+public abstract class Speaker : MonoBehaviour
 {
-    private GameManager gameManager;
+    protected GameManager gameManager;
     [SerializeReference]private string talker;
     public DialogContent[] contents;
     protected Dictionary<String,DialogContent> topics=new Dictionary<string, DialogContent>();
@@ -18,6 +18,7 @@ public class Speaker : MonoBehaviour
         {
             topics.Add(con.topic,con);
         }
+        Subscribe();
     }
     
     /// <summary>
@@ -30,4 +31,8 @@ public class Speaker : MonoBehaviour
         DiaLogManager.GetInstance().ShowDialog();
     }
 
+    /// <summary>
+    /// 订阅事件
+    /// </summary>
+    protected abstract void Subscribe();
 }

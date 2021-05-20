@@ -9,9 +9,8 @@ public class PlayerControl : SingletonMono<PlayerControl>
     Rigidbody2D rb ; 
     Animator  anim ;
     private LayerMask ground;//“地面”
-
     private Vector2 DOWNWARD=new Vector2(0,1);
-
+    public bool plotAni=false;
 
 
     [Header("基础数值")]
@@ -25,9 +24,9 @@ public class PlayerControl : SingletonMono<PlayerControl>
     bool jumpPressed ; //是否按下跳跃
     private float moveX;
 
-
-    void Start()
+    private new void Awake()
     {
+        base.Awake();
         rb   =  GetComponent<Rigidbody2D>();
         anim =  GetComponent<Animator>();
         ground= LayerMask.GetMask("Ground");
@@ -61,7 +60,7 @@ public class PlayerControl : SingletonMono<PlayerControl>
         rb.velocity = new Vector2( moveX * speed*Time.deltaTime , rb.velocity.y);
         if(moveX>0)  transform.localScale = new Vector3(-0.2f,0.2f,1);
         if(moveX<0)   transform.localScale = new Vector3(0.2f,0.2f,1);
-        if(isGround)
+        if(isGround&&!plotAni)
         {
             if(moveX>0||moveX<0) anim.Play("侦探动态");
             else anim.Play("侦探静息");
@@ -97,6 +96,7 @@ public class PlayerControl : SingletonMono<PlayerControl>
     /// </summary>
     public void EnableMove()
     {
+        plotAni=false;
         canMove=true;
     }
 }
