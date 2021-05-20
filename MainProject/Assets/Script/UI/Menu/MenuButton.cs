@@ -34,14 +34,13 @@ public class MenuButton : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
         }
         // 底层面板关闭时，按esc打开
-        if(!isOpen)
+        else
         {
             PanelList.Push(menuPanel);
             PanelList.Peek().SetActive(true);
             isOpen = true;
             Cursor.lockState = CursorLockMode.None;
         }
-        menuPanel.SetActive(isOpen);
     }
 
     // 展示退出面板面板
