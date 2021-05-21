@@ -45,7 +45,7 @@ public class ToolMGR : SingletonMono<ToolMGR>
         if(!tool.Equals(currentTool)) return;
         else 
         {
-            currentTool=null;
+            currentTool="null";
             toolImage.sprite=emptySprite;
         }
     }

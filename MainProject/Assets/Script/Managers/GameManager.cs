@@ -8,6 +8,8 @@ using UnityEngine.UI ;
 /// </summary>
 public enum PlotEvent:int
 {
+    VS_F=-3,
+
     ///<summary>
     /// 啥都没有
     ///<summary>
@@ -41,11 +43,19 @@ public enum PlotEvent:int
     /// 重新去拿白酒
     /// </summary>
     GO_BACK_FOR_WINE=4,
+    ///<summary>
+    /// 完成新手教程
+    /// </summary>
+    FINISH_TUR=5,
+    ///<summary>
+    /// 老板自我介绍
+    /// </summary>
+    INTRO_BOSS=6,
 
     /// <summary>
     /// 进入书架视角
     /// </summary>
-    ENTER_BOOKSHEL=6,
+    ENTER_BOOKSHEL=7,
 }
 public class GameManager : SingletonAutoMono<GameManager>
 {
@@ -59,9 +69,11 @@ public class GameManager : SingletonAutoMono<GameManager>
     /// <param name="topic"></param>
     public event PlotHandler GameStart;
     public event PlotHandler LateToMeet;
-
     public event PlotHandler GetWine;
-
+    public event PlotHandler FinishTur;
+    public event PlotHandler VS;
+    public event PlotHandler VSF;
+    public event PlotHandler BossIntro;
     private Player player;
     private EvidenceManager evidenceManager;
     private GameObject tool;
@@ -81,11 +93,17 @@ public class GameManager : SingletonAutoMono<GameManager>
     public void StartPlot(PlotEvent plot)
     {
         switch((int)plot)
-        {
+        {   
+            case -3:
+            {
+                VSF();
+                break;
+            }
             case -1:break;
             case -2:
             {
                 tool.SetActive(true);
+                VS();
                 break;
             }
             case 0:
@@ -119,6 +137,17 @@ public class GameManager : SingletonAutoMono<GameManager>
                 break;
             }
             case 5:
+            {
+                EvidenceManager.GetInstance().RemoveObjectEvidence("新酒");
+                FinishTur();
+                break;
+            }
+            case 6:
+            {
+                BossIntro();
+                break;
+            }
+            case 7:
             {
                 Cursor.visible=false;
                 PlayerControl.GetInstance().Pause();

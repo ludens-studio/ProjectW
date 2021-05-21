@@ -28,6 +28,16 @@ public abstract class NPC : Speaker
 
     protected bool talkable=true;
 
+    public string GetDefaultTopic()
+    {
+        return defaultTopic;
+    }
+
+    public bool canTalk()
+    {
+        return talkingTip.activeSelf;
+    }
+
     public override void Talk(string topic)
     {
         ChangeTalkableStatus(false);
@@ -77,13 +87,4 @@ public abstract class NPC : Speaker
         talker.target=this;
     }
 
-    public string GetDefaultTopic()
-    {
-        return defaultTopic;
-    }
-
-    public bool canTalk()
-    {
-        return talkingTip.activeSelf;
-    }
 }

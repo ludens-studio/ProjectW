@@ -30,6 +30,12 @@ public class PackageUI : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        GameManager.GetInstance().VS+=OpenPanel;
+        GameManager.GetInstance().VSF+=HidePanel;
+    }
+
     /// <summary>
     /// ������嶯������
     /// </summary>
@@ -101,4 +107,15 @@ public class PackageUI : MonoBehaviour
         eviMgr.RemoveObjectEvent -= new EvidenceManager.EvidenceHandler(RemoveEvidence);
     }
 
+    private void OpenPanel()
+    {
+        isHide=false;
+        antor.Play("Show");
+    }
+
+    private void HidePanel()
+    {
+        isHide=true;
+        antor.Play("Hide");
+    }
 }

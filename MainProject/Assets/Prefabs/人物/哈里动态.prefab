@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1543094158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 21.3, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 5011196274033924716}
   m_RootOrder: 12
@@ -1202,10 +1202,13 @@ MonoBehaviour:
   contents:
   - {fileID: 11400000, guid: 9475dd41f86a2a5498e776f5c1cec310, type: 2}
   - {fileID: 11400000, guid: 0c3e41b6610ab374a83bf3bb077c2048, type: 2}
+  - {fileID: 11400000, guid: f9772cdfa86407144a18cdf35be83826, type: 2}
+  - {fileID: 11400000, guid: 066b384b03e8d024fb7fcb5277afa9e9, type: 2}
   defaultTopic: 
   talkingTip: {fileID: 1543094158}
   trigger: {fileID: 3103795061760032899}
-  coll: {fileID: 0}
+  uselessTool: 
+  coll: {fileID: 5550103561233427677}
 --- !u!1 &6109035304151536145
 GameObject:
   m_ObjectHideFlags: 0

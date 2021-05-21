@@ -15,11 +15,25 @@ public class BarBoss : NPC
     protected override void Subscribe()
     {
         gameManager.GetWine+=GetWine;
+        gameManager.FinishTur+=FinishTour;
+        gameManager.BossIntro+=Boss_Intro;
     }
 
     private void GetWine()
     {
         defaultTopic="换酒";
         uselessTool="换酒";
+    }
+
+    private void FinishTour()
+    {
+        defaultTopic="老板身份";
+        uselessTool="老板身份";
+    }
+
+    private void Boss_Intro()
+    {
+        defaultTopic="寒暄";
+        uselessTool="无可奉告";
     }
 }
