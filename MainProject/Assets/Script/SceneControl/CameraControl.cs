@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CameraControl : SingletonMono<CameraControl>
 {
+    private static bool moved=false;
     public static CameraControl instance ; 
     public List<Transform> target = new List<Transform>() ; // 注意第一位一位（下标0）总是Player , 第二位以后是添加的相机点
     [Header("模式设置")]
@@ -26,6 +27,7 @@ public class CameraControl : SingletonMono<CameraControl>
         target.Add( PlayerControl.GetInstance().gameObject.GetComponent<Transform>());
         manager=InteractiveManager.GetInstance();
         animator=gameObject.GetComponent<Animator>();
+        moved=false;
     }
 
 
@@ -79,6 +81,13 @@ public class CameraControl : SingletonMono<CameraControl>
     public void StartFirstPlot()
     {
         GameManager.GetInstance().StartPlot(PlotEvent.LATE_TO_MEET);
+    }
+
+    public void IntroToScene()
+    {
+        if(moved) return;
+        moved=true;
+        GameManager.GetInstance().StartPlot(PlotEvent.ENTER_SCENE);
     }
 
 }

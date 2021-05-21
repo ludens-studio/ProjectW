@@ -10,6 +10,7 @@ public class Harry : NPC
         base.Start();
         talkable=false;
         defaultTopic="准备出发";
+        uselessTool="准备出发";
     }
 
     private void LateToMeet()

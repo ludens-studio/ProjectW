@@ -56,6 +56,10 @@ public enum PlotEvent:int
     /// 进入书架视角
     /// </summary>
     ENTER_BOOKSHEL=7,
+    /// <summary>
+    /// 进入犯罪现场
+    /// </summary>
+    ENTER_SCENE=8
 }
 public class GameManager : SingletonAutoMono<GameManager>
 {
@@ -74,6 +78,7 @@ public class GameManager : SingletonAutoMono<GameManager>
     public event PlotHandler VS;
     public event PlotHandler VSF;
     public event PlotHandler BossIntro;
+    public event PlotHandler EnterScene;
     private Player player;
     private EvidenceManager evidenceManager;
     private GameObject tool;
@@ -152,6 +157,11 @@ public class GameManager : SingletonAutoMono<GameManager>
                 Cursor.visible=false;
                 PlayerControl.GetInstance().Pause();
                 StartSpeaking("进入书架");
+                break;
+            }
+            case 8:
+            {
+                EnterScene();
                 break;
             } 
         }
