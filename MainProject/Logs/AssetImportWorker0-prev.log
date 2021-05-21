@@ -20,17 +20,23 @@ F:/work/Unity/ProjectW/MainProject
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 62293
 Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
 F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 166.73 ms, found 2 plugins.
+<<<<<<< Updated upstream
 =======
 2619
 Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
 F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 160.94 ms, found 2 plugins.
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
@@ -56,6 +62,9 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Manag
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -84,6 +93,7 @@ Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 112.31 ms, found 2 plugins.
+<<<<<<< Updated upstream
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.300 seconds
@@ -108,11 +118,19 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  3.202 seconds
 >>>>>>> Stashed changes
+=======
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -122,6 +140,7 @@ System memory in use after: 197.8 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5072.
 Total: 2.941100 ms (FindLiveObjects: 0.392800 ms CreateObjectMapping: 0.327400 ms MarkObjects: 2.195000 ms  DeleteObjects: 0.024800 ms)
+<<<<<<< Updated upstream
 
 ========================================================================
 Received Import Request.
@@ -365,6 +384,260 @@ System memory in use after: 212.3 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5595.
 Total: 3.095300 ms (FindLiveObjects: 0.526600 ms CreateObjectMapping: 0.163300 ms MarkObjects: 2.388100 ms  DeleteObjects: 0.016500 ms)
+=======
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/艾伦房间.unity
+  artifactKey: Guid(3049a9b0304039847b92e641623890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/艾伦房间.unity using Guid(3049a9b0304039847b92e641623890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102b073a85c974c3748958f070a038a6') in 0.014997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.919955 seconds.
+  path: Assets/AtrMaterial/字体/lcd itc-normal SDF.asset
+  artifactKey: Guid(21cb518622be68c48a7c81d429a72332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/lcd itc-normal SDF.asset using Guid(21cb518622be68c48a7c81d429a72332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4d4bcc2d9cde099717ca88ff96a002') in 0.255708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AtrMaterial/字体/中文字体.ttf
+  artifactKey: Guid(aa28b6a324b978a4380976570e36f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/中文字体.ttf using Guid(aa28b6a324b978a4380976570e36f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324514bfa215837f184aa81e243cc7d4') in 0.063418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/AtrMaterial/字体/中文回滚字体 SDF.asset
+  artifactKey: Guid(3daf8cdb150771e479081777df810965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/中文回滚字体 SDF.asset using Guid(3daf8cdb150771e479081777df810965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776d98e6d9f854683c8cbcbdf5084fe') in 0.055008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AtrMaterial/字体/回滚1.asset
+  artifactKey: Guid(34f6824072bf36b43b6391d9a7f477c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/回滚1.asset using Guid(34f6824072bf36b43b6391d9a7f477c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at TMPro.TMP_FontAsset.InitializeCharacterLookupDictionary () [0x00061] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:682 
+  at TMPro.TMP_FontAsset.InitializeDictionaryLookupTables () [0x00006] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:616 
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0002b] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:572 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+ -> (artifact id: 'a0126eb6292aae5526df2cd751c98bf4') in 0.033661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AtrMaterial/字体/王强书法体 SDF.asset
+  artifactKey: Guid(1c1e1ec71101a644190d082f779c1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/王强书法体 SDF.asset using Guid(1c1e1ec71101a644190d082f779c1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d1e74710691cc2cb73c562bed4e15e') in 0.038795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/AtrMaterial/字体/智勇手书体.ttf
+  artifactKey: Guid(1e16ee132b82ebd4a9ee1e3de4b9d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/智勇手书体.ttf using Guid(1e16ee132b82ebd4a9ee1e3de4b9d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d32f4c7a79f2fbe54ec42953d0a2301') in 0.023950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/AtrMaterial/字体/lcd itc-normal.ttf
+  artifactKey: Guid(125e9d3b52087c64d97f255f4fc21f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/lcd itc-normal.ttf using Guid(125e9d3b52087c64d97f255f4fc21f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de94720821fd9a7683ec8482d800f5e5') in 0.010977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/AtrMaterial/字体/品如手写体.ttf
+  artifactKey: Guid(698f182c806b8554bbf7eee09687afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/品如手写体.ttf using Guid(698f182c806b8554bbf7eee09687afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a6a230218c196f4ca4707711fabef7') in 0.020271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AtrMaterial/字体/回滚3.asset
+  artifactKey: Guid(67388f2c17672c64b9a8bcda59cda69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/回滚3.asset using Guid(67388f2c17672c64b9a8bcda59cda69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16197e1bb79647e210e7531c8240b870') in 0.031563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AtrMaterial/字体/MSYH.TTC
+  artifactKey: Guid(64d3bdcb90974be4b8e1c13cbe567357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/MSYH.TTC using Guid(64d3bdcb90974be4b8e1c13cbe567357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d827d0b9e94c556fe028afad502d64') in 0.033564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AtrMaterial/字体/回滚4.asset
+  artifactKey: Guid(370c0b14af5e21546976a57e4676cf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/回滚4.asset using Guid(370c0b14af5e21546976a57e4676cf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bd2a0e27763ca0e13180c11c5937ec') in 0.046364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AtrMaterial/字体/谦度手写楷体.ttf
+  artifactKey: Guid(5bd77d81cc3577646959c9c1c5c640bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/谦度手写楷体.ttf using Guid(5bd77d81cc3577646959c9c1c5c640bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e06a225047abfa0ce5868285ad3b30c') in 0.012509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AtrMaterial/字体/发光白字.asset
+  artifactKey: Guid(b2b21f69d2caf4341bf3c15b78185052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/发光白字.asset using Guid(b2b21f69d2caf4341bf3c15b78185052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512dfbf0b29edcae8b679a8329d6810e') in 0.070987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/AtrMaterial/字体/OZ焦糖下午茶-使用留意网站说明.ttf
+  artifactKey: Guid(e98303b958576d942a4b734426281aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/OZ焦糖下午茶-使用留意网站说明.ttf using Guid(e98303b958576d942a4b734426281aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ad4be83522ad2bfbab4c10b09d004') in 0.027619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/AtrMaterial/字体/回滚2.asset
+  artifactKey: Guid(9720e757c90ca1f4db528820f4c254f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/回滚2.asset using Guid(9720e757c90ca1f4db528820f4c254f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at TMPro.TMP_FontAsset.InitializeCharacterLookupDictionary () [0x00061] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:682 
+  at TMPro.TMP_FontAsset.InitializeDictionaryLookupTables () [0x00006] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:616 
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0002b] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:572 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+ -> (artifact id: 'ca2b4faf9ade0fc728aafbd275448056') in 0.023325 seconds 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 5191.
+Total: 3.525900 ms (FindLiveObjects: 0.489600 ms CreateObjectMapping: 0.313600 ms MarkObjects: 2.706900 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.640650 seconds.
+  path: Assets/AtrMaterial/字体/回滚2.asset
+  artifactKey: Guid(9720e757c90ca1f4db528820f4c254f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/回滚2.asset using Guid(9720e757c90ca1f4db528820f4c254f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at TMPro.TMP_FontAsset.InitializeCharacterLookupDictionary () [0x00061] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:682 
+  at TMPro.TMP_FontAsset.InitializeDictionaryLookupTables () [0x00006] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:616 
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0002b] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:572 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in F:\work\Unity\ProjectW\MainProject\Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+ -> (artifact id: '0df370ee006592ed67fa3e092472527d') in 0.039665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AtrMaterial/字体/智勇手书体 SDF.asset
+  artifactKey: Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/智勇手书体 SDF.asset using Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55932258f24f64f7b1fd16da535a6a72') in 0.025216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.485202 seconds.
+  path: Assets/AtrMaterial/字体/1.asset
+  artifactKey: Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/1.asset using Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8ff9e5c42aec40c47f56604af51952') in 0.025127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.050484 seconds.
+  path: Assets/AtrMaterial/字体/1.asset
+  artifactKey: Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/1.asset using Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9df28f43974c5a3851bd0cd5de2104e') in 0.028414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AtrMaterial/字体/品如手写体 SDF.asset
+  artifactKey: Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/品如手写体 SDF.asset using Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49447d8ccfe270ed7da3803eb7e1dd67') in 0.019934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.743237 seconds.
+  path: Assets/AtrMaterial/字体/2.asset
+  artifactKey: Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/2.asset using Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef62df479a10abd7654bb779821121d') in 0.024589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.046902 seconds.
+  path: Assets/AtrMaterial/字体/2.asset
+  artifactKey: Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/2.asset using Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7f02c2a378512183a5ea3dae209f4d') in 0.021687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/AtrMaterial/字体/谦度手写楷体 SDF.asset
+  artifactKey: Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/谦度手写楷体 SDF.asset using Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535b1f08836c4dcb50700a765dc2bc75') in 0.019482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.113082 seconds.
+  path: Assets/AtrMaterial/字体/3.asset
+  artifactKey: Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/3.asset using Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561d82759dca045253d697806739e455') in 0.020508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.926803 seconds.
+  path: Assets/AtrMaterial/字体/3.asset
+  artifactKey: Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/3.asset using Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3b5d412e07c91d952edea2ef52f3ca') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AtrMaterial/字体/OZ焦糖下午茶-使用留意网站说明 SDF.asset
+  artifactKey: Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/OZ焦糖下午茶-使用留意网站说明 SDF.asset using Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98664994731d53f394b30fd036cb3dca') in 0.035131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.869175 seconds.
+  path: Assets/AtrMaterial/字体/4.asset
+  artifactKey: Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/4.asset using Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c26bc21616e1ce431a38cd422c18e7a') in 0.030889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.398989 seconds.
+  path: Assets/AtrMaterial/字体/4.asset
+  artifactKey: Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/4.asset using Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131afb95963a6169b1cde4baea906a63') in 0.031288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/AtrMaterial/字体/MSYH SDF.asset
+  artifactKey: Guid(4ae6f776e4845b64baede55d71fc7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/MSYH SDF.asset using Guid(4ae6f776e4845b64baede55d71fc7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036b92c091be4a43085a5b8db894fea0') in 0.033909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.331963 seconds.
+  path: Assets/AtrMaterial/字体/终极回滚.asset
+  artifactKey: Guid(4ae6f776e4845b64baede55d71fc7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/终极回滚.asset using Guid(4ae6f776e4845b64baede55d71fc7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fe7f6eebaffb3ba5b10bcb9ef474ab') in 0.033743 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< Updated upstream
+Registered in 0.003430 seconds.
+=======
+Registered in 0.003887 seconds.
+>>>>>>> Stashed changes
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+<<<<<<< Updated upstream
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+=======
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4479 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.0 MB.
+System memory in use after: 212.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5595.
+Total: 3.095300 ms (FindLiveObjects: 0.526600 ms CreateObjectMapping: 0.163300 ms MarkObjects: 2.388100 ms  DeleteObjects: 0.016500 ms)
 
 ========================================================================
 Received Prepare
@@ -379,6 +652,7 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+>>>>>>> Stashed changes
 - Completed reload, in  1.146 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
@@ -638,6 +912,7 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 218.2 MB.
 System memory in use after: 218.7 MB.
+<<<<<<< Updated upstream
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5722.
 Total: 3.623700 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.237000 ms MarkObjects: 2.901800 ms  DeleteObjects: 0.017200 ms)
@@ -698,6 +973,11 @@ System memory in use after: 188.4 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5080.
 Total: 6.800200 ms (FindLiveObjects: 0.805500 ms CreateObjectMapping: 0.413200 ms MarkObjects: 5.541800 ms  DeleteObjects: 0.037400 ms)
+>>>>>>> Stashed changes
+=======
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5722.
+Total: 3.623700 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.237000 ms MarkObjects: 2.901800 ms  DeleteObjects: 0.017200 ms)
 >>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
