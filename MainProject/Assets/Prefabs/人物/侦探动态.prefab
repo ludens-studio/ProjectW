@@ -1731,6 +1731,7 @@ GameObject:
   - component: {fileID: 1007052116}
   - component: {fileID: 894240210}
   - component: {fileID: 1007052114}
+  - component: {fileID: 629799177}
   m_Layer: 0
   m_Name: "\u4FA6\u63A2\u52A8\u6001"
   m_TagString: Player
@@ -1747,7 +1748,7 @@ Transform:
   m_GameObject: {fileID: 7012059165353647740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.58, y: -1.97, z: -1}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: -0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 2289228353194141938}
   - {fileID: 2372661895922284768}
@@ -1854,10 +1855,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3ba97a40d3619841acdf5927e5409fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  talker: "\u4FA6\u63A2"
   contents:
   - {fileID: 11400000, guid: 63a33f6dcf3208a48aa19847387db5b1, type: 2}
   - {fileID: 11400000, guid: 2a61627c0b882a34780ada4f3515e4e1, type: 2}
+--- !u!114 &629799177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012059165353647740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67510ae3a650f5c4b9a4720d1928c2e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &7319190096548643758
 GameObject:
   m_ObjectHideFlags: 0

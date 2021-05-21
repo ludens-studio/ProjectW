@@ -12,6 +12,12 @@ public enum PlotEvent:int
     /// 啥都没有
     ///<summary>
     NULL=-1,
+
+    ///<summary>
+    ///对峙 
+    ///</summary>
+    VS=-2,
+
     /// <summary>
     /// 停止动画，允许操作
     /// </summary>
@@ -56,10 +62,12 @@ public class GameManager : SingletonAutoMono<GameManager>
 
     private Player player;
     private EvidenceManager evidenceManager;
+    private GameObject tool;
     void Start()
     {
         player=PlayerControl.GetInstance().gameObject.GetComponent<Player>();
         evidenceManager=EvidenceManager.GetInstance();
+        tool=ToolMGR.GetInstance().gameObject;
     }
 
     /// <summary>
@@ -71,9 +79,15 @@ public class GameManager : SingletonAutoMono<GameManager>
         switch((int)plot)
         {
             case -1:break;
+            case -2:
+            {
+                tool.SetActive(true);
+                break;
+            }
             case 0:
             {
                 Cursor.visible=true;
+                tool.SetActive(true);
                 GameStart();
                 break;
             } 
@@ -89,11 +103,13 @@ public class GameManager : SingletonAutoMono<GameManager>
             }
             case 3:
             {
+                evidenceManager.RemoveObjectEvidence("白酒");
                 evidenceManager.AddObjectEvidence("新酒");
                 break;
             }
             case 4:
             {
+                tool.SetActive(true);
                 player.transform.localScale=new Vector3(0.2f,0.2f);
                 break;
             }

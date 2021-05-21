@@ -363,6 +363,7 @@
 "Assets/Script/DialogSys/DialogContent.cs"
 "Assets/Script/DialogSys/SceneDialogue.cs"
 "Assets/Script/DialogSys/Speaker.cs"
+"Assets/Script/DialogSys/Talker.cs"
 "Assets/Script/EvidenceSystem/Collection/BaseCollector.cs"
 "Assets/Script/EvidenceSystem/EvidenceItems/AllEvidence.cs"
 "Assets/Script/EvidenceSystem/EvidenceItems/BaseEvidence.cs"

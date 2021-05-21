@@ -15,6 +15,8 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
 
     private DialogContent currentDialog;
 
+    private GameObject tool;
+
     [HideInInspector]
     public string[] dialogLines ; //对话框输出内容
     [SerializeField] private int currentLine ; //实时追踪是行，哪个元素在输出
@@ -26,6 +28,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
 
     void Start()
     {
+        tool=ToolMGR.GetInstance().gameObject;
         EvidenceManager.GetInstance().AddObjectEvent+=ShowDescribe;
         EvidenceManager.GetInstance().AddWordEvent+=ShowDescribe;
         evidences=EvidenceManager.GetInstance().allEvidences;
@@ -40,11 +43,10 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
             currentLine ++ ; 
             if(currentLine < dialogLines.Length)
             {
-                dialogText.text = dialogLines[currentLine]+"（按T继续）";
+                dialogText.text = dialogLines[currentLine];
             }
             else
             {
-                currentLine = 0 ; 
                 EndContent();
             } 
         }    
@@ -54,12 +56,13 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
     {
         if(!talking)
         {
-         animator.Play("Show");
          talking=true;
          PlayerControl.GetInstance().Pause(); //限制玩家在对话状态不可移动
         }
+        animator.Play("Show");
         nameText.text=speaker;
-        dialogText.text=dialogLines[currentLine]+"（按T继续）";
+        dialogText.text=dialogLines[currentLine];
+        tool.SetActive(false);
     }
 
     /// <summary>
@@ -71,9 +74,8 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
         currentDialog=content;
         dialogLines=content.GetContext();
         speaker=content.GetSpeaker();
-        if(!talking)ShowDialog();
         nameText.text=content.GetSpeaker();
-
+        ShowDialog();
     }
 
     /// <summary>
@@ -99,6 +101,7 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
 
     private void EndContent()
     {
+        currentLine=0;
         DialogContent nextTopic=currentDialog.GetNextContent();
         PlotEvent plot=currentDialog.GetPlot();
         if(nextTopic==null)

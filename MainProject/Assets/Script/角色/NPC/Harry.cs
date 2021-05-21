@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Harry : NPC
 {
-    [SerializeReference]private Collider2D collider;
+    [SerializeReference]private Collider2D coll;
     private new void Start()
     {
         base.Start();

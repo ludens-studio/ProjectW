@@ -20,9 +20,6 @@ public class SceneDialogue : MonoBehaviour
 
     [Tooltip("在哪行触发特殊事件，这里是获得成就")]
     public int specialLine ;
-    
-    [Tooltip("下一个场景的名字")]
-    public string nextScene ; 
 
     private int skipStep = 0 ; //计算跳过的步骤，来实现长按跳过
     private float theTime1 = 0 ; //短按的瞬间计时
@@ -70,7 +67,7 @@ public class SceneDialogue : MonoBehaviour
 
             if(currentLine == sumOfText-1){
                 Debug.Log("对话结束");
-                TotheScene(nextScene);
+                TotheScene("艾伦房间");
             }
         }
 
@@ -97,7 +94,7 @@ public class SceneDialogue : MonoBehaviour
 
             if(currentLine == sumOfText-1){
                 Debug.Log("对话结束");
-                TotheScene(nextScene);
+                TotheScene("艾伦房间");
             }
         }       
     }

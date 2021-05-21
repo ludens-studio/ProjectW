@@ -32,5 +32,6 @@ public class Player : Speaker
    {
      playerControl.plotAni=false;
      animator.Play("侦探静息");
+     playerControl.EnableMove();
    } 
 }

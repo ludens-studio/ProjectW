@@ -12,7 +12,6 @@ public enum INTERATION_TYPE:int
 public class interactiveItem : MonoBehaviour
 {    
     private ItemHighlighter highlighter;
-    private bool canUse = false ; //是否处于可交互状态
     [SerializeReference]private INTERATION_TYPE actionType;
     [Header("STATICPUZZEL类型必须使用")]
     [SerializeReference]private string puzzelName;
@@ -48,21 +47,4 @@ public class interactiveItem : MonoBehaviour
         StaticPanelMgr.GetInstance().LoadPanel("静态面板/"+puzzelName);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        //进入时
-        if(other.tag == "Player")
-        {
-            canUse = true ;     
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        //退出时
-        if(other.tag == "Player")
-        {
-
-        }
-    }
 }

@@ -8,11 +8,6 @@ public abstract class NPC : Speaker
     /// 默认情况下对于玩家没有任何交互的话题
     /// </summary>
     [SerializeReference]protected string defaultTopic;
-
-    /// <summary>
-    /// 对于对给予道具毫无意义的话题说明
-    /// </summary>
-    [SerializeReference]protected string uselessTool;
     
     /// <summary>
     /// 针对于某种物品的聊天，start中手动初始化
@@ -30,8 +25,8 @@ public abstract class NPC : Speaker
     /// </summary>
     [SerializeReference]private Collider2D trigger;
 
-    protected bool talkable=true;
 
+    protected bool talkable=true;
 
     public override void Talk(string topic)
     {
@@ -42,23 +37,22 @@ public abstract class NPC : Speaker
     /// <summary>
     /// 与证据对话
     /// </summary>
-    protected void TalkWithTool()
+    public void TalkWithTool()
     {
-        string tool=ToolMGR.GetInstance().GetTool();
-        if(!toolTopic.ContainsKey(tool))
+        ToolMGR toolMGR=ToolMGR.GetInstance();
+        string tool=toolMGR.GetTool();
+        if(toolMGR.gameObject.activeSelf&&toolTopic.ContainsKey(tool))
         {
             Talk(toolTopic[tool]);
         }
-        else Talk(uselessTool);
+        else Talk(defaultTopic);
         ChangeTalkableStatus(false);
     }
 
-    private void Update()
+    protected void ModifyToolContent(string key, string content)
     {
-        if(!talkingTip.activeSelf) return;
-
-        if(Input.GetKeyDown(KeyCode.T)) Talk(defaultTopic);
-        else if(Input.GetKeyDown(KeyCode.T)) TalkWithTool();
+        if(toolTopic.ContainsKey(key)) toolTopic[key]=content;
+        else toolTopic.Add(key,content);
     }
 
     protected void ChangeTalkableStatus(bool isActive)
@@ -71,6 +65,7 @@ public abstract class NPC : Speaker
     {
         if(!other.gameObject.tag.Equals("Player")) return;
         ChangeTalkableStatus(false);
+        talker.target=null;
     }
 
     
@@ -79,5 +74,16 @@ public abstract class NPC : Speaker
         if(!other.gameObject.tag.Equals("Player")) return;
         talkingTip.SetActive(true);
         ChangeTalkableStatus(true);
+        talker.target=this;
+    }
+
+    public string GetDefaultTopic()
+    {
+        return defaultTopic;
+    }
+
+    public bool canTalk()
+    {
+        return talkingTip.activeSelf;
     }
 }
