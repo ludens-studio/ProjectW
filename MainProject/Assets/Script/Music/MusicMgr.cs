@@ -8,13 +8,8 @@ public class MusicMgr : SingletonAutoMono<MusicMgr>
     private static AudioSource bkMusic = null;
     //音乐大小
     private float bkValue = 1;
-
-    //音效依附对象
-    private GameObject soundObj = null;
     //音效列表
     private List<AudioSource> soundList = new List<AudioSource>();
-    //音效大小
-    private float soundValue = 1;
 
     public MusicMgr()
     {

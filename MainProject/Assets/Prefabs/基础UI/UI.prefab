@@ -598,7 +598,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1952,6 +1952,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -1317735270556003612, guid: 1c1e1ec71101a644190d082f779c1a60, type: 2}
+    - target: {fileID: 2386009622014256019, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3682843955737891462, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2043,6 +2047,10 @@ PrefabInstance:
     - target: {fileID: 7800697570786553075, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834651705853856502, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47a28cd80f5f7a5488d8c226a40ba2c3, type: 3}
