@@ -308,7 +308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68684929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.51, y: 0, z: 0}
+  m_LocalPosition: {x: 20.45, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1449489154}
@@ -339,7 +339,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 10.01}
+  m_Size: {x: 0.32, y: 10.01}
   m_EdgeRadius: 0
 --- !u!1 &110701271 stripped
 GameObject:
@@ -11050,6 +11050,10 @@ PrefabInstance:
       propertyPath: contents.Array.data[6]
       value: 
       objectReference: {fileID: 11400000, guid: d7d4ae08707f52941b99ca7fc6e4b13a, type: 2}
+    - target: {fileID: 3103795061646180600, guid: 7e6e67c85a65cef4e9a39123a96a64a0, type: 3}
+      propertyPath: contents.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: d7d4ae08707f52941b99ca7fc6e4b13a, type: 2}
     - target: {fileID: 3103795061646180601, guid: 7e6e67c85a65cef4e9a39123a96a64a0, type: 3}
       propertyPath: m_Size.x
       value: 6.82
@@ -11226,12 +11230,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
       propertyPath: contents.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
       propertyPath: contents.Array.data[4]
       value: 
       objectReference: {fileID: 11400000, guid: 84963f30e6b35ae4e9aa1a383826c9fc, type: 2}
+    - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
+      propertyPath: contents.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1a8902c33b1905f4aab7459f4687fe50, type: 2}
+    - target: {fileID: 3103795061760032899, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
+      propertyPath: m_Size.x
+      value: 22.05
+      objectReference: {fileID: 0}
     - target: {fileID: 5011196274033924716, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
       propertyPath: m_RootOrder
       value: 3

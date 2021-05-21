@@ -109,7 +109,6 @@ public class DiaLogManager : SingletonMono<DiaLogManager>
             currentDialog=null;
             animator.Play("Hide");
             talking=false;
-            PlayerControl.GetInstance().EnableMove();
         }
         else
         {

@@ -392,6 +392,7 @@
 "Assets/Script/UI/Panels/Exiter.cs"
 "Assets/Script/UI/ShowTips.cs"
 "Assets/Script/UI/StaticPuzzel/BookShell.cs"
+"Assets/Script/UI/StaticPuzzel/Clothes.cs"
 "Assets/Script/UI/StaticPuzzel/Tem/DescribePanel.cs"
 "Assets/Script/UIPoor/BulletPool.cs"
 "Assets/Script/交互/交互物品/interactiveItem.cs"

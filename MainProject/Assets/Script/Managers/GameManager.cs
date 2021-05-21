@@ -139,6 +139,7 @@ public class GameManager : SingletonAutoMono<GameManager>
             {
                 tool.SetActive(true);
                 player.transform.localScale=new Vector3(0.2f,0.2f);
+                PlayerControl.GetInstance().EnableMove();
                 break;
             }
             case 5:

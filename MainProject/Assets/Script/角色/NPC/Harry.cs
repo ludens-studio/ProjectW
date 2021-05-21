@@ -50,5 +50,6 @@ public class Harry : NPC
         Talk("现场介绍");
         transform.position=new Vector3(21f,transform.position.y);
         animator.Play("哈里静息");
+        defaultTopic="默认";
     }
 }
