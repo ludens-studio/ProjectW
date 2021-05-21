@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/china_unity/release' branch; Version is '2021.1.0f1c1 (cd437fc7d72d) revision 13452159'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 18363.1016; Version 1909; 64bit' Language: 'zh' Physical Memory: 16303 MB
+OS: 'Windows 10 Pro; OS build 17763.1098; Version 1809; 64bit' Language: 'zh' Physical Memory: 16002 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,19 +15,11 @@ F:/work/Unity/ProjectW/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< Updated upstream
-53581
+5724
 Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
 F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.94 ms, found 2 plugins.
-=======
-3952
-Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
-F:/work/Unity/ProjectW/MainProject
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 185.64 ms, found 2 plugins.
->>>>>>> Stashed changes
+Refreshing native plugins compatible for Editor in 206.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,1493 +27,210 @@ Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   26.21.14.4223
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     8001 MB
+    Driver:   26.20.12001.7006
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<< Updated upstream
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
->>>>>>> Stashed changes
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-<<<<<<< Updated upstream
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.010800 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
+Registered in 0.010015 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 200.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.350 seconds
+- Completed reload, in  2.099 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003341 seconds.
-=======
-Registered in 0.008948 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 205.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.191 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.005774 seconds.
->>>>>>> Stashed changes
+Registered in 0.006087 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-<<<<<<< Updated upstream
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 131.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 189.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.316 seconds
-=======
-Refreshing native plugins compatible for Editor in 198.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.645 seconds
->>>>>>> Stashed changes
+- Completed reload, in  2.411 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-<<<<<<< Updated upstream
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.7 MB.
-System memory in use after: 197.9 MB.
+Unloading 4593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5072.
-Total: 2.594000 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.166000 ms MarkObjects: 2.039000 ms  DeleteObjects: 0.023500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/人物/老板动态.prefab
-  artifactKey: Guid(7e6e67c85a65cef4e9a39123a96a64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/老板动态.prefab using Guid(7e6e67c85a65cef4e9a39123a96a64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4639b67947468614ae4a58d2f0ca5493') in 0.239107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Prefabs/人物/侦探动态.prefab
-  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ee0a61cea86c69a9da01fbea60b0be') in 0.024220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000771 seconds  code(4) message(Build asset version error: assets/prefabs/人物/哈里动态.prefab in SourceAssetDB has modification time of '2021-05-21T06:28:42.3866515Z' while content on disk has modification time of '2021-05-21T06:33:19.3221354Z')
-  ERROR: Build asset version error: assets/prefabs/人物/哈里动态.prefab in SourceAssetDB has modification time of '2021-05-21T06:28:42.3866515Z' while content on disk has modification time of '2021-05-21T06:33:19.3221354Z'
-========================================================================
-Received Import Request.
-  Time since last request: 101.272077 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4658bf29106045a28cd18bb4ec3a55e4') in 0.026486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.533434 seconds.
-  path: Assets/Scenes/开始界面.unity
-  artifactKey: Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/开始界面.unity using Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea36a0211db95662411d5c05c227dd5') in 0.002400 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003445 seconds.
-=======
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.3 MB.
-System memory in use after: 195.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5072.
-Total: 5.060800 ms (FindLiveObjects: 0.627500 ms CreateObjectMapping: 0.288300 ms MarkObjects: 4.101900 ms  DeleteObjects: 0.041200 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5073.
+Total: 4.925400 ms (FindLiveObjects: 0.803900 ms CreateObjectMapping: 0.534000 ms MarkObjects: 3.542200 ms  DeleteObjects: 0.043300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Database/Dialog/老板/无可奉告.asset
-  artifactKey: Guid(d7d4ae08707f52941b99ca7fc6e4b13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/老板/无可奉告.asset using Guid(d7d4ae08707f52941b99ca7fc6e4b13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c6643e2b21e1fde79acbcb32b3d4a5') in 0.071651 seconds 
+  path: Assets/EvidencePrefab/MenuSystem.prefab
+  artifactKey: Guid(47a28cd80f5f7a5488d8c226a40ba2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvidencePrefab/MenuSystem.prefab using Guid(47a28cd80f5f7a5488d8c226a40ba2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbacae3220d046ceaa767ab2dd64767d') in 0.281509 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Database/Dialog/老板/寒暄1.asset
-  artifactKey: Guid(a2fba36a8a68c2a499077f2d094cb525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/老板/寒暄1.asset using Guid(a2fba36a8a68c2a499077f2d094cb525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f363c99d58c57a767412ec92458416') in 0.004739 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006740 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.225 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.0 MB.
-System memory in use after: 188.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5076.
-Total: 5.593500 ms (FindLiveObjects: 0.634400 ms CreateObjectMapping: 0.283300 ms MarkObjects: 4.639600 ms  DeleteObjects: 0.034100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004866 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.191 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.1 MB.
-System memory in use after: 188.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5080.
-Total: 4.960000 ms (FindLiveObjects: 0.585900 ms CreateObjectMapping: 0.164900 ms MarkObjects: 4.178100 ms  DeleteObjects: 0.029500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 480.647794 seconds.
-  path: Assets/Animation/杂七杂八/Main Camera.controller
-  artifactKey: Guid(1191e938e74c23545bec251a3ac94d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/杂七杂八/Main Camera.controller using Guid(1191e938e74c23545bec251a3ac94d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db66623bf74602aa951ed207ae12f88f') in 0.037708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.950404 seconds.
-  path: Assets/Animation/杂七杂八/Move.anim
-  artifactKey: Guid(99e35f66c1955844fbc8b2996d312046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/杂七杂八/Move.anim using Guid(99e35f66c1955844fbc8b2996d312046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dc201524d44b88959903d1ec5c59dc') in 0.008010 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005311 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.118 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.2 MB.
-System memory in use after: 188.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5084.
-Total: 5.152400 ms (FindLiveObjects: 0.817500 ms CreateObjectMapping: 0.380000 ms MarkObjects: 3.925100 ms  DeleteObjects: 0.026600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.581499 seconds.
-  path: Assets/AtrMaterial/物品/酒杯.png
-  artifactKey: Guid(fe75f9331facaa04e83f8f01dc2bf009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/物品/酒杯.png using Guid(fe75f9331facaa04e83f8f01dc2bf009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298f364d4d8aca3f19f5e61362558dae') in 0.244432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/AtrMaterial/物品/酒瓶.png
-  artifactKey: Guid(0d839311c07113e4997042a180d26ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/物品/酒瓶.png using Guid(0d839311c07113e4997042a180d26ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d6ec0837bd697d6606ee21a89f7a84') in 0.018513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.082894 seconds.
-  path: Assets/Database/Dialog/剧情/进入现场
-  artifactKey: Guid(65d4eeab1f2881a46b7f7099c4d16844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入现场 using Guid(65d4eeab1f2881a46b7f7099c4d16844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a473b2c06167d43a7c28f83baaededc') in 0.005531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.341113 seconds.
-  path: Assets/Database/Dialog/剧情/进入现场/DialogContent.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入现场/DialogContent.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025453c2bd9742031af36f00edee98fb') in 0.010645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 160.623109 seconds.
-  path: Assets/Database/Dialog/剧情/进入现场/犯罪现场介绍.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入现场/犯罪现场介绍.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bbbd814a2cdf43e63e85524350eeb9') in 0.006908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 297.276213 seconds.
-  path: Assets/Prefabs/人物
-  artifactKey: Guid(2b55e18d0c662234b8eebadc40914347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物 using Guid(2b55e18d0c662234b8eebadc40914347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7647f635b0930bb0e496de9107e67cfb') in 0.004693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052700 seconds.
-  path: Assets/Prefabs/人物/侦探动态.prefab
-  artifactKey: Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/侦探动态.prefab using Guid(c4c052062a1e7e140990cc6caca9d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ee0a61cea86c69a9da01fbea60b0be') in 0.337698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000661 seconds.
-  path: Assets/Prefabs/人物/老板动态.prefab
-  artifactKey: Guid(7e6e67c85a65cef4e9a39123a96a64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/老板动态.prefab using Guid(7e6e67c85a65cef4e9a39123a96a64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4639b67947468614ae4a58d2f0ca5493') in 0.037847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4658bf29106045a28cd18bb4ec3a55e4') in 0.043604 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007247 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.211 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4466 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.6 MB.
-System memory in use after: 195.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5168.
-Total: 5.822300 ms (FindLiveObjects: 0.698300 ms CreateObjectMapping: 0.580600 ms MarkObjects: 4.496700 ms  DeleteObjects: 0.044500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007507 seconds.
->>>>>>> Stashed changes
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-<<<<<<< Updated upstream
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.8 MB.
-System memory in use after: 197.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5123.
-Total: 2.935700 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.192300 ms MarkObjects: 2.350400 ms  DeleteObjects: 0.015900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.295365 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c244437b0c634110747741d891e12c') in 0.166790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.216499 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f4d1362d7e495e9a3256d14c7945dd') in 0.021908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.599482 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6992c34f17d6c9cab208057bde247fa') in 0.021556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.416303 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56b10dca8040bf3e4ff8736945e07ac') in 0.023362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.202722 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58686f56816a7d02f7a9a18e0daddcc') in 0.019988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.407782 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0caac4670d2880d2ffe1b555c8fceb') in 0.021768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.001266 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c56902fdd7d2050d60c6115483976d') in 0.022123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.803759 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37ecb74d4b03dc8116fe4065af048e3') in 0.020006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.599848 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4311712ac2076d04b41ef4794999e379') in 0.020553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.820313 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec052090e80a3467f9b67a5d8c50e8a7') in 0.021653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.200382 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db656442eb5760657a3c0a37014681a') in 0.023434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.817050 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b6cc20d1a5976cddce97cf935f7d28') in 0.027207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.253069 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1a7d15c96de21b581155633f911844') in 0.024207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.162953 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224471bd185f0e9b9dc05c0c4cd67e88') in 0.020559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.893207 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d6606b3a22cd9259aebb62bdef607b') in 0.021971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.904909 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bfe302aaee1e8cb5c8f0ee21756764') in 0.024305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.157137 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a1b142aa80d777590a489c17fba395') in 0.022305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.753886 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469eec277f7e6b83e71caee968e30708') in 0.022753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.545075 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94716f72fb2d638ec40284eefec4f95') in 0.026732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.648686 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581571a670071fb46316c2f2e499137a') in 0.024734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.485530 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ef0dd52ce031038a2629c9cbd6472d') in 0.022380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.890471 seconds.
-  path: Assets/Prefabs/人物/哈里动态.prefab
-  artifactKey: Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/人物/哈里动态.prefab using Guid(ae885ff722361df4bbb176589de2abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76eb71351e710af66c54e49e4c7d631f') in 0.023112 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003471 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.183 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.1 MB.
-System memory in use after: 197.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5165.
-Total: 3.010500 ms (FindLiveObjects: 0.501100 ms CreateObjectMapping: 0.269100 ms MarkObjects: 2.221600 ms  DeleteObjects: 0.017000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 551.944694 seconds.
-  path: Assets/Resources/音乐/激昂的糊弄循环起来了.wav
-  artifactKey: Guid(cf167d8435c4bde4ea3315c7ce157666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/音乐/激昂的糊弄循环起来了.wav using Guid(cf167d8435c4bde4ea3315c7ce157666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9103676e6844b77bf377f24336ae2445') in 0.113039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Resources/音乐/阴间音乐.wav
-  artifactKey: Guid(177fdb53ee700434d943d6c8c11a2261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/音乐/阴间音乐.wav using Guid(177fdb53ee700434d943d6c8c11a2261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9426c827b6e3d484b5247c5626e25036') in 0.009209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.612622 seconds.
-  path: Assets/Resources/音乐/按钮音效.mp3
-  artifactKey: Guid(f0ff378ed827e804c87017d98c931ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/音乐/按钮音效.mp3 using Guid(f0ff378ed827e804c87017d98c931ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2e4060fdcbb08f3a946afda4912bbc') in 0.010968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.352756 seconds.
-  path: Assets/Resources/静态面板/PanelExiter.prefab
-  artifactKey: Guid(3546f1f0d5c2b07458c1ef13bc5518ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/静态面板/PanelExiter.prefab using Guid(3546f1f0d5c2b07458c1ef13bc5518ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb6f50b5c3d21a99f3e024327aed80b') in 0.022435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Resources/静态面板/衣柜.prefab
-  artifactKey: Guid(e0ab01dc41d2cb34da73ac6d1becc513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/静态面板/衣柜.prefab using Guid(e0ab01dc41d2cb34da73ac6d1becc513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8dbc7570b03a2a9d9d6f754f6262ef') in 0.004481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Resources/静态面板/书架.prefab
-  artifactKey: Guid(89d1f6b17ed167840a536be9c166ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/静态面板/书架.prefab using Guid(89d1f6b17ed167840a536be9c166ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac297b339d1deecb0cf90b16b5f1a16') in 0.006230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Resources/静态面板/密码锁.prefab
-  artifactKey: Guid(edc4e0c917a10f64983c3d7c05b45346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/静态面板/密码锁.prefab using Guid(edc4e0c917a10f64983c3d7c05b45346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd77d3b7d894b464eb65fc1094b0138') in 0.041735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.165774 seconds.
-  path: Assets/Scenes/艾伦房间.unity
-  artifactKey: Guid(3049a9b0304039847b92e641623890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/艾伦房间.unity using Guid(3049a9b0304039847b92e641623890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984ffea6c624a9ef4a13779bc232e98') in 0.002380 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003446 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.2 MB.
-System memory in use after: 197.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 5174.
-Total: 2.955400 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.221400 ms MarkObjects: 2.325000 ms  DeleteObjects: 0.025200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 277.453563 seconds.
-  path: Assets/Script/UI/ButtonMusic.cs
-  artifactKey: Guid(dfad5426968e3fe42a6ad2b67e378966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/UI/ButtonMusic.cs using Guid(dfad5426968e3fe42a6ad2b67e378966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094bfaf535f7e0d30f98815ba8ea0fab') in 0.017005 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005106 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.168 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5179.
-Total: 2.883500 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.210600 ms MarkObjects: 2.218600 ms  DeleteObjects: 0.022800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003525 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5183.
-Total: 3.127100 ms (FindLiveObjects: 0.410400 ms CreateObjectMapping: 0.219700 ms MarkObjects: 2.478900 ms  DeleteObjects: 0.017200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.627842 seconds.
-  path: Assets/Script/UI/ButtonMusic.cs
-  artifactKey: Guid(dfad5426968e3fe42a6ad2b67e378966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/UI/ButtonMusic.cs using Guid(dfad5426968e3fe42a6ad2b67e378966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d992bff54ee6b92efb006f35cb34361') in 0.006191 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004986 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5187.
-Total: 2.780900 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.164500 ms  DeleteObjects: 0.018300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003489 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5191.
-Total: 3.158000 ms (FindLiveObjects: 0.409400 ms CreateObjectMapping: 0.215700 ms MarkObjects: 2.514000 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003443 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5195.
-Total: 3.158800 ms (FindLiveObjects: 0.381600 ms CreateObjectMapping: 0.229800 ms MarkObjects: 2.527500 ms  DeleteObjects: 0.018600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003484 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5199.
-Total: 3.074500 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.164100 ms MarkObjects: 2.587600 ms  DeleteObjects: 0.017900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003656 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.3 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5203.
-Total: 5.206300 ms (FindLiveObjects: 0.386100 ms CreateObjectMapping: 0.745100 ms MarkObjects: 4.050400 ms  DeleteObjects: 0.023300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003495 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.180 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5207.
-Total: 3.486700 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.216800 ms MarkObjects: 2.860500 ms  DeleteObjects: 0.016300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004716 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5211.
-Total: 3.196300 ms (FindLiveObjects: 0.399000 ms CreateObjectMapping: 0.189100 ms MarkObjects: 2.589900 ms  DeleteObjects: 0.017700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5215.
-Total: 3.087700 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.194700 ms MarkObjects: 2.484200 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003536 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5219.
-Total: 3.728800 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.238300 ms MarkObjects: 3.044500 ms  DeleteObjects: 0.022600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 404.079342 seconds.
-  path: Assets/Scenes/开始界面.unity
-  artifactKey: Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/开始界面.unity using Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9959eef332a6903361829262a7ea43bb') in 0.011398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.835816 seconds.
-  path: Assets/Scenes/0开幕.unity
-  artifactKey: Guid(cf709104a6b095c44a0cf26f754bfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/0开幕.unity using Guid(cf709104a6b095c44a0cf26f754bfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5324e88f4d8a5caa0f735e859dbc2a95') in 0.002816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.689973 seconds.
-  path: Assets/Script/UI/ShowTips.cs
-  artifactKey: Guid(75c45fa0f1a917c42b5b57ee35c4f4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/UI/ShowTips.cs using Guid(75c45fa0f1a917c42b5b57ee35c4f4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497847e1b70202e810e689f00e3dfbbc') in 0.002448 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003875 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5223.
-Total: 3.376200 ms (FindLiveObjects: 0.564100 ms CreateObjectMapping: 0.283200 ms MarkObjects: 2.509600 ms  DeleteObjects: 0.018600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003456 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5227.
-Total: 3.333500 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.175200 ms MarkObjects: 2.710600 ms  DeleteObjects: 0.053200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003941 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5231.
-Total: 2.905700 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.228100 ms MarkObjects: 2.278800 ms  DeleteObjects: 0.017400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5235.
-Total: 4.140100 ms (FindLiveObjects: 0.641900 ms CreateObjectMapping: 0.350200 ms MarkObjects: 3.128800 ms  DeleteObjects: 0.018000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003475 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5239.
-Total: 3.273000 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.243700 ms MarkObjects: 2.606800 ms  DeleteObjects: 0.020000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003818 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5243.
-Total: 2.664600 ms (FindLiveObjects: 0.372500 ms CreateObjectMapping: 0.165600 ms MarkObjects: 2.111100 ms  DeleteObjects: 0.014600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 819.720747 seconds.
-  path: Assets/Scenes/开始界面.unity
-  artifactKey: Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/开始界面.unity using Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694d213c7b006150ead7298a936bca28') in 0.013277 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003747 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.4 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5247.
-Total: 3.018300 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.200200 ms MarkObjects: 2.403200 ms  DeleteObjects: 0.016000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003411 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.5 MB.
-System memory in use after: 197.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5251.
-Total: 2.912600 ms (FindLiveObjects: 0.377100 ms CreateObjectMapping: 0.211800 ms MarkObjects: 2.305300 ms  DeleteObjects: 0.017500 ms)
-
-=======
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.239 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.5 MB.
-System memory in use after: 195.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5172.
-Total: 4.531700 ms (FindLiveObjects: 0.555600 ms CreateObjectMapping: 0.157300 ms MarkObjects: 3.788500 ms  DeleteObjects: 0.028900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1166.998094 seconds.
-  path: Assets/AtrMaterial/渲染/URP.asset
-  artifactKey: Guid(65f52dc37f7d5b348957f59edf2cf323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/渲染/URP.asset using Guid(65f52dc37f7d5b348957f59edf2cf323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9372777db8ee62ad489e9974e820e560') in 0.024367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/AtrMaterial/渲染/对话泡泡.png
-  artifactKey: Guid(673e8dbccd9472e44b04ee72764f3495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/渲染/对话泡泡.png using Guid(673e8dbccd9472e44b04ee72764f3495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06bd704aca0d33c9b0dd4e5e5f12606') in 0.074437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/AtrMaterial/渲染/URP_Asset.asset
-  artifactKey: Guid(990931c5753ce5848b7b953156e89b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/渲染/URP_Asset.asset using Guid(990931c5753ce5848b7b953156e89b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34153e96a22d2c889bc3e59923b604f8') in 0.006474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.457377 seconds.
-  path: Assets/AtrMaterial/字体/1.asset
-  artifactKey: Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/字体/1.asset using Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c383fb745dfbebbfb08e445c72edcedf') in 0.299912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/AtrMaterial/字体/4.asset
-  artifactKey: Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/字体/4.asset using Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e4af9fbb965aced1d701badbdec6c3') in 0.071006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/AtrMaterial/字体/2.asset
-  artifactKey: Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/字体/2.asset using Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de11a65a79a591bf1b879d44af419fa') in 0.059402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/AtrMaterial/字体/王强书法体 SDF.asset
-  artifactKey: Guid(1c1e1ec71101a644190d082f779c1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/字体/王强书法体 SDF.asset using Guid(1c1e1ec71101a644190d082f779c1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc34dedab6c0bed5e14ea4b06f556caa') in 0.057299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/AtrMaterial/字体/3.asset
-  artifactKey: Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/字体/3.asset using Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ba9fad8e538f89fc02c3e43f97ff4f') in 0.055421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/AtrMaterial/地图/酒馆.psb
-  artifactKey: Guid(1bbcde2c1a00e114fb0e7b59671aa90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AtrMaterial/地图/酒馆.psb using Guid(1bbcde2c1a00e114fb0e7b59671aa90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe840a80a3b5297e6deef0de4925a7f') in 0.203687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.411593 seconds.
+  Time since last request: 14.961108 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场
   artifactKey: Guid(65d4eeab1f2881a46b7f7099c4d16844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场 using Guid(65d4eeab1f2881a46b7f7099c4d16844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0450922333fd376d7cd7419177ad7897') in 0.005615 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场 using Guid(65d4eeab1f2881a46b7f7099c4d16844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c4b3c8ec2d25c99639babd5d0ac3eb') in 0.004805 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.319013 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/犯罪现场介绍.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/犯罪现场介绍.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135e90501b88c644e1017a04a21ad720') in 0.006366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.372089 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bf113db90a73b5d8c8cf6676e19a01') in 0.007639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.915809 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset
-  artifactKey: Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset using Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264fa191ae8929111279f21a8abb8d44') in 0.005286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3f275b449256a12eb7d0f15f33fd10') in 0.005573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.767783 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset
-  artifactKey: Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset using Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a59840f359c366b425d7d78f55751b') in 0.006445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
-  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b45826da09cdd86da284f56f6771ba2') in 0.006535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.570254 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
-  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebfb721e371a87ba07af1f69cde14e3') in 0.005124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset
-  artifactKey: Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset using Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0175d6532b01f197e01456ba26fc9c25') in 0.006292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.007805 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset
-  artifactKey: Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset using Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef57bd5e5adfcf813bb46f059fd5cacf') in 0.005449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset
-  artifactKey: Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset using Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a5b9b6c1f855477a16b71d87fdfeb7') in 0.006355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.880517 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset
-  artifactKey: Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset using Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3068feabf241689e2ab519c5a59670d') in 0.005958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset
-  artifactKey: Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset using Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f569d8442daedb2093dcb02415f47249') in 0.005823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.527327 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍0.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍0.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7396f0d1876fcefd7c41569cdc12c9f8') in 0.005987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.834727 seconds.
+  Time since last request: 0.069011 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset
   artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb93c94223d64d4557addabf8d42b37') in 0.006739 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6960a90ee4a11f7c3561a6c26df87e') in 0.012873 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 678.693081 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6ff20fae6ea3c3fc956c8c5780d677') in 0.007248 seconds 
+  Time since last request: 0.000445 seconds.
+  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset
+  artifactKey: Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset using Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775bbec7723dadf855eaa4ba715128bb') in 0.010728 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000503 seconds.
+  Time since last request: 0.000390 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset
   artifactKey: Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset using Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300499ce836988fa629b7d047736e69c') in 0.005819 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset using Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b9290bfffad9114a76fad6ac7d78be') in 0.008846 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset
-  artifactKey: Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset using Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341058d5fb7c375bf99c87dd86209426') in 0.007690 seconds 
+  Time since last request: 0.000410 seconds.
+  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset
+  artifactKey: Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset using Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd2d1d963fd1d12d895e72cdcd43abe') in 0.006276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset
+  artifactKey: Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset using Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb27f21080f9816bc0de17ef49298f43') in 0.007608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset
+  artifactKey: Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset using Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21806021081b6b2c42eef99a1f2876ca') in 0.008735 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000443 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
-  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0818653c6644a1fa8dc7eca230f99c97') in 0.006142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.728561 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
-  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67d4d9f383afb33ad25a990034f8264') in 0.005815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.923611 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
-  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c11cdac98888f9c5dbaa3df4a52a742') in 0.007809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset
-  artifactKey: Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset using Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3d06fa094cbfda89ec9940951a6459') in 0.005648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.857078 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
-  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c284f692e29328f6d48b1251e24a1f9') in 0.006878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 204.918952 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset
-  artifactKey: Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset using Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5894fcdf6ec45bd280f9046a713fa4') in 0.005218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.774802 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset
   artifactKey: Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset using Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda92fbd321eb1eeff120f866724ad8a') in 0.005856 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset using Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c8d0afdca14edc119452918f4cd9cf') in 0.011156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 142.700552 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset
-  artifactKey: Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset using Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3d21e56766e9dbf6b133a86d131433') in 0.006677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset
-  artifactKey: Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset using Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d322b8dd0831768e24bbc9e049fa925') in 0.005630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.638880 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset
-  artifactKey: Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset using Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534c6ab3d9b635787948052b10eca9e8') in 0.005429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
+  Time since last request: 0.000433 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset
   artifactKey: Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset using Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4ee2311750632bc8f86395ee12fd17') in 0.006340 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset using Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88362e192478a0931d4d6c3a9f272cc') in 0.008974 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.938644 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset
-  artifactKey: Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset using Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77d75fb56f23f9a99d7cb6336978b2c') in 0.005593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
+  Time since last request: 0.000393 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset
   artifactKey: Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset using Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2454ece40dfbe664cf9e93796db5993') in 0.005954 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset using Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf87eff61f37a47fa87619211ff5b85') in 0.006929 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.233721 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset
-  artifactKey: Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset using Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf390f67419cdd38769684219909b80') in 0.005452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset
-  artifactKey: Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset using Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4291731873101f6bdbf6b0812889454') in 0.004905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.948146 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset
-  artifactKey: Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset using Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da99539c6007be9784e360d27df6683c') in 0.007194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset
-  artifactKey: Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset using Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235fca664ad5b75ee7021dc93177de3b') in 0.006427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset
-  artifactKey: Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset using Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3f2b58fd269925ae92de12f172f658') in 0.005449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.713558 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset
-  artifactKey: Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset using Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6564849fa523a50082e914a14866cf4') in 0.005532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset
-  artifactKey: Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset using Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924d42b09182e924b92af9e360439191') in 0.006144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.950797 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset
-  artifactKey: Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset using Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790b5dc340a3305c8554dabc0d3d6802') in 0.007027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset
-  artifactKey: Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset using Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52f2a86e0d39b1ca7719c376d948493') in 0.006909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.325088 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset
-  artifactKey: Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset using Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8252261e5bba47cb832aa2f47694a060') in 0.005892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset
-  artifactKey: Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset using Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c37cd37dc359a2d59b12365787c72fe') in 0.006165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.109796 seconds.
+  Time since last request: 0.000506 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset
   artifactKey: Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdec053a342b7c673208fc149b723349') in 0.005585 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a234164b617708f889beb612b42d806') in 0.006192 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.666284 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset
-  artifactKey: Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb3e83289a350003a53f087c8d4d8f') in 0.005275 seconds 
+  Time since last request: 0.000493 seconds.
+  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset
+  artifactKey: Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 1.asset using Guid(6ac52ed698fac934283e1f6a0feae0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d12c153e2567fa0a05667bcd4db250c') in 0.009164 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000449 seconds.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset
+  artifactKey: Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 2.asset using Guid(7f7b61a55b8ce8749a052dfde0ec9423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078e0df00562c4e0359d5d2842cbb28f') in 0.012363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
   path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset
   artifactKey: Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset using Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7227b5fc6357f85cbe7be4e808f0c65e') in 0.006880 seconds 
+Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset using Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25b03ddae0ddb0c9d01d254a1fbb720') in 0.005094 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.256 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.5 MB.
+System memory in use after: 188.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5077.
+Total: 4.578000 ms (FindLiveObjects: 0.541100 ms CreateObjectMapping: 0.162100 ms MarkObjects: 3.845200 ms  DeleteObjects: 0.028000 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 79.060686 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset
-  artifactKey: Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03bc78adab0b20084dd9d8e365ddd6c') in 0.005446 seconds 
+  Time since last request: 168.874629 seconds.
+  path: Assets/Animation/人物/哈里动态.controller
+  artifactKey: Guid(e66dceb3a782a43458065d769b06e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/哈里动态.controller using Guid(e66dceb3a782a43458065d769b06e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afe2e26cc80ac65b125c231400c116d') in 0.043720 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset
-  artifactKey: Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset using Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585903715768628cc18f13789f719bca') in 0.005548 seconds 
+  Time since last request: 1.524395 seconds.
+  path: Assets/Animation/人物/哈里静息.anim
+  artifactKey: Guid(6541390483aee4b43ad0b29cf0eb5a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/人物/哈里静息.anim using Guid(6541390483aee4b43ad0b29cf0eb5a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24db5243aa2d3cd22cbf271bb75156a') in 0.009992 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 23.223940 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset
-  artifactKey: Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4259c045f634953a841c18e9559246a8') in 0.004856 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.123 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.5 MB.
+System memory in use after: 188.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5081.
+Total: 5.002700 ms (FindLiveObjects: 0.648100 ms CreateObjectMapping: 0.275500 ms MarkObjects: 4.049300 ms  DeleteObjects: 0.028300 ms)
+
 ========================================================================
-Received Import Request.
-  Time since last request: 89.320755 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset
-  artifactKey: Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34b085e634b2dc6cc989b7beeb7bee4') in 0.005570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset
-  artifactKey: Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset using Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e28a5f840c66574f2dff47b6d6a988') in 0.006719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 166.729513 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset
-  artifactKey: Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 0.asset using Guid(84963f30e6b35ae4e9aa1a383826c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c36bc076ed5acfac8e35f6d8e1cd95') in 0.011642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset
-  artifactKey: Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 3.asset using Guid(9d94e0d541db8fc41a6425da02edaceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83190f33b88f60a79c91297f8215c16a') in 0.010716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset
-  artifactKey: Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 5.asset using Guid(bcf694d887082664799abbfca5343d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8424d5ce79e3cf67d73068a9790a360b') in 0.010827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset
-  artifactKey: Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 9.asset using Guid(1ccb204c17e8ddd46981443bcfa87a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148ba5e37754cc1e4813ec804e72a0ca') in 0.007800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset
-  artifactKey: Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 8.asset using Guid(a8d6d8967b5cc1343a7a90990949e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d6b9024bf3974ad1fcd2581373eaef') in 0.008343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset
-  artifactKey: Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 10.asset using Guid(78c4e707badaa1845be5551819542b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bcb3a263d893466b048e86b8e47dde') in 0.006998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset
-  artifactKey: Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 4.asset using Guid(9b4aa13c9bd195745a538b65f70e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48d2c823088258e30fbc9fc68e83134') in 0.009104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset
-  artifactKey: Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 6.asset using Guid(2d02e33c3eafb7f4cb695d162f3761be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292f237683aaa48bde84d438cd69313d') in 0.007597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset
-  artifactKey: Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 7.asset using Guid(66de71cda7154704f8a72bb8766a98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e2ad308d818aa5175bc910f7b028bc') in 0.007242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset
-  artifactKey: Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 11.asset using Guid(aea773fcde7b6da4f985ca01270fe8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1508f20e08bd34766598d7af2eecd537') in 0.006021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset
-  artifactKey: Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Database/Dialog/剧情/进入犯罪现场/现场介绍 12.asset using Guid(0bae9e880a0647541a943a75dbec0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886f292dcedfa4d80449a952f53ce2c6') in 0.005058 seconds 
->>>>>>> Stashed changes
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.617 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4465 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.6 MB.
+System memory in use after: 188.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5085.
+Total: 7.870100 ms (FindLiveObjects: 0.879300 ms CreateObjectMapping: 0.290400 ms MarkObjects: 6.663200 ms  DeleteObjects: 0.033700 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

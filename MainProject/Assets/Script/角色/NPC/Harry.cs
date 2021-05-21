@@ -5,12 +5,21 @@ using UnityEngine;
 public class Harry : NPC
 {
     [SerializeReference]private Collider2D coll;
+    private Animator animator;
     private new void Start()
     {
         base.Start();
         talkable=false;
         defaultTopic="准备出发";
         uselessTool="准备出发";
+        animator=gameObject.GetComponent<Animator>();
+    }
+
+    protected override void Subscribe()
+    {
+        gameManager.LateToMeet+=LateToMeet;
+        gameManager.FinishTur+=FinishTour;
+        gameManager.EnterScene+=EnterScene;
     }
 
     private void LateToMeet()
@@ -21,12 +30,6 @@ public class Harry : NPC
     private void FinishTour()
     {
         talkable=true;
-    }
-
-    protected override void Subscribe()
-    {
-        gameManager.LateToMeet+=LateToMeet;
-        gameManager.FinishTur+=FinishTour;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -40,5 +43,12 @@ public class Harry : NPC
                 Talk("结束教程");
             }
         }
+    }
+
+    private void EnterScene()
+    {
+        Talk("现场介绍");
+        transform.position=new Vector3(21f,transform.position.y);
+        animator.Play("哈里静息");
     }
 }
