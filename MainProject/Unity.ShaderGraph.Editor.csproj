@@ -110,9 +110,9 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Processors\MatrixNames.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Enumerations\RenderQueue.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Channel\SwizzleNode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Collections\FieldCollection.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Math\Range\RemapNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Attributes\SGPropertyDrawerAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\Collections\FieldCollection.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Manipulators\ResizeSideHandle.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\CubemapMaterialSlot.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Generation\TargetResources\BlockFields.cs" />
@@ -615,8 +615,8 @@
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Colors\UserColors.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Legacy\AbstractMaterialNode0.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Controls\EnumControl.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\Basic\SliderNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Drawing\Views\GraphSubWindow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Input\Basic\SliderNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Legacy\StickyNoteData0.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Graphs\Texture2DInputMaterialSlot.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@11.0.0\Editor\Data\Nodes\Utility\Logic\AndNode.cs" />
@@ -938,9 +938,6 @@
     </Reference>
     <Reference Include="Antlr3.Runtime">
         <HintPath>F:/work/Unity/ProjectW/MainProject/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="clipper_library">
-        <HintPath>F:/work/Unity/ProjectW/MainProject/Library/PackageCache/com.unity.cinemachine@2.7.3/Runtime/ThirdParty/clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>F:/work/Unity/ProjectW/MainProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

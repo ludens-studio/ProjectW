@@ -63,6 +63,8 @@ public class GameManager : SingletonAutoMono<GameManager>
     private Player player;
     private EvidenceManager evidenceManager;
     private GameObject tool;
+   // private 
+
     void Start()
     {
         player=PlayerControl.GetInstance().gameObject.GetComponent<Player>();
