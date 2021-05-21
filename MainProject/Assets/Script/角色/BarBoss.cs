@@ -14,6 +14,12 @@ public class BarBoss : NPC
     }
     protected override void Subscribe()
     {
-        
+        gameManager.GetWine+=GetWine;
+    }
+
+    private void GetWine()
+    {
+        defaultTopic="换酒";
+        uselessTool="换酒";
     }
 }

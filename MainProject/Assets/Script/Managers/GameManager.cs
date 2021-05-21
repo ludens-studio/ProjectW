@@ -60,10 +60,12 @@ public class GameManager : SingletonAutoMono<GameManager>
     public event PlotHandler GameStart;
     public event PlotHandler LateToMeet;
 
+    public event PlotHandler GetWine;
+
     private Player player;
     private EvidenceManager evidenceManager;
     private GameObject tool;
-   // private 
+   
 
     void Start()
     {
@@ -107,6 +109,7 @@ public class GameManager : SingletonAutoMono<GameManager>
             {
                 evidenceManager.RemoveObjectEvidence("白酒");
                 evidenceManager.AddObjectEvidence("新酒");
+                GetWine();
                 break;
             }
             case 4:
