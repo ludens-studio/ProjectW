@@ -146,15 +146,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
-    functionName: IntroToScene
+  - time: 0.96666664
+    functionName: EnableMove
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.96666664
-    functionName: EnableMove
+  - time: 0.98333335
+    functionName: IntroToScene
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

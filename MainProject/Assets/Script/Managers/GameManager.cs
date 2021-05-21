@@ -59,7 +59,20 @@ public enum PlotEvent:int
     /// <summary>
     /// 进入犯罪现场
     /// </summary>
-    ENTER_SCENE=8
+    ENTER_SCENE=8,
+    /// <summary>
+    /// 离开书架
+    /// </summary>
+    EXIT_BOOKSHEL=9,
+    /// <summary>
+    /// 书架解密成功
+    /// </summary>
+    END_SHELL_PUZZEL=10,
+    /// <summary>
+    /// 书架解密失败
+    /// </summary>
+    FAILED_SHELL_PUZZEL=11
+ 
 }
 public class GameManager : SingletonAutoMono<GameManager>
 {
@@ -79,6 +92,12 @@ public class GameManager : SingletonAutoMono<GameManager>
     public event PlotHandler VSF;
     public event PlotHandler BossIntro;
     public event PlotHandler EnterScene;
+
+    public event PlotHandler ExitBookShell;
+    public event PlotHandler EndShellPuzzel;
+
+    public event PlotHandler FailedShellPuzzel;
+
     private Player player;
     private EvidenceManager evidenceManager;
     private GameObject tool;
@@ -165,6 +184,23 @@ public class GameManager : SingletonAutoMono<GameManager>
                 EnterScene();
                 break;
             } 
+            case 9:
+            {
+                ExitBookShell();
+                break;
+            }
+            case 10:
+            {
+                StartPlot(PlotEvent.GAME_START);
+                EndShellPuzzel();
+                break;
+            }
+            case 11:
+            {
+                StartPlot(PlotEvent.GAME_START);
+                FailedShellPuzzel();
+                break;
+            }
         }
     }
 

@@ -880,8 +880,8 @@ GameObject:
   - component: {fileID: 792748558}
   - component: {fileID: 792748557}
   - component: {fileID: 792748559}
-  - component: {fileID: 792748561}
   - component: {fileID: 792748560}
+  - component: {fileID: 792748561}
   m_Layer: 0
   m_Name: "\u4F20\u771F\u673A"
   m_TagString: Untagged
@@ -1003,10 +1003,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 792748556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c5ac58de6a0dfa44a0906fe83ddc988, type: 3}
+  m_Script: {fileID: 11500000, guid: 4aceae9b30832da44ab290e95a24d56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectName: "\u4F20\u771F\u673A"
+  actionType: 1
+  puzzelName: "\u5BC6\u7801\u9501"
+  UseOnce: 0
 --- !u!1 &802047281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,6 +1397,18 @@ PrefabInstance:
       propertyPath: tool
       value: 
       objectReference: {fileID: 214202779}
+    - target: {fileID: 1007052114, guid: c4c052062a1e7e140990cc6caca9d1b0, type: 3}
+      propertyPath: contents.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007052114, guid: c4c052062a1e7e140990cc6caca9d1b0, type: 3}
+      propertyPath: contents.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0a90b4723824f2743a13293a54761ae4, type: 2}
+    - target: {fileID: 1007052114, guid: c4c052062a1e7e140990cc6caca9d1b0, type: 3}
+      propertyPath: contents.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: c59d57e33097ba3429a94cb918f92709, type: 2}
     - target: {fileID: 5236789931185182338, guid: c4c052062a1e7e140990cc6caca9d1b0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6824,7 +6838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606059582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.18913291, y: -1.8, z: 0}
+  m_LocalPosition: {x: -1.7, y: -1.8, z: 0}
   m_LocalScale: {x: 0.11560694, y: 0.12013455, z: 1}
   m_Children: []
   m_Father: {fileID: 11672353}
@@ -11230,7 +11244,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
       propertyPath: contents.Array.size
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
       propertyPath: contents.Array.data[4]
@@ -11240,6 +11254,18 @@ PrefabInstance:
       propertyPath: contents.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 1a8902c33b1905f4aab7459f4687fe50, type: 2}
+    - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
+      propertyPath: contents.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0a90b4723824f2743a13293a54761ae4, type: 2}
+    - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
+      propertyPath: contents.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: c59d57e33097ba3429a94cb918f92709, type: 2}
+    - target: {fileID: 3103795061760032898, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
+      propertyPath: contents.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4ad6d6974f29bb843b3b3dad2af329e5, type: 2}
     - target: {fileID: 3103795061760032899, guid: ae885ff722361df4bbb176589de2abd0, type: 3}
       propertyPath: m_Size.x
       value: 22.05

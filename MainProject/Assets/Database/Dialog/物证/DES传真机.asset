@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: "\u4FA6\u63A2"
   topic: 
-  plot: -1
+  plot: 0
   nextContent: {fileID: 0}
   context:
   - "\u4F20\u771F\u673A"

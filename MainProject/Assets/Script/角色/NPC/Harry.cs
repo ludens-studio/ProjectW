@@ -20,6 +20,9 @@ public class Harry : NPC
         gameManager.LateToMeet+=LateToMeet;
         gameManager.FinishTur+=FinishTour;
         gameManager.EnterScene+=EnterScene;
+        gameManager.ExitBookShell+=ExitBookShell;
+        gameManager.EndShellPuzzel+=EndShellPuzzel;
+        gameManager.FailedShellPuzzel+=EndShellPuzzel;
     }
 
     private void LateToMeet()
@@ -51,5 +54,21 @@ public class Harry : NPC
         transform.position=new Vector3(21f,transform.position.y);
         animator.Play("哈里静息");
         defaultTopic="默认";
+        uselessTool="默认";
+    }
+
+    private void EndShellPuzzel()
+    {
+        ModifyToolContent("奇怪的血迹","默认");
+        defaultTopic="默认";
+        Talker.GetInstance().target=null;
+    }
+
+    private void ExitBookShell()
+    {
+        Talker.GetInstance().target=this;
+        ModifyToolContent("奇怪的血迹","书架2");
+        uselessTool="书架解密失败";
+        Talk("书架");
     }
 }

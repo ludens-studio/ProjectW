@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ public class StaticPanelMgr : SingletonAutoMono<StaticPanelMgr>
     private List<GameObject> panelList = new List<GameObject>();
     //当前静态面板
     private static GameObject currentPanel = null;
-    
+        
     /// <summary>
     /// 加载对应路径上的房间预制件，name写路径
     /// </summary>
@@ -40,4 +41,6 @@ public class StaticPanelMgr : SingletonAutoMono<StaticPanelMgr>
         if(currentPanel!=null) currentPanel.SetActive(false);
         PlayerControl.GetInstance().EnableMove();
     }
+
+
 }
