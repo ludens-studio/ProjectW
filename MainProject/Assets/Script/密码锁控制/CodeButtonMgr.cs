@@ -8,7 +8,7 @@ public class CodeButtonMgr : BaseManager<CodeButtonMgr>
     ///<summary>
     ///正确的密码
     ///</summary>
-    private string correctCode = "1234";
+    private string correctCode = "1245";
 
     ///<summary>
     ///获取当前输入
