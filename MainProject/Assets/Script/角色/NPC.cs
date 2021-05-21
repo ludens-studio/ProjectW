@@ -24,7 +24,7 @@ public abstract class NPC : Speaker
     /// 可以聊天的触发器
     /// </summary>
     [SerializeReference]private Collider2D trigger;
-
+    [SerializeReference]protected string uselessTool;
 
     protected bool talkable=true;
 
@@ -45,7 +45,7 @@ public abstract class NPC : Speaker
         {
             Talk(toolTopic[tool]);
         }
-        else Talk(defaultTopic);
+        else Talk(uselessTool);
         ChangeTalkableStatus(false);
     }
 

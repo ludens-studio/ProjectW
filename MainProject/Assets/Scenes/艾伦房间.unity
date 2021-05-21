@@ -6010,6 +6010,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 180325014}
     m_Modifications:
+    - target: {fileID: 3103795061646180600, guid: 7e6e67c85a65cef4e9a39123a96a64a0, type: 3}
+      propertyPath: contents.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103795061646180600, guid: 7e6e67c85a65cef4e9a39123a96a64a0, type: 3}
+      propertyPath: contents.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: b264c480b5b3db04ea031047f3d41ee3, type: 2}
+    - target: {fileID: 3103795061646180600, guid: 7e6e67c85a65cef4e9a39123a96a64a0, type: 3}
+      propertyPath: contents.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 98896d5fb8e83e04a814dcaffe6997a9, type: 2}
     - target: {fileID: 4612647468132681365, guid: 7e6e67c85a65cef4e9a39123a96a64a0, type: 3}
       propertyPath: m_Name
       value: "\u8001\u677F\u52A8\u6001"
