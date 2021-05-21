@@ -15,11 +15,11 @@ F:/work/Unity/ProjectW/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57746
+60339
 Successfully changed project path to: F:/work/Unity/ProjectW/MainProject
 F:/work/Unity/ProjectW/MainProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 139.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 212.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1c1 (cd437fc7d72d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Resources/UnitySubsystems
@@ -36,7 +36,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -44,64 +44,268 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1c1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.013677 seconds.
+Registered in 0.012920 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 144.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 146.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.070 seconds
+- Completed reload, in  4.802 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003782 seconds.
+Registered in 0.003455 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 140.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 210.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.670 seconds
+- Completed reload, in  2.079 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4593 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 197.7 MB.
 System memory in use after: 198.0 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5073.
-Total: 3.467000 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.164700 ms MarkObjects: 2.925800 ms  DeleteObjects: 0.026100 ms)
+Total: 3.706000 ms (FindLiveObjects: 0.879800 ms CreateObjectMapping: 0.289900 ms MarkObjects: 2.478900 ms  DeleteObjects: 0.055900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/音乐/按钮音效.mp3
-  artifactKey: Guid(f0ff378ed827e804c87017d98c931ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/音乐/按钮音效.mp3 using Guid(f0ff378ed827e804c87017d98c931ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2e4060fdcbb08f3a946afda4912bbc') in 0.201550 seconds 
+  path: Assets/AtrMaterial/字体/4.asset
+  artifactKey: Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/4.asset using Guid(d0bb70ed9213a744dbe97a973f4bd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d7b52aa91b6863f932c7eeb7ad8ce8') in 0.467501 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.749924 seconds.
-  path: Assets/Scenes/开始界面.unity
-  artifactKey: Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/开始界面.unity using Guid(a7bce6dc8a114c342ae338c7f5196877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7ad76826c45ae1df3f9958a4d6b79') in 0.003348 seconds 
+  Time since last request: 0.000956 seconds.
+  path: Assets/AtrMaterial/字体/1.asset
+  artifactKey: Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/1.asset using Guid(27ee530a0d2282d409f6b689e9931700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e91f2ed1b06ac79239f3906030a954') in 0.083570 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.637538 seconds.
-  path: Assets/Scenes/0开幕.unity
-  artifactKey: Guid(cf709104a6b095c44a0cf26f754bfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/0开幕.unity using Guid(cf709104a6b095c44a0cf26f754bfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e6c25519c368300b8c35bfb48dfb1') in 0.005023 seconds 
+  Time since last request: 0.000380 seconds.
+  path: Assets/AtrMaterial/字体/2.asset
+  artifactKey: Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/2.asset using Guid(b0264577fc8148c439673d5c797ba1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f10441a85ed8c562fa574d72322838') in 0.054262 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.687452 seconds.
-  path: Assets/Scenes/艾伦房间.unity
-  artifactKey: Guid(3049a9b0304039847b92e641623890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/艾伦房间.unity using Guid(3049a9b0304039847b92e641623890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612a4b840298203b42530b1af656d6b0') in 0.004032 seconds 
+  Time since last request: 0.000311 seconds.
+  path: Assets/AtrMaterial/字体/王强书法体 SDF.asset
+  artifactKey: Guid(1c1e1ec71101a644190d082f779c1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/王强书法体 SDF.asset using Guid(1c1e1ec71101a644190d082f779c1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719160c35ac6c74089a48a0a155d0421') in 0.061271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/AtrMaterial/字体/3.asset
+  artifactKey: Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/3.asset using Guid(34a4c7acc82a72744ad9a08650ba1f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3007f071827967ef88e8ce94726c3bf0') in 0.058118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/AtrMaterial/字体/终极回滚.asset
+  artifactKey: Guid(4ae6f776e4845b64baede55d71fc7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AtrMaterial/字体/终极回滚.asset using Guid(4ae6f776e4845b64baede55d71fc7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eefc452793e7cbebca63acb283ebd9a') in 0.112946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.468603 seconds.
+  path: Assets/Database/Dialog/剧情/开场白/开场白.asset
+  artifactKey: Guid(9475dd41f86a2a5498e776f5c1cec310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/开场白/开场白.asset using Guid(9475dd41f86a2a5498e776f5c1cec310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c123f32ab7b1a33ecf37179e5cd50a3a') in 0.004060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Database/Dialog/剧情/开场白/开场白1.asset
+  artifactKey: Guid(d477b1875e255584d84a3910c5cbcae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/开场白/开场白1.asset using Guid(d477b1875e255584d84a3910c5cbcae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e979aefc70cb28b845c753463c4cd6') in 0.002799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Database/Dialog/剧情/开场白/开场白3.asset
+  artifactKey: Guid(129494379ee908846bdb1e797b09e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/开场白/开场白3.asset using Guid(129494379ee908846bdb1e797b09e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246f5724a6373a0511704bf8f16dcf84') in 0.002738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Database/Dialog/剧情/开场白/开场白2.asset
+  artifactKey: Guid(a99959d094e013e499accb87a19aff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/开场白/开场白2.asset using Guid(a99959d094e013e499accb87a19aff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c72a5da47b9d573d099a1b98a2d773') in 0.003305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Database/Dialog/剧情/开场白/开场白4.asset
+  artifactKey: Guid(7617df9a422afb249a3cc21376962e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/开场白/开场白4.asset using Guid(7617df9a422afb249a3cc21376962e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e24f092972ddfaadef51e9d97204778') in 0.002528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.076958 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份0.asset
+  artifactKey: Guid(03691457cec966c449003435b199b529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份0.asset using Guid(03691457cec966c449003435b199b529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66352a2eec5fdde7c2081a93f553d65') in 0.004236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份6.asset
+  artifactKey: Guid(1a337c5825206ec4f833a4dcb4a1b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份6.asset using Guid(1a337c5825206ec4f833a4dcb4a1b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d74d824c17a82d46c1d93a1e1fe479b') in 0.002617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份3.asset
+  artifactKey: Guid(adf9e6574916447448bad671350d2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份3.asset using Guid(adf9e6574916447448bad671350d2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334a7a3f67e704f0dc0934f00f8198f9') in 0.004235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份2.asset
+  artifactKey: Guid(28e660f8424833a43b793c3560d750fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份2.asset using Guid(28e660f8424833a43b793c3560d750fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f4149e1b7ed7f55d8db9f0406b39d1') in 0.003421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份1.asset
+  artifactKey: Guid(ab7ab552555b24c45b6dc3de40e41fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份1.asset using Guid(ab7ab552555b24c45b6dc3de40e41fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e43a2fb28e3b2eee887c2bb5801acc') in 0.003500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份4.asset
+  artifactKey: Guid(44b2a08a4fe6caa4b955e33926a820c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份4.asset using Guid(44b2a08a4fe6caa4b955e33926a820c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e2b425835638f2b4eae23c53381af') in 0.003287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Database/Dialog/剧情/老板身份/老板身份5.asset
+  artifactKey: Guid(2bc60e83af291b54c9486b0db6ff8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/老板身份/老板身份5.asset using Guid(2bc60e83af291b54c9486b0db6ff8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b92c4acd7dd503535bc9331dcac52c9') in 0.002854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.337094 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧介绍/对峙失败.asset
+  artifactKey: Guid(98896d5fb8e83e04a814dcaffe6997a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧介绍/对峙失败.asset using Guid(98896d5fb8e83e04a814dcaffe6997a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff5049e5e19c13d59bad18bdd6960a2') in 0.003358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧介绍/酒吧对白3.asset
+  artifactKey: Guid(be3affef9426fd9408d2f80f3df6f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧介绍/酒吧对白3.asset using Guid(be3affef9426fd9408d2f80f3df6f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bb9941722728ead7651e61dfd9a00f') in 0.002609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧介绍/酒吧对白.asset
+  artifactKey: Guid(6c806ac6793df904c9b3b11fa5533f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧介绍/酒吧对白.asset using Guid(6c806ac6793df904c9b3b11fa5533f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2b7dfdfbc799761de70d656140704a') in 0.003334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧介绍/酒吧对白2.asset
+  artifactKey: Guid(d7f8a445ffaba3a48b22047a015465ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧介绍/酒吧对白2.asset using Guid(d7f8a445ffaba3a48b22047a015465ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891f2977409a4cf0a9c37497b9536a5b') in 0.003810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.586197 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙.asset
+  artifactKey: Guid(3ab66554186c0644ea545b2464063883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙.asset using Guid(3ab66554186c0644ea545b2464063883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db5d9d0d6f4acf1532ac835c8500887') in 0.004261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙1.asset
+  artifactKey: Guid(8ccbe3abd7216004b94ab86b7f107d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙1.asset using Guid(8ccbe3abd7216004b94ab86b7f107d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3799987625441bcfcfc06a2b1f47c2f9') in 0.003231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙6.asset
+  artifactKey: Guid(313f6913d66e2fb47989dcc882bdb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙6.asset using Guid(313f6913d66e2fb47989dcc882bdb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3b14a0c5ba66c5aad70def1e47b7b3') in 0.002951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙3.asset
+  artifactKey: Guid(3dc182dca1b5d1641acc3034dd5e5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙3.asset using Guid(3dc182dca1b5d1641acc3034dd5e5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006fbed3cf3a92ec88dd903e32598c23') in 0.003080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙5.asset
+  artifactKey: Guid(edcbd879891b9de4aae0f70585cf5ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙5.asset using Guid(edcbd879891b9de4aae0f70585cf5ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b58e5bef32e98c672ff570f405c1f') in 0.002501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙4.asset
+  artifactKey: Guid(3604f4d371e15554b8ddbdd76bf08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙4.asset using Guid(3604f4d371e15554b8ddbdd76bf08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f49553b5d248f74c47895897d8851') in 0.002674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙2.asset
+  artifactKey: Guid(61a5f3a14d68052428bcaa786a85d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/剧情/酒吧对峙/酒吧对峙2.asset using Guid(61a5f3a14d68052428bcaa786a85d9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd562cb86afb9a70be4972abc1db64cb6') in 0.003287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.690105 seconds.
+  path: Assets/Database/Dialog/哈里/介绍案发现场.asset
+  artifactKey: Guid(adb791015473bd1459b17b19cb185fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/哈里/介绍案发现场.asset using Guid(adb791015473bd1459b17b19cb185fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9bf3a5171ac9cbca96e401af1d25b5') in 0.007516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Database/Dialog/哈里/酒拿到了吗.asset
+  artifactKey: Guid(0c3e41b6610ab374a83bf3bb077c2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/哈里/酒拿到了吗.asset using Guid(0c3e41b6610ab374a83bf3bb077c2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26afaed86cc5f44e1d668371ff13e43d') in 0.003324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Database/Dialog/哈里/准备出发.asset
+  artifactKey: Guid(066b384b03e8d024fb7fcb5277afa9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/哈里/准备出发.asset using Guid(066b384b03e8d024fb7fcb5277afa9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412e099fb1d30054001913d8e19e96f3') in 0.003013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.061114 seconds.
+  path: Assets/Database/Dialog/哈里/准备出发.asset
+  artifactKey: Guid(066b384b03e8d024fb7fcb5277afa9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/哈里/准备出发.asset using Guid(066b384b03e8d024fb7fcb5277afa9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b9aaa503bb8066886cc43eb49521b7') in 0.003451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212524 seconds.
+  path: Assets/Database/Dialog/老板/寒暄.asset
+  artifactKey: Guid(e2a076d0d344445458c12c16ba53660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/老板/寒暄.asset using Guid(e2a076d0d344445458c12c16ba53660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62244a6984d688e8498c21500ea741ad') in 0.002876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Database/Dialog/老板/换酒.asset
+  artifactKey: Guid(b264c480b5b3db04ea031047f3d41ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/老板/换酒.asset using Guid(b264c480b5b3db04ea031047f3d41ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed80db77eb8c9842962e7bada1599091') in 0.002315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Database/Dialog/老板/无可奉告.asset
+  artifactKey: Guid(d7d4ae08707f52941b99ca7fc6e4b13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/老板/无可奉告.asset using Guid(d7d4ae08707f52941b99ca7fc6e4b13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaacc9a61f848ebe9f4020827e0a290') in 0.002222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Database/Dialog/老板/寒暄1.asset
+  artifactKey: Guid(a2fba36a8a68c2a499077f2d094cb525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/老板/寒暄1.asset using Guid(a2fba36a8a68c2a499077f2d094cb525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29436df382f751f13854b05540603382') in 0.002733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.474652 seconds.
+  path: Assets/Database/Dialog/老板/寒暄.asset
+  artifactKey: Guid(e2a076d0d344445458c12c16ba53660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/Dialog/老板/寒暄.asset using Guid(e2a076d0d344445458c12c16ba53660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9499feb502f37ea7a23ab3eb4465cb5d') in 0.003261 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -100,7 +100,7 @@ public class SceneDialogue : MonoBehaviour
     }
 
     public void TextColorEffect(){
-        textUI.color = Color.Lerp(textUI.color,new Color(1,1,1,0),Time.deltaTime);
+        textUI.color = Color.Lerp(textUI.color,new Color(1,1,1,0),0.5f*Time.deltaTime);
     }
 
 }
