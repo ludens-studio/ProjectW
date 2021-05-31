@@ -44,6 +44,7 @@ public class interactiveItem : MonoBehaviour
 
     private void EnterPuzzel()
     {
+        StaticPanelMgr.GetInstance().SetPanel("StaticCanvas");
         StaticPanelMgr.GetInstance().LoadPanel("静态面板/"+puzzelName);
     }
 

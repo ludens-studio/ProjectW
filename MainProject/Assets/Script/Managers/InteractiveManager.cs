@@ -9,6 +9,7 @@ public class InteractiveManager : SingletonAutoMono<InteractiveManager>
 
     public void EnterProblem(string quizName)
 	{
+        StaticPanelMgr.GetInstance().SetPanel("StaticCanvas");
         StaticPanelMgr.GetInstance().LoadPanel(quizName);
     }
 
